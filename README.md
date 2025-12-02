@@ -43,7 +43,7 @@ This visualization includes:
 
 ## Available Drugs (28)
 
-The following drugs are available for exploration:
+The following Amgen/Horizon drugs are available for exploration:
 
 | # | Drug Name |
 |---|-----------|

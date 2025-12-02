@@ -283,7 +283,11 @@ class JsonDatabase:
                     'node_id': disease_node_id,  # Add this for attention queries
                     'name': str(row['disease']) if 'disease' in row else None,
                     'score': float(row['score']),
-                    'known': False
+                    'known': bool(row.get('known_indication', False)) if 'known_indication' in row else False,
+                    'rank': int(row['rank']) if 'rank' in row and pd.notna(row['rank']) else None,
+                    'percentile': float(row['percentile']) if 'percentile' in row and pd.notna(row['percentile']) else None,
+                    'z_score': float(row['z_score']) if 'z_score' in row and pd.notna(row['z_score']) else None,
+                    'score_source': str(row['score_source']) if 'score_source' in row and pd.notna(row['score_source']) else None
                 }
                 predictions.append(pred)
             
