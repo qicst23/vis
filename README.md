@@ -1,6 +1,6 @@
- 
+# Amgen Drug Explorer - Demo Package
 
-This is a standalone demo package for the Drug Repurposing Visualization.
+This is a standalone demo package for the TxGNN Drug Repurposing Visualization.
 
 ## Requirements
 
@@ -43,8 +43,39 @@ This visualization includes:
 
 ## Available Drugs (28)
 
-The following  drugs are available for exploration:
- 
+The following Amgen/Horizon drugs are available for exploration:
+
+| # | Drug Name |
+|---|-----------|
+| 1 | adalimumab |
+| 2 | apremilast |
+| 3 | bevacizumab |
+| 4 | blinatumomab |
+| 5 | carfilzomib |
+| 6 | cinacalcet |
+| 7 | cysteamine |
+| 8 | darbepoetin alfa |
+| 9 | denosumab |
+| 10 | erenumab |
+| 11 | etanercept |
+| 12 | etelcalcetide |
+| 13 | evolocumab |
+| 14 | filgrastim |
+| 15 | glycerol phenylbutyrate |
+| 16 | inebilizumab |
+| 17 | infliximab |
+| 18 | interferon gamma-1b |
+| 19 | panitumumab |
+| 20 | pegfilgrastim |
+| 21 | pegloticase |
+| 22 | rituximab |
+| 23 | romiplostim |
+| 24 | romosozumab |
+| 25 | talimogene laherparepvec |
+| 26 | teprotumumab |
+| 27 | tezepelumab |
+| 28 | trastuzumab |
+
 ## Usage Instructions
 
 1. **Select a Drug**: Use the dropdown in the left sidebar to select a drug
@@ -98,4 +129,3 @@ demo/
 
 For questions or issues, please contact the development team.
 
-# vis

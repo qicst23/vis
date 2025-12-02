@@ -212,3 +212,54 @@ def get_drug_list():
         return jsonify(drugs)
     
     return jsonify([])
+
+
+@api.route('/subgraph', methods=['GET'])
+def get_subgraph():
+    '''
+    Get subgraph for a drug-disease pair.
+    E.g.: [base_url]/api/subgraph?drug_id=DB12530&disease_id=15783
+    
+    Returns:
+        {
+            nodes: [{id, label, type}],
+            edges: [{source, target, relation, layer1_att, layer2_att, attention}]
+        }
+    '''
+    import os
+    import json
+    
+    drug_id = request.args.get('drug_id', None, type=str)
+    disease_id = request.args.get('disease_id', None, type=str)
+    
+    if not drug_id or not disease_id:
+        return jsonify({'error': 'drug_id and disease_id are required'}), 400
+    
+    db = get_db()
+    
+    # Load subgraphs from file if not already loaded
+    if not hasattr(db, 'subgraphs') or db.subgraphs is None:
+        subgraphs_file = os.path.join(db.data_folder, 'subgraphs.json')
+        if os.path.exists(subgraphs_file):
+            try:
+                with open(subgraphs_file, 'r') as f:
+                    db.subgraphs = json.load(f)
+            except Exception as e:
+                print(f"Error loading subgraphs: {e}")
+                db.subgraphs = {}
+        else:
+            db.subgraphs = {}
+    
+    # Try to find the subgraph with the standard key format
+    subgraph_key = f"{drug_id}_{disease_id}"
+    subgraph = db.subgraphs.get(subgraph_key)
+    
+    if not subgraph:
+        # Return empty subgraph if not found
+        return jsonify({
+            'nodes': [],
+            'edges': [],
+            'message': f'No subgraph found for key {subgraph_key}'
+        })
+    
+    return jsonify(subgraph)
