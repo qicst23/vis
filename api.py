@@ -144,22 +144,71 @@ def get_node_name_dict():
     return jsonify(db.node_name_dict)
 
 
+# Disease category classification based on name patterns
+DISEASE_CATEGORIES = {
+    'cancer': ['cancer', 'carcinoma', 'tumor', 'tumour', 'neoplasm', 'leukemia', 'lymphoma', 
+               'melanoma', 'sarcoma', 'adenoma', 'glioma', 'myeloma'],
+    'neurological': ['neurological', 'brain', 'neural', 'alzheimer', 'parkinson', 'epilepsy',
+                     'seizure', 'dementia', 'sclerosis', 'neuropathy', 'stroke', 'cerebral'],
+    'cardiovascular': ['heart', 'cardiac', 'cardiovascular', 'arterial', 'venous', 'vascular',
+                       'hypertension', 'arrhythmia', 'atherosclerosis', 'coronary', 'myocardial'],
+    'autoimmune': ['autoimmune', 'rheumatoid', 'lupus', 'psoriasis', 'arthritis', 'crohn',
+                   'colitis', 'multiple sclerosis', 'scleroderma', 'vasculitis'],
+    'infectious': ['infection', 'infectious', 'bacterial', 'viral', 'fungal', 'parasitic',
+                   'tuberculosis', 'hepatitis', 'hiv', 'malaria', 'sepsis'],
+    'metabolic': ['diabetes', 'metabolic', 'obesity', 'thyroid', 'adrenal', 'pituitary',
+                  'hormone', 'endocrine', 'insulin', 'glucose'],
+    'respiratory': ['lung', 'respiratory', 'pulmonary', 'asthma', 'copd', 'pneumonia',
+                    'bronchitis', 'fibrosis', 'emphysema'],
+    'gastrointestinal': ['gastric', 'intestinal', 'bowel', 'colon', 'liver', 'pancreatic',
+                         'hepatic', 'digestive', 'stomach', 'esophageal'],
+    'genetic': ['genetic', 'hereditary', 'congenital', 'syndrome', 'mutation', 'chromosomal',
+                'inherited', 'familial'],
+}
+
+def classify_disease(disease_name):
+    """Classify a disease into a category based on its name."""
+    if not disease_name:
+        return 'other'
+    
+    name_lower = disease_name.lower()
+    
+    for category, keywords in DISEASE_CATEGORIES.items():
+        for keyword in keywords:
+            if keyword in name_lower:
+                return category
+    
+    return 'other'
+
+
 @api.route('/disease_embeddings', methods=['GET'])
 def get_disease_embeddings():
     '''
     Get disease embeddings for a specific drug's predictions.
     E.g.: [base_url]/api/disease_embeddings?drug_id=DB12530
     
-    Returns t-SNE style coordinates for diseases, highlighting predicted ones.
+    Returns t-SNE style coordinates for diseases with category information.
     '''
     import random
+    import os
     drug_id = request.args.get('drug_id', None, type=str)
     
     db = get_db()
     embeddings = {}
     
+    # Try to load actual t-SNE embeddings
+    tsne_file = os.path.join(db.data_folder, 'disease_tsne.json')
+    tsne_data = {}
+    if os.path.exists(tsne_file):
+        try:
+            with open(tsne_file, 'r') as f:
+                tsne_data = json.load(f)
+        except:
+            pass
+    
     # Get predictions for this drug
     predictions = db.query_predicted_diseases(drug_id=drug_id, top_n=100) if drug_id else []
+    predicted_disease_ids = set(pred.get('node_id') or pred.get('id') for pred in predictions)
     
     # Seed based on drug_id for consistent results
     if drug_id:
@@ -167,24 +216,48 @@ def get_disease_embeddings():
     else:
         random.seed(42)
     
-    # Generate embeddings for predicted diseases (arranged by score)
+    # Generate embeddings for predicted diseases
     for idx, pred in enumerate(predictions):
         disease_id = pred.get('node_id') or pred.get('id')
+        disease_name = pred.get('name', '')
         score = float(pred.get('score', 0.5))
+        category = classify_disease(disease_name)
         
-        # Position by score (higher score = higher y) and spread by index
-        x = (idx % 15) * 12 - 90 + random.uniform(-5, 5)
-        y = (score - 0.3) * 250 + random.uniform(-8, 8)
-        embeddings[str(disease_id)] = [x, y]
+        # Use t-SNE coordinates if available, otherwise generate from score
+        if str(disease_id) in tsne_data:
+            x, y = tsne_data[str(disease_id)]
+        else:
+            x = (idx % 15) * 12 - 90 + random.uniform(-5, 5)
+            y = (score - 0.3) * 250 + random.uniform(-8, 8)
+        
+        embeddings[str(disease_id)] = {
+            'coords': [x, y],
+            'category': category,
+            'name': disease_name,
+            'predicted': True
+        }
     
     # Add additional diseases for context (from node_name_dict)
     if 'disease' in db.node_name_dict:
         disease_ids = list(db.node_name_dict['disease'].keys())
         for disease_id in disease_ids[:500]:
             if disease_id not in embeddings:
-                x = random.uniform(-120, 120)
-                y = random.uniform(-120, 120)
-                embeddings[str(disease_id)] = [x, y]
+                disease_name = db.node_name_dict['disease'].get(disease_id, '')
+                category = classify_disease(disease_name)
+                
+                # Use t-SNE coordinates if available
+                if str(disease_id) in tsne_data:
+                    x, y = tsne_data[str(disease_id)]
+                else:
+                    x = random.uniform(-120, 120)
+                    y = random.uniform(-120, 120)
+                
+                embeddings[str(disease_id)] = {
+                    'coords': [x, y],
+                    'category': category,
+                    'name': disease_name,
+                    'predicted': False
+                }
     
     return jsonify(embeddings)
 
