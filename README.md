@@ -1,4 +1,4 @@
-# Amgen Drug Explorer - Demo Package
+ 
 
 This is a standalone demo package for the TxGNN Drug Repurposing Visualization.
 
