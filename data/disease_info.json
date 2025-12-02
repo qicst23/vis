@@ -1,0 +1,5382 @@
+{
+  "0": {
+    "name": "12p12.1 microdeletion syndrome",
+    "type": "disease"
+  },
+  "1": {
+    "name": "15q14 microdeletion syndrome",
+    "type": "disease"
+  },
+  "2": {
+    "name": "16q24.3 microdeletion syndrome",
+    "type": "disease"
+  },
+  "3": {
+    "name": "19p13.3 microduplication syndrome",
+    "type": "disease"
+  },
+  "4": {
+    "name": "2q23.1 microduplication syndrome",
+    "type": "disease"
+  },
+  "5": {
+    "name": "46 XX gonadal dysgenesis",
+    "type": "disease"
+  },
+  "6": {
+    "name": "46,XX disorder of sex development-skeletal anomalies syndrome",
+    "type": "disease"
+  },
+  "7": {
+    "name": "46,XY disorder of sex development due to 17-beta-hydroxysteroid dehydrogenase 3 deficiency",
+    "type": "disease"
+  },
+  "8": {
+    "name": "46,XY disorder of sex development due to adrenal and testicular steroidogenesis defect",
+    "type": "disease"
+  },
+  "9": {
+    "name": "48,XXXY syndrome",
+    "type": "disease"
+  },
+  "10": {
+    "name": "48,XXYY syndrome",
+    "type": "disease"
+  },
+  "11": {
+    "name": "6p22 microdeletion syndrome",
+    "type": "disease"
+  },
+  "12": {
+    "name": "ABeta amyloidosis",
+    "type": "disease"
+  },
+  "13": {
+    "name": "ABeta2M amyloidosis",
+    "type": "disease"
+  },
+  "14": {
+    "name": "AIDS",
+    "type": "disease"
+  },
+  "15": {
+    "name": "ALG12-CDG",
+    "type": "disease"
+  },
+  "16": {
+    "name": "Acinetobacter infectious disease",
+    "type": "disease"
+  },
+  "17": {
+    "name": "Addison disease",
+    "type": "disease"
+  },
+  "18": {
+    "name": "African tick-bite fever",
+    "type": "disease"
+  },
+  "19": {
+    "name": "Ascaris lumbricoides infection, susceptibility to",
+    "type": "disease"
+  },
+  "20": {
+    "name": "BNAR syndrome",
+    "type": "disease"
+  },
+  "21": {
+    "name": "Balint syndrome",
+    "type": "disease"
+  },
+  "22": {
+    "name": "Bangstad syndrome",
+    "type": "disease"
+  },
+  "23": {
+    "name": "Banti syndrome",
+    "type": "disease"
+  },
+  "24": {
+    "name": "Baraitser-Winter cerebrofrontofacial syndrome",
+    "type": "disease"
+  },
+  "25": {
+    "name": "Barrett adenocarcinoma",
+    "type": "disease"
+  },
+  "26": {
+    "name": "Bartholin gland adenosquamous carcinoma",
+    "type": "disease"
+  },
+  "27": {
+    "name": "Bartholin gland small cell carcinoma",
+    "type": "disease"
+  },
+  "28": {
+    "name": "Beckwith-Wiedemann syndrome due to 11p15 microdeletion",
+    "type": "disease"
+  },
+  "29": {
+    "name": "Behcet syndrome arthropathy",
+    "type": "disease"
+  },
+  "30": {
+    "name": "Bicervical bicornuate uterus with patent cervix and vagina",
+    "type": "disease"
+  },
+  "31": {
+    "name": "Bohring-Opitz syndrome",
+    "type": "disease"
+  },
+  "32": {
+    "name": "Braddock syndrome",
+    "type": "disease"
+  },
+  "33": {
+    "name": "Brody myopathy",
+    "type": "disease"
+  },
+  "34": {
+    "name": "Brooke-Spiegler syndrome",
+    "type": "disease"
+  },
+  "35": {
+    "name": "Brown-Sequard syndrome",
+    "type": "disease"
+  },
+  "36": {
+    "name": "CANOMAD syndrome",
+    "type": "disease"
+  },
+  "37": {
+    "name": "CD4 deficiency",
+    "type": "disease"
+  },
+  "38": {
+    "name": "CDG syndrome type 4",
+    "type": "disease"
+  },
+  "39": {
+    "name": "CREST syndrome",
+    "type": "disease"
+  },
+  "40": {
+    "name": "Cantu sanchez-corona hernandez syndrome",
+    "type": "disease"
+  },
+  "41": {
+    "name": "Charcot-Marie-Tooth disease with ptosis and parkinsonism",
+    "type": "disease"
+  },
+  "42": {
+    "name": "Chudley-Lowry-Hoar syndrome",
+    "type": "disease"
+  },
+  "43": {
+    "name": "Clostridium infectious disease",
+    "type": "disease"
+  },
+  "44": {
+    "name": "Coffin-Lowry syndrome",
+    "type": "disease"
+  },
+  "45": {
+    "name": "Cogan-Reese syndrome",
+    "type": "disease"
+  },
+  "46": {
+    "name": "Cohen syndrome",
+    "type": "disease"
+  },
+  "47": {
+    "name": "Crimean-Congo hemorrhagic fever",
+    "type": "disease"
+  },
+  "48": {
+    "name": "Crohn disease of the esophagus",
+    "type": "disease"
+  },
+  "49": {
+    "name": "DKC1-related disorder",
+    "type": "disease"
+  },
+  "50": {
+    "name": "Dandy-Walker malformation-postaxial polydactyly syndrome",
+    "type": "disease"
+  },
+  "51": {
+    "name": "Darier disease",
+    "type": "disease"
+  },
+  "52": {
+    "name": "Dieterich disease",
+    "type": "disease"
+  },
+  "53": {
+    "name": "Duane anomaly-myopathy-scoliosis syndrome",
+    "type": "disease"
+  },
+  "54": {
+    "name": "Ehlers-Danlos syndrome due to tenascin-X deficiency",
+    "type": "disease"
+  },
+  "55": {
+    "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+    "type": "disease"
+  },
+  "56": {
+    "name": "Ewing sarcoma of bone",
+    "type": "disease"
+  },
+  "57": {
+    "name": "Ewing sarcoma/peripheral primitive neuroectodermal tumor of bone",
+    "type": "disease"
+  },
+  "58": {
+    "name": "Faye-Petersen-Ward-Carey syndrome",
+    "type": "disease"
+  },
+  "59": {
+    "name": "Flynn-Aird syndrome",
+    "type": "disease"
+  },
+  "60": {
+    "name": "Fox-Fordyce disease",
+    "type": "disease"
+  },
+  "61": {
+    "name": "Fraser syndrome",
+    "type": "disease"
+  },
+  "62": {
+    "name": "Friedreich ataxia, so-called, with optic atrophy and sensorineural deafness",
+    "type": "disease"
+  },
+  "63": {
+    "name": "Fusobacterium infectious disease",
+    "type": "disease"
+  },
+  "64": {
+    "name": "GATA1-Related X-Linked Cytopenia",
+    "type": "disease"
+  },
+  "65": {
+    "name": "GRID2-related autosomal dominant spinocerebellar ataxia",
+    "type": "disease"
+  },
+  "66": {
+    "name": "Gabriele de Vries syndrome",
+    "type": "disease"
+  },
+  "67": {
+    "name": "Gaucher disease",
+    "type": "disease"
+  },
+  "68": {
+    "name": "German syndrome",
+    "type": "disease"
+  },
+  "69": {
+    "name": "Grn-related frontotemporal lobar degeneration with Tdp43 inclusions",
+    "type": "disease"
+  },
+  "70": {
+    "name": "HTLV-2 infection",
+    "type": "disease"
+  },
+  "71": {
+    "name": "Haim-Munk syndrome",
+    "type": "disease"
+  },
+  "72": {
+    "name": "Hallermann-Streiff syndrome",
+    "type": "disease"
+  },
+  "73": {
+    "name": "Hantavirus hemorrhagic fever with renal syndrome, Seoul virus type",
+    "type": "disease"
+  },
+  "74": {
+    "name": "Harel-Yoon syndrome",
+    "type": "disease"
+  },
+  "75": {
+    "name": "Heberden's node",
+    "type": "disease"
+  },
+  "76": {
+    "name": "Hermansky-Pudlak syndrome",
+    "type": "disease"
+  },
+  "77": {
+    "name": "Hermansky-Pudlak syndrome with pulmonary fibrosis",
+    "type": "disease"
+  },
+  "78": {
+    "name": "Hern\u00e1ndez-Aguirre Negrete syndrome",
+    "type": "disease"
+  },
+  "79": {
+    "name": "Herpesviridae infectious disease",
+    "type": "disease"
+  },
+  "80": {
+    "name": "Heyn-Sproul-Jackson syndrome",
+    "type": "disease"
+  },
+  "81": {
+    "name": "Hinman syndrome",
+    "type": "disease"
+  },
+  "82": {
+    "name": "Hirschsprung disease, cardiac defects, and autonomic dysfunction",
+    "type": "disease"
+  },
+  "83": {
+    "name": "Hodgkin's lymphoma, lymphocytic-histiocytic predominance",
+    "type": "disease"
+  },
+  "84": {
+    "name": "Hodgkins lymphoma",
+    "type": "disease"
+  },
+  "85": {
+    "name": "IDDM 1",
+    "type": "disease"
+  },
+  "86": {
+    "name": "IgA glomerulonephritis",
+    "type": "disease"
+  },
+  "87": {
+    "name": "Jacobsen syndrome",
+    "type": "disease"
+  },
+  "88": {
+    "name": "Jalili syndrome",
+    "type": "disease"
+  },
+  "89": {
+    "name": "Jeavons syndrome",
+    "type": "disease"
+  },
+  "90": {
+    "name": "Juberg-Marsidi syndrome",
+    "type": "disease"
+  },
+  "91": {
+    "name": "Katsantoni-Papadakou-Lagoyanni syndrome",
+    "type": "disease"
+  },
+  "92": {
+    "name": "Kikuchi-Fujimoto disease",
+    "type": "disease"
+  },
+  "93": {
+    "name": "Kostmann syndrome",
+    "type": "disease"
+  },
+  "94": {
+    "name": "Krabbe disease",
+    "type": "disease"
+  },
+  "95": {
+    "name": "L-ferritin deficiency",
+    "type": "disease"
+  },
+  "96": {
+    "name": "Langerhans cell sarcoma",
+    "type": "disease"
+  },
+  "97": {
+    "name": "Legius syndrome",
+    "type": "disease"
+  },
+  "98": {
+    "name": "Leriche syndrome",
+    "type": "disease"
+  },
+  "99": {
+    "name": "Listeria meningitis",
+    "type": "disease"
+  },
+  "100": {
+    "name": "Marden-Walker syndrome",
+    "type": "disease"
+  },
+  "101": {
+    "name": "Mayer-Rokitansky-K\u00fcster-Hauser syndrome type 2",
+    "type": "disease"
+  },
+  "102": {
+    "name": "McDonough syndrome",
+    "type": "disease"
+  },
+  "103": {
+    "name": "Middle East respiratory syndrome",
+    "type": "disease"
+  },
+  "104": {
+    "name": "Mietens syndrome",
+    "type": "disease"
+  },
+  "105": {
+    "name": "Mowat-Wilson syndrome due to a ZEB2 point mutation",
+    "type": "disease"
+  },
+  "106": {
+    "name": "Moyamoya disease",
+    "type": "disease"
+  },
+  "107": {
+    "name": "Moyomoya angiopathy",
+    "type": "disease"
+  },
+  "108": {
+    "name": "NAFLD1",
+    "type": "disease"
+  },
+  "109": {
+    "name": "Newcastle disease",
+    "type": "disease"
+  },
+  "110": {
+    "name": "Nezelof syndrome",
+    "type": "disease"
+  },
+  "111": {
+    "name": "Nguyen syndrome",
+    "type": "disease"
+  },
+  "112": {
+    "name": "Niemann-Pick disease",
+    "type": "disease"
+  },
+  "113": {
+    "name": "Noonan syndrome",
+    "type": "disease"
+  },
+  "114": {
+    "name": "Noonan syndrome and Noonan-related syndrome",
+    "type": "disease"
+  },
+  "115": {
+    "name": "Norman-Roberts syndrome",
+    "type": "disease"
+  },
+  "116": {
+    "name": "Okamoto syndrome",
+    "type": "disease"
+  },
+  "117": {
+    "name": "Okur-Chung neurodevelopmental syndrome",
+    "type": "disease"
+  },
+  "118": {
+    "name": "PHAVER syndrome",
+    "type": "disease"
+  },
+  "119": {
+    "name": "PSAT deficiency",
+    "type": "disease"
+  },
+  "120": {
+    "name": "PYCR1-related de Barsy syndrome",
+    "type": "disease"
+  },
+  "121": {
+    "name": "Paget disease of the penis",
+    "type": "disease"
+  },
+  "122": {
+    "name": "Pasteurella hemorrhagic septicemia",
+    "type": "disease"
+  },
+  "123": {
+    "name": "Pectobacterium carotovorum infection",
+    "type": "disease"
+  },
+  "124": {
+    "name": "Peters plus syndrome",
+    "type": "disease"
+  },
+  "125": {
+    "name": "Pfeiffer Tietze Welte syndrome",
+    "type": "disease"
+  },
+  "126": {
+    "name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+    "type": "disease"
+  },
+  "127": {
+    "name": "Pilarowski-Bjornsson syndrome",
+    "type": "disease"
+  },
+  "128": {
+    "name": "Plasmodium falciparum blood infection level",
+    "type": "disease"
+  },
+  "129": {
+    "name": "Plasmodium malariae malaria",
+    "type": "disease"
+  },
+  "130": {
+    "name": "Potocki-Shaffer syndrome",
+    "type": "disease"
+  },
+  "131": {
+    "name": "Preeyasombat-Varavithya syndrome",
+    "type": "disease"
+  },
+  "132": {
+    "name": "Pseudomonas aeruginosa CF5 infection",
+    "type": "disease"
+  },
+  "133": {
+    "name": "Pyle disease",
+    "type": "disease"
+  },
+  "134": {
+    "name": "Rajab interstitial lung disease with brain calcifications",
+    "type": "disease"
+  },
+  "135": {
+    "name": "Richter syndrome",
+    "type": "disease"
+  },
+  "136": {
+    "name": "Rickettsia helvetica spotted fever",
+    "type": "disease"
+  },
+  "137": {
+    "name": "Rotor syndrome",
+    "type": "disease"
+  },
+  "138": {
+    "name": "Rubinstein-Taybi syndrome due to EP300 haploinsufficiency",
+    "type": "disease"
+  },
+  "139": {
+    "name": "ST-elevation myocardial infarction",
+    "type": "disease"
+  },
+  "140": {
+    "name": "Sabinas brittle hair syndrome",
+    "type": "disease"
+  },
+  "141": {
+    "name": "Sammartino-Decreccio syndrome",
+    "type": "disease"
+  },
+  "142": {
+    "name": "Satoyoshi syndrome",
+    "type": "disease"
+  },
+  "143": {
+    "name": "Scheie syndrome",
+    "type": "disease"
+  },
+  "144": {
+    "name": "Sezary syndrome",
+    "type": "disease"
+  },
+  "145": {
+    "name": "Sheldon-hall syndrome",
+    "type": "disease"
+  },
+  "146": {
+    "name": "Simpson-Golabi-Behmel syndrome",
+    "type": "disease"
+  },
+  "147": {
+    "name": "Singleton-Merten syndrome",
+    "type": "disease"
+  },
+  "148": {
+    "name": "Slti-Salem syndrome",
+    "type": "disease"
+  },
+  "149": {
+    "name": "Spigelian hernia-cryptorchidism syndrome",
+    "type": "disease"
+  },
+  "150": {
+    "name": "Stevens-Johnson syndrome/toxic epidermal necrolysis overlap syndrome",
+    "type": "disease"
+  },
+  "151": {
+    "name": "Sugarman brachydactyly",
+    "type": "disease"
+  },
+  "152": {
+    "name": "T-B+ severe combined immunodeficiency due to gamma chain deficiency",
+    "type": "disease"
+  },
+  "153": {
+    "name": "T-cell and NK-cell neoplasm",
+    "type": "disease"
+  },
+  "154": {
+    "name": "T-cell childhood acute lymphocytic leukemia",
+    "type": "disease"
+  },
+  "155": {
+    "name": "T-cell immunodeficiency with epidermodysplasia verruciformis",
+    "type": "disease"
+  },
+  "156": {
+    "name": "T-cell/histiocyte rich large B cell lymphoma",
+    "type": "disease"
+  },
+  "157": {
+    "name": "TCR-alpha-beta-positive T-cell deficiency",
+    "type": "disease"
+  },
+  "158": {
+    "name": "TMEM199-CDG",
+    "type": "disease"
+  },
+  "159": {
+    "name": "TORCH syndrome",
+    "type": "disease"
+  },
+  "160": {
+    "name": "TPM3-related myopathy",
+    "type": "disease"
+  },
+  "161": {
+    "name": "TWIST1-related craniosynostosis",
+    "type": "disease"
+  },
+  "162": {
+    "name": "Timothy syndrome type 1 (disorder)",
+    "type": "disease"
+  },
+  "163": {
+    "name": "Trichomonas tenax infectious disease",
+    "type": "disease"
+  },
+  "164": {
+    "name": "Tuftsin deficiency",
+    "type": "disease"
+  },
+  "165": {
+    "name": "Waardenburg syndrome",
+    "type": "disease"
+  },
+  "166": {
+    "name": "Wiedemann-Steiner syndrome",
+    "type": "disease"
+  },
+  "167": {
+    "name": "Winchester syndrome",
+    "type": "disease"
+  },
+  "168": {
+    "name": "X-linked calvarial hyperostosis",
+    "type": "disease"
+  },
+  "169": {
+    "name": "X-linked congenital generalized hypertrichosis",
+    "type": "disease"
+  },
+  "170": {
+    "name": "X-linked hereditary sensory and autonomic neuropathy with deafness",
+    "type": "disease"
+  },
+  "171": {
+    "name": "X-linked intellectual disability, Cilliers type",
+    "type": "disease"
+  },
+  "172": {
+    "name": "X-linked intellectual disability-epilepsy syndrome",
+    "type": "disease"
+  },
+  "173": {
+    "name": "X-linked intellectual disability-psychosis-macroorchidism syndrome",
+    "type": "disease"
+  },
+  "174": {
+    "name": "X-linked intellectual disability-spastic quadriparesis syndrome",
+    "type": "disease"
+  },
+  "175": {
+    "name": "X-linked lymphoproliferative disease due to SH2D1A deficiency",
+    "type": "disease"
+  },
+  "176": {
+    "name": "X-linked myopathy with postural muscle atrophy",
+    "type": "disease"
+  },
+  "177": {
+    "name": "X-linked nonsyndromic deafness",
+    "type": "disease"
+  },
+  "178": {
+    "name": "XFE progeroid syndrome",
+    "type": "disease"
+  },
+  "179": {
+    "name": "Zimmermann-Laband syndrome",
+    "type": "disease"
+  },
+  "180": {
+    "name": "abducens nerve neoplasm",
+    "type": "disease"
+  },
+  "181": {
+    "name": "absent tibia-polydactyly-arachnoid cyst syndrome",
+    "type": "disease"
+  },
+  "182": {
+    "name": "acalculous cholecystitis",
+    "type": "disease"
+  },
+  "183": {
+    "name": "acetylation, slow",
+    "type": "disease"
+  },
+  "184": {
+    "name": "acinic cell breast carcinoma",
+    "type": "disease"
+  },
+  "185": {
+    "name": "acitretin/etretinate embryopathy",
+    "type": "disease"
+  },
+  "186": {
+    "name": "acquired carotenemia",
+    "type": "disease"
+  },
+  "187": {
+    "name": "acquired cystic disease-associated renal cell carcinoma",
+    "type": "disease"
+  },
+  "188": {
+    "name": "acquired pseudoxanthoma elasticum",
+    "type": "disease"
+  },
+  "189": {
+    "name": "acrocapitofemoral dysplasia",
+    "type": "disease"
+  },
+  "190": {
+    "name": "acrorenal syndrome, autosomal recessive",
+    "type": "disease"
+  },
+  "191": {
+    "name": "acute bronchiolitis",
+    "type": "disease"
+  },
+  "192": {
+    "name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+    "type": "disease"
+  },
+  "193": {
+    "name": "acute gonococcal cystitis",
+    "type": "disease"
+  },
+  "194": {
+    "name": "acute gonococcal prostatitis",
+    "type": "disease"
+  },
+  "195": {
+    "name": "acute infantile liver failure due to synthesis defect of mtDNA-encoded proteins",
+    "type": "disease"
+  },
+  "196": {
+    "name": "acute insulin response",
+    "type": "disease"
+  },
+  "197": {
+    "name": "acute megakaryoblastic leukemia without down syndrome",
+    "type": "disease"
+  },
+  "198": {
+    "name": "acute myeloid leukemia with mutated NPM1",
+    "type": "disease"
+  },
+  "199": {
+    "name": "acute tympanitis",
+    "type": "disease"
+  },
+  "200": {
+    "name": "adactyly of hand",
+    "type": "disease"
+  },
+  "201": {
+    "name": "adenoid hypertrophy",
+    "type": "disease"
+  },
+  "202": {
+    "name": "adenylosuccinate lyase deficiency",
+    "type": "disease"
+  },
+  "203": {
+    "name": "adolescent-onset epilepsy syndrome",
+    "type": "disease"
+  },
+  "204": {
+    "name": "adult cerebellar neoplasm",
+    "type": "disease"
+  },
+  "205": {
+    "name": "adult fibrosarcoma",
+    "type": "disease"
+  },
+  "206": {
+    "name": "adult yolk sac tumor",
+    "type": "disease"
+  },
+  "207": {
+    "name": "adult-onset Still disease",
+    "type": "disease"
+  },
+  "208": {
+    "name": "agenesis of corpus callosum, cardiac, ocular, and genital syndrome",
+    "type": "disease"
+  },
+  "209": {
+    "name": "agnosia",
+    "type": "disease"
+  },
+  "210": {
+    "name": "albinism-deafness syndrome",
+    "type": "disease"
+  },
+  "211": {
+    "name": "alcoholic ketoacidosis",
+    "type": "disease"
+  },
+  "212": {
+    "name": "alexia without agraphia",
+    "type": "disease"
+  },
+  "213": {
+    "name": "alkaline ceramidase 3 deficiency",
+    "type": "disease"
+  },
+  "214": {
+    "name": "alopecia macular degeneration growth retardation syndrome",
+    "type": "disease"
+  },
+  "215": {
+    "name": "alopecia-epilepsy-pyorrhea-intellectual disability syndrome",
+    "type": "disease"
+  },
+  "216": {
+    "name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+    "type": "disease"
+  },
+  "217": {
+    "name": "alpha thalassemia",
+    "type": "disease"
+  },
+  "218": {
+    "name": "alternating exotropia",
+    "type": "disease"
+  },
+  "219": {
+    "name": "amblyopia (disease)",
+    "type": "disease"
+  },
+  "220": {
+    "name": "amelia of lower limb",
+    "type": "disease"
+  },
+  "221": {
+    "name": "ameloblastoma",
+    "type": "disease"
+  },
+  "222": {
+    "name": "amelogenesis imperfecta-gingival hyperplasia syndrome",
+    "type": "disease"
+  },
+  "223": {
+    "name": "ampulla of vater cancer",
+    "type": "disease"
+  },
+  "224": {
+    "name": "ampulla of vater clear cell adenocarcinoma",
+    "type": "disease"
+  },
+  "225": {
+    "name": "amyotrophic neuralgia",
+    "type": "disease"
+  },
+  "226": {
+    "name": "anaerobic pneumonia",
+    "type": "disease"
+  },
+  "227": {
+    "name": "anal Paget disease",
+    "type": "disease"
+  },
+  "228": {
+    "name": "anal carcinoma",
+    "type": "disease"
+  },
+  "229": {
+    "name": "anal margin basal cell carcinoma",
+    "type": "disease"
+  },
+  "230": {
+    "name": "anaphylaxis",
+    "type": "disease"
+  },
+  "231": {
+    "name": "anaplastic astrocytoma",
+    "type": "disease"
+  },
+  "232": {
+    "name": "anaplastic oligodendroglioma",
+    "type": "disease"
+  },
+  "233": {
+    "name": "anatomical narrow angle borderline glaucoma",
+    "type": "disease"
+  },
+  "234": {
+    "name": "anemia, nonspherocytic hemolytic, associated with abnormality of red cell membrane",
+    "type": "disease"
+  },
+  "235": {
+    "name": "angiodysplasia of intestine",
+    "type": "disease"
+  },
+  "236": {
+    "name": "angiokeratoma circumscriptum",
+    "type": "disease"
+  },
+  "237": {
+    "name": "angioma serpiginosum, X-linked",
+    "type": "disease"
+  },
+  "238": {
+    "name": "angioma serpiginosum, autosomal dominant",
+    "type": "disease"
+  },
+  "239": {
+    "name": "angiomatosis, diffuse Corticomeningeal, of Divry and van Bogaert",
+    "type": "disease"
+  },
+  "240": {
+    "name": "angioosteohypertrophic syndrome",
+    "type": "disease"
+  },
+  "241": {
+    "name": "anonychia-onychodystrophy with brachydactyly type b and ectrodactyly",
+    "type": "disease"
+  },
+  "242": {
+    "name": "anterograde amnesia",
+    "type": "disease"
+  },
+  "243": {
+    "name": "antibody mediated epilepsy",
+    "type": "disease"
+  },
+  "244": {
+    "name": "anus adenocarcinoma",
+    "type": "disease"
+  },
+  "245": {
+    "name": "anus cancer",
+    "type": "disease"
+  },
+  "246": {
+    "name": "aortic valve calcification (disease)",
+    "type": "disease"
+  },
+  "247": {
+    "name": "aortic valve disease",
+    "type": "disease"
+  },
+  "248": {
+    "name": "apocrine adenosis of breast",
+    "type": "disease"
+  },
+  "249": {
+    "name": "appendix villous adenoma",
+    "type": "disease"
+  },
+  "250": {
+    "name": "arachnodactyly-abnormal ossification-intellectual disability syndrome",
+    "type": "disease"
+  },
+  "251": {
+    "name": "aregenerative anemia",
+    "type": "disease"
+  },
+  "252": {
+    "name": "arrhinia",
+    "type": "disease"
+  },
+  "253": {
+    "name": "arteries, anomalies of",
+    "type": "disease"
+  },
+  "254": {
+    "name": "arteritis",
+    "type": "disease"
+  },
+  "255": {
+    "name": "arthrogryposis spinal muscular atrophy",
+    "type": "disease"
+  },
+  "256": {
+    "name": "articulation disorder",
+    "type": "disease"
+  },
+  "257": {
+    "name": "ascending colon neuroendocrine tumor G1",
+    "type": "disease"
+  },
+  "258": {
+    "name": "asthma, short stature, and elevated IgA",
+    "type": "disease"
+  },
+  "259": {
+    "name": "astrocytic tumor",
+    "type": "disease"
+  },
+  "260": {
+    "name": "asynchronous multifocal osteogenic sarcoma",
+    "type": "disease"
+  },
+  "261": {
+    "name": "ataxia with oculomotor apraxia",
+    "type": "disease"
+  },
+  "262": {
+    "name": "ataxia-photosensitivity-short stature syndrome",
+    "type": "disease"
+  },
+  "263": {
+    "name": "atherosclerosis",
+    "type": "disease"
+  },
+  "264": {
+    "name": "atopic conjunctivitis",
+    "type": "disease"
+  },
+  "265": {
+    "name": "atresia of small intestine",
+    "type": "disease"
+  },
+  "266": {
+    "name": "atrial septal defect",
+    "type": "disease"
+  },
+  "267": {
+    "name": "atrioventricular septal defect",
+    "type": "disease"
+  },
+  "268": {
+    "name": "atrophy of testis",
+    "type": "disease"
+  },
+  "269": {
+    "name": "atypical dentin dysplasia due to SMOC2 deficiency",
+    "type": "disease"
+  },
+  "270": {
+    "name": "atypical hypotonia-cystinuria syndrome",
+    "type": "disease"
+  },
+  "271": {
+    "name": "atypical juvenile parkinsonism",
+    "type": "disease"
+  },
+  "272": {
+    "name": "audiogenic seizures",
+    "type": "disease"
+  },
+  "273": {
+    "name": "auditory system cancer",
+    "type": "disease"
+  },
+  "274": {
+    "name": "auriculocondylar syndrome",
+    "type": "disease"
+  },
+  "275": {
+    "name": "autism, susceptibility to, X-linked",
+    "type": "disease"
+  },
+  "276": {
+    "name": "autoinflammation, immune dysregulation, and eosinophilia",
+    "type": "disease"
+  },
+  "277": {
+    "name": "autosomal dominant aplasia and myelodysplasia",
+    "type": "disease"
+  },
+  "278": {
+    "name": "autosomal dominant limb-girdle muscular dystrophy type 1D (DNAJB6)",
+    "type": "disease"
+  },
+  "279": {
+    "name": "autosomal dominant medullary cystic kidney disease with or without hyperuricemia",
+    "type": "disease"
+  },
+  "280": {
+    "name": "autosomal dominant mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency",
+    "type": "disease"
+  },
+  "281": {
+    "name": "autosomal dominant nocturnal frontal lobe epilepsy",
+    "type": "disease"
+  },
+  "282": {
+    "name": "autosomal dominant woolly hair",
+    "type": "disease"
+  },
+  "283": {
+    "name": "autosomal genetic disease",
+    "type": "disease"
+  },
+  "284": {
+    "name": "autosomal recessive infantile hypercalcemia",
+    "type": "disease"
+  },
+  "285": {
+    "name": "autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency",
+    "type": "disease"
+  },
+  "286": {
+    "name": "autosomal recessive multiple pterygium syndrome",
+    "type": "disease"
+  },
+  "287": {
+    "name": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
+    "type": "disease"
+  },
+  "288": {
+    "name": "autosomal recessive spastic ataxia",
+    "type": "disease"
+  },
+  "289": {
+    "name": "autosomal trisomy",
+    "type": "disease"
+  },
+  "290": {
+    "name": "bacterial sexually transmitted disease",
+    "type": "disease"
+  },
+  "291": {
+    "name": "bacteriuria (disease)",
+    "type": "disease"
+  },
+  "292": {
+    "name": "benign PEComa",
+    "type": "disease"
+  },
+  "293": {
+    "name": "benign breast phyllodes tumor",
+    "type": "disease"
+  },
+  "294": {
+    "name": "benign eccrine neoplasm",
+    "type": "disease"
+  },
+  "295": {
+    "name": "benign glioma",
+    "type": "disease"
+  },
+  "296": {
+    "name": "benign neoplasm of esophagus",
+    "type": "disease"
+  },
+  "297": {
+    "name": "benign neoplasm of heart",
+    "type": "disease"
+  },
+  "298": {
+    "name": "benign neoplasm of parathyroid gland",
+    "type": "disease"
+  },
+  "299": {
+    "name": "benign neoplasm of peripheral nervous system",
+    "type": "disease"
+  },
+  "300": {
+    "name": "benign neoplasm of stomach",
+    "type": "disease"
+  },
+  "301": {
+    "name": "benign paroxysmal positional nystagmus",
+    "type": "disease"
+  },
+  "302": {
+    "name": "benign peritoneal mesothelioma",
+    "type": "disease"
+  },
+  "303": {
+    "name": "benign testicular sertoli cell tumor",
+    "type": "disease"
+  },
+  "304": {
+    "name": "benign urinary system neoplasm",
+    "type": "disease"
+  },
+  "305": {
+    "name": "bile acid CoA ligase deficiency and defective amidation",
+    "type": "disease"
+  },
+  "306": {
+    "name": "bile acid malabsorption, primary",
+    "type": "disease"
+  },
+  "307": {
+    "name": "bile acid synthesis defect with cholestasis and malabsorption",
+    "type": "disease"
+  },
+  "308": {
+    "name": "biliary dyskinesia",
+    "type": "disease"
+  },
+  "309": {
+    "name": "bird headed-dwarfism, Montreal type",
+    "type": "disease"
+  },
+  "310": {
+    "name": "bladder lymphoma",
+    "type": "disease"
+  },
+  "311": {
+    "name": "bladder mixed adenocarcinoma",
+    "type": "disease"
+  },
+  "312": {
+    "name": "bladder neck obstruction",
+    "type": "disease"
+  },
+  "313": {
+    "name": "bladder papillary urothelial neoplasm",
+    "type": "disease"
+  },
+  "314": {
+    "name": "bone benign neoplasm",
+    "type": "disease"
+  },
+  "315": {
+    "name": "bone dysplasia, lethal Holmgren type",
+    "type": "disease"
+  },
+  "316": {
+    "name": "bone pain, periodic",
+    "type": "disease"
+  },
+  "317": {
+    "name": "borna disease",
+    "type": "disease"
+  },
+  "318": {
+    "name": "bowel dysfunction",
+    "type": "disease"
+  },
+  "319": {
+    "name": "brachial plexus neuritis",
+    "type": "disease"
+  },
+  "320": {
+    "name": "brachial plexus neuropathy",
+    "type": "disease"
+  },
+  "321": {
+    "name": "brachydactyly of toes, unilateral",
+    "type": "disease"
+  },
+  "322": {
+    "name": "brachydactyly, coloboma, and anterior segment dysgenesis",
+    "type": "disease"
+  },
+  "323": {
+    "name": "brachydactyly, type E, with atrial septal defect, type 2",
+    "type": "disease"
+  },
+  "324": {
+    "name": "brachyphalangy, polydactyly, and tibial aplasia/hypoplasia",
+    "type": "disease"
+  },
+  "325": {
+    "name": "brain abnormalities, neurodegeneration, and dysosteosclerosis",
+    "type": "disease"
+  },
+  "326": {
+    "name": "branchiogenic deafness syndrome",
+    "type": "disease"
+  },
+  "327": {
+    "name": "breast fibroepithelial neoplasm",
+    "type": "disease"
+  },
+  "328": {
+    "name": "breast giant fibroadenoma",
+    "type": "disease"
+  },
+  "329": {
+    "name": "breast hemangiopericytoma",
+    "type": "disease"
+  },
+  "330": {
+    "name": "bronchogenic carcinoma",
+    "type": "disease"
+  },
+  "331": {
+    "name": "bronchus mucoepidermoid carcinoma",
+    "type": "disease"
+  },
+  "332": {
+    "name": "bruxism (disease)",
+    "type": "disease"
+  },
+  "333": {
+    "name": "buccal mucosa neoplasm",
+    "type": "disease"
+  },
+  "334": {
+    "name": "burning mouth syndrome type 3",
+    "type": "disease"
+  },
+  "335": {
+    "name": "cadmium poisoning",
+    "type": "disease"
+  },
+  "336": {
+    "name": "calcific aortic disease with immunologic abnormalities, familial",
+    "type": "disease"
+  },
+  "337": {
+    "name": "calcifying epithelial odontogenic tumor",
+    "type": "disease"
+  },
+  "338": {
+    "name": "calloso-genital dysplasia",
+    "type": "disease"
+  },
+  "339": {
+    "name": "camptobrachydactyly",
+    "type": "disease"
+  },
+  "340": {
+    "name": "camptomelic syndrome, long-limb type",
+    "type": "disease"
+  },
+  "341": {
+    "name": "cancer, familial, with in vitro Radioresistance",
+    "type": "disease"
+  },
+  "342": {
+    "name": "candidiasis",
+    "type": "disease"
+  },
+  "343": {
+    "name": "cap myopathy",
+    "type": "disease"
+  },
+  "344": {
+    "name": "capillary hemangioma",
+    "type": "disease"
+  },
+  "345": {
+    "name": "carbon monoxide-induced parkinsonism",
+    "type": "disease"
+  },
+  "346": {
+    "name": "carcinoid crisis",
+    "type": "disease"
+  },
+  "347": {
+    "name": "carcinoma of stomach, salivary gland type",
+    "type": "disease"
+  },
+  "348": {
+    "name": "carcinoma of supraglottis",
+    "type": "disease"
+  },
+  "349": {
+    "name": "carcinosarcoma of the corpus uteri",
+    "type": "disease"
+  },
+  "350": {
+    "name": "cardiac ventricle disease",
+    "type": "disease"
+  },
+  "351": {
+    "name": "cardiomelic syndrome stratton Koehler type",
+    "type": "disease"
+  },
+  "352": {
+    "name": "cardiomyopathy and deafness due to tRNA lysine gene mutation",
+    "type": "disease"
+  },
+  "353": {
+    "name": "cardiomyopathy, fatal fetal, due to myocardial calcification",
+    "type": "disease"
+  },
+  "354": {
+    "name": "carnitine palmitoyltransferase II deficiency",
+    "type": "disease"
+  },
+  "355": {
+    "name": "carpal tunnel syndrome",
+    "type": "disease"
+  },
+  "356": {
+    "name": "cartilage cancer",
+    "type": "disease"
+  },
+  "357": {
+    "name": "cartilage development disorder",
+    "type": "disease"
+  },
+  "358": {
+    "name": "cataract, congenital, with mental impairment and dentate gyrus atrophy",
+    "type": "disease"
+  },
+  "359": {
+    "name": "cataract-glaucoma syndrome",
+    "type": "disease"
+  },
+  "360": {
+    "name": "cataract-intellectual disability-hypogonadism syndrome",
+    "type": "disease"
+  },
+  "361": {
+    "name": "cauda equina cancer",
+    "type": "disease"
+  },
+  "362": {
+    "name": "caudal duplication",
+    "type": "disease"
+  },
+  "363": {
+    "name": "central nervous system calcification-deafness-tubular acidosis-anemia syndrome",
+    "type": "disease"
+  },
+  "364": {
+    "name": "central nervous system chondroma",
+    "type": "disease"
+  },
+  "365": {
+    "name": "central nervous system neoplasm",
+    "type": "disease"
+  },
+  "366": {
+    "name": "central nervous system non-hodgkin lymphoma",
+    "type": "disease"
+  },
+  "367": {
+    "name": "central nervous system teratoma",
+    "type": "disease"
+  },
+  "368": {
+    "name": "cerebellar ataxia, benign, with thermoanalgesia",
+    "type": "disease"
+  },
+  "369": {
+    "name": "cerebellopontine angle embryonal tumor",
+    "type": "disease"
+  },
+  "370": {
+    "name": "cerebellopontine angle meningioma",
+    "type": "disease"
+  },
+  "371": {
+    "name": "cerebral malformation due to abnormal neuronal migration",
+    "type": "disease"
+  },
+  "372": {
+    "name": "cerebral sclerosis similar to Pelizaeus-Merzbacher disease",
+    "type": "disease"
+  },
+  "373": {
+    "name": "ceruminoma",
+    "type": "disease"
+  },
+  "374": {
+    "name": "cervical Wilms tumor",
+    "type": "disease"
+  },
+  "375": {
+    "name": "cervical adenocarcinoma",
+    "type": "disease"
+  },
+  "376": {
+    "name": "cervical aortic arch",
+    "type": "disease"
+  },
+  "377": {
+    "name": "cervical benign neoplasm",
+    "type": "disease"
+  },
+  "378": {
+    "name": "cervical clear cell adenocarcinoma",
+    "type": "disease"
+  },
+  "379": {
+    "name": "cervical spinal canal and spinal cord meningioma",
+    "type": "disease"
+  },
+  "380": {
+    "name": "cervicofacial fibrochondroma",
+    "type": "disease"
+  },
+  "381": {
+    "name": "channelopathy",
+    "type": "disease"
+  },
+  "382": {
+    "name": "chemical colitis",
+    "type": "disease"
+  },
+  "383": {
+    "name": "chest wall parachordoma",
+    "type": "disease"
+  },
+  "384": {
+    "name": "childhood acute myeloid leukemia",
+    "type": "disease"
+  },
+  "385": {
+    "name": "childhood carcinoid tumor",
+    "type": "disease"
+  },
+  "386": {
+    "name": "childhood central nervous system germinoma",
+    "type": "disease"
+  },
+  "387": {
+    "name": "childhood choroid plexus carcinoma",
+    "type": "disease"
+  },
+  "388": {
+    "name": "childhood encephalopathy due to thiamine pyrophosphokinase deficiency",
+    "type": "disease"
+  },
+  "389": {
+    "name": "childhood malignant hemangiopericytoma",
+    "type": "disease"
+  },
+  "390": {
+    "name": "childhood malignant kidney neoplasm",
+    "type": "disease"
+  },
+  "391": {
+    "name": "childhood malignant neoplasm",
+    "type": "disease"
+  },
+  "392": {
+    "name": "childhood ovarian yolk sac tumor",
+    "type": "disease"
+  },
+  "393": {
+    "name": "childhood-onset progressive contractures-limb-girdle weakness-muscle dystrophy syndrome",
+    "type": "disease"
+  },
+  "394": {
+    "name": "cholinergic urticaria",
+    "type": "disease"
+  },
+  "395": {
+    "name": "chondrodysplasia",
+    "type": "disease"
+  },
+  "396": {
+    "name": "chondrodysplasia punctata",
+    "type": "disease"
+  },
+  "397": {
+    "name": "chondrodysplasia punctata, tibial-metacarpal type",
+    "type": "disease"
+  },
+  "398": {
+    "name": "chordoid meningioma",
+    "type": "disease"
+  },
+  "399": {
+    "name": "choroid plexus neoplasm",
+    "type": "disease"
+  },
+  "400": {
+    "name": "choroideremia",
+    "type": "disease"
+  },
+  "401": {
+    "name": "chromosome 1, uniparental disomy 1q12 q21",
+    "type": "disease"
+  },
+  "402": {
+    "name": "chromosome 17p deletion",
+    "type": "disease"
+  },
+  "403": {
+    "name": "chromosome 17p13.3 duplication syndrome",
+    "type": "disease"
+  },
+  "404": {
+    "name": "chromosome 1q21.1 duplication syndrome",
+    "type": "disease"
+  },
+  "405": {
+    "name": "chromosome 22q13 duplication syndrome",
+    "type": "disease"
+  },
+  "406": {
+    "name": "chromosome 2p12-p11.2 deletion syndrome",
+    "type": "disease"
+  },
+  "407": {
+    "name": "chromosome 5q12 deletion syndrome",
+    "type": "disease"
+  },
+  "408": {
+    "name": "chromosome 6pter-p24 deletion syndrome",
+    "type": "disease"
+  },
+  "409": {
+    "name": "chronic actinic dermatitis",
+    "type": "disease"
+  },
+  "410": {
+    "name": "chronic ethmoidal sinusitis",
+    "type": "disease"
+  },
+  "411": {
+    "name": "chronic leukemia",
+    "type": "disease"
+  },
+  "412": {
+    "name": "chronic neutrophilic leukemia",
+    "type": "disease"
+  },
+  "413": {
+    "name": "cirrhosis, familial, with antigenemia",
+    "type": "disease"
+  },
+  "414": {
+    "name": "classic Hodgkin lymphoma, nodular sclerosis type",
+    "type": "disease"
+  },
+  "415": {
+    "name": "classic variant of chromophobe renal cell carcinoma",
+    "type": "disease"
+  },
+  "416": {
+    "name": "clitoris cancer",
+    "type": "disease"
+  },
+  "417": {
+    "name": "clivus chordoma",
+    "type": "disease"
+  },
+  "418": {
+    "name": "collagenopathy",
+    "type": "disease"
+  },
+  "419": {
+    "name": "collagenous gastritis",
+    "type": "disease"
+  },
+  "420": {
+    "name": "coloboma of macula",
+    "type": "disease"
+  },
+  "421": {
+    "name": "colon leiomyoma",
+    "type": "disease"
+  },
+  "422": {
+    "name": "color agnosia",
+    "type": "disease"
+  },
+  "423": {
+    "name": "colorectal cancer",
+    "type": "disease"
+  },
+  "424": {
+    "name": "combined ApoA-I and ApoC-III deficiency",
+    "type": "disease"
+  },
+  "425": {
+    "name": "combined immunodeficiency due to CRAC channel dysfunction",
+    "type": "disease"
+  },
+  "426": {
+    "name": "combined immunodeficiency due to ORAI1 deficiency",
+    "type": "disease"
+  },
+  "427": {
+    "name": "combined immunodeficiency with faciooculoskeletal anomalies",
+    "type": "disease"
+  },
+  "428": {
+    "name": "combined oxidative phosphorylation deficiency",
+    "type": "disease"
+  },
+  "429": {
+    "name": "comedones, familial Dyskeratotic",
+    "type": "disease"
+  },
+  "430": {
+    "name": "complex hereditary spastic paraplegia",
+    "type": "disease"
+  },
+  "431": {
+    "name": "complex neurodevelopmental disorder",
+    "type": "disease"
+  },
+  "432": {
+    "name": "conduct disorder",
+    "type": "disease"
+  },
+  "433": {
+    "name": "congenital absence of the sternocleidomastoid muscle",
+    "type": "disease"
+  },
+  "434": {
+    "name": "congenital anomaly of cardiovascular system",
+    "type": "disease"
+  },
+  "435": {
+    "name": "congenital anomaly of hepatic vein",
+    "type": "disease"
+  },
+  "436": {
+    "name": "congenital bilateral absence of vas deferens",
+    "type": "disease"
+  },
+  "437": {
+    "name": "congenital disorder of glycosylation",
+    "type": "disease"
+  },
+  "438": {
+    "name": "congenital disorder of glycosylation with defective fucosylation",
+    "type": "disease"
+  },
+  "439": {
+    "name": "congenital disorder of glycosylation with intestinal involvement",
+    "type": "disease"
+  },
+  "440": {
+    "name": "congenital elbow dislocation, bilateral",
+    "type": "disease"
+  },
+  "441": {
+    "name": "congenital heart defect-round face-developmental delay syndrome",
+    "type": "disease"
+  },
+  "442": {
+    "name": "congenital heart defects and skeletal malformations syndrome",
+    "type": "disease"
+  },
+  "443": {
+    "name": "congenital lactic acidosis, Saguenay-Lac-Saint-Jean type",
+    "type": "disease"
+  },
+  "444": {
+    "name": "congenital laryngeal cyst",
+    "type": "disease"
+  },
+  "445": {
+    "name": "congenital merosin-deficient muscular dystrophy 1A",
+    "type": "disease"
+  },
+  "446": {
+    "name": "congenital mitral valve agenesis",
+    "type": "disease"
+  },
+  "447": {
+    "name": "congenital myopathy with excess of thin filaments",
+    "type": "disease"
+  },
+  "448": {
+    "name": "congenital primary aphakia",
+    "type": "disease"
+  },
+  "449": {
+    "name": "congenital retinal arteriovenous communication",
+    "type": "disease"
+  },
+  "450": {
+    "name": "congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome",
+    "type": "disease"
+  },
+  "451": {
+    "name": "congenital smooth muscle hamartoma",
+    "type": "disease"
+  },
+  "452": {
+    "name": "congenital stationary night blindness autosomal dominant",
+    "type": "disease"
+  },
+  "453": {
+    "name": "congenital sucrase-isomaltase deficiency",
+    "type": "disease"
+  },
+  "454": {
+    "name": "congenital vagal hyperreflexivity",
+    "type": "disease"
+  },
+  "455": {
+    "name": "congenital varicella syndrome",
+    "type": "disease"
+  },
+  "456": {
+    "name": "conjunctival pigmentation",
+    "type": "disease"
+  },
+  "457": {
+    "name": "conjunctivitis (disease)",
+    "type": "disease"
+  },
+  "458": {
+    "name": "conjunctivochalasis",
+    "type": "disease"
+  },
+  "459": {
+    "name": "connective tissue disorder due to lysyl hydroxylase-3 deficiency",
+    "type": "disease"
+  },
+  "460": {
+    "name": "cormier rustin munnich syndrome",
+    "type": "disease"
+  },
+  "461": {
+    "name": "corneal ulcer",
+    "type": "disease"
+  },
+  "462": {
+    "name": "coronary stenosis",
+    "type": "disease"
+  },
+  "463": {
+    "name": "corticobasal degeneration",
+    "type": "disease"
+  },
+  "464": {
+    "name": "coxoauricular syndrome",
+    "type": "disease"
+  },
+  "465": {
+    "name": "coxsackievirus infectious disease",
+    "type": "disease"
+  },
+  "466": {
+    "name": "craniodigital syndrome-intellectual disability syndrome",
+    "type": "disease"
+  },
+  "467": {
+    "name": "craniometaphyseal dysplasia, autosomal dominant",
+    "type": "disease"
+  },
+  "468": {
+    "name": "craniorachischisis (disease)",
+    "type": "disease"
+  },
+  "469": {
+    "name": "craniostenosis cataract",
+    "type": "disease"
+  },
+  "470": {
+    "name": "craniosynostosis Fontaine type",
+    "type": "disease"
+  },
+  "471": {
+    "name": "craniosynostosis syndrome, autosomal recessive",
+    "type": "disease"
+  },
+  "472": {
+    "name": "craniosynostosis, Herrmann-Opitz type",
+    "type": "disease"
+  },
+  "473": {
+    "name": "cribriform variant testicular seminoma",
+    "type": "disease"
+  },
+  "474": {
+    "name": "critical illness polyneuropathy",
+    "type": "disease"
+  },
+  "475": {
+    "name": "cryohydrocytosis",
+    "type": "disease"
+  },
+  "476": {
+    "name": "cryptococcosis",
+    "type": "disease"
+  },
+  "477": {
+    "name": "cryptorchidism-arachnodactyly-intellectual disability syndrome",
+    "type": "disease"
+  },
+  "478": {
+    "name": "crystal arthropathy",
+    "type": "disease"
+  },
+  "479": {
+    "name": "cutaneous liposarcoma",
+    "type": "disease"
+  },
+  "480": {
+    "name": "cutaneous mycosis",
+    "type": "disease"
+  },
+  "481": {
+    "name": "cutis gyratum acanthosis nigricans craniosynostosis",
+    "type": "disease"
+  },
+  "482": {
+    "name": "cutis laxa, autosomal recessive,",
+    "type": "disease"
+  },
+  "483": {
+    "name": "cutis verticis gyrata mental deficiency",
+    "type": "disease"
+  },
+  "484": {
+    "name": "cyclosporosis",
+    "type": "disease"
+  },
+  "485": {
+    "name": "cylindrical spirals myopathy",
+    "type": "disease"
+  },
+  "486": {
+    "name": "cysts and fistulae of the face and oral cavity",
+    "type": "disease"
+  },
+  "487": {
+    "name": "dacryocystitis",
+    "type": "disease"
+  },
+  "488": {
+    "name": "dartoic leiomyoma",
+    "type": "disease"
+  },
+  "489": {
+    "name": "de Quervain disease",
+    "type": "disease"
+  },
+  "490": {
+    "name": "deaf blind hypopigmentation syndrome, Yemenite type",
+    "type": "disease"
+  },
+  "491": {
+    "name": "deafness conductive stapedial ear malformation facial palsy",
+    "type": "disease"
+  },
+  "492": {
+    "name": "deafness goiter stippled epiphyses",
+    "type": "disease"
+  },
+  "493": {
+    "name": "deafness, X-linked",
+    "type": "disease"
+  },
+  "494": {
+    "name": "deafness, Y-linked",
+    "type": "disease"
+  },
+  "495": {
+    "name": "deafness, neural, with atypical atopic dermatitis",
+    "type": "disease"
+  },
+  "496": {
+    "name": "deafness, unilateral, with delayed endolymphatic hydrops",
+    "type": "disease"
+  },
+  "497": {
+    "name": "deafness-enamel hypoplasia-nail defects syndrome",
+    "type": "disease"
+  },
+  "498": {
+    "name": "degeneration of macula and posterior pole",
+    "type": "disease"
+  },
+  "499": {
+    "name": "dementia (disease)",
+    "type": "disease"
+  },
+  "500": {
+    "name": "dense deposit disease",
+    "type": "disease"
+  },
+  "501": {
+    "name": "dental fluorosis",
+    "type": "disease"
+  },
+  "502": {
+    "name": "desmin-related myopathy with Mallory body-like inclusions",
+    "type": "disease"
+  },
+  "503": {
+    "name": "diabetes insipidus",
+    "type": "disease"
+  },
+  "504": {
+    "name": "diabetic autonomic neuropathy",
+    "type": "disease"
+  },
+  "505": {
+    "name": "diaphragmatic hernia, congenital 1",
+    "type": "disease"
+  },
+  "506": {
+    "name": "diethylstilbestrol syndrome",
+    "type": "disease"
+  },
+  "507": {
+    "name": "diffuse cavernous hemangioma of the rectum",
+    "type": "disease"
+  },
+  "508": {
+    "name": "diffuse idiopathic pulmonary neuroendocrine cell hyperplasia",
+    "type": "disease"
+  },
+  "509": {
+    "name": "digestive system infectious disease",
+    "type": "disease"
+  },
+  "510": {
+    "name": "digestive system neoplasm",
+    "type": "disease"
+  },
+  "511": {
+    "name": "diprosopus",
+    "type": "disease"
+  },
+  "512": {
+    "name": "discoid lupus erythematosus",
+    "type": "disease"
+  },
+  "513": {
+    "name": "disease of central nervous system or retinal vasculature",
+    "type": "disease"
+  },
+  "514": {
+    "name": "disease of retroperitoneum",
+    "type": "disease"
+  },
+  "515": {
+    "name": "disease of supramolecular complex",
+    "type": "disease"
+  },
+  "516": {
+    "name": "disorder of mineral absorption and transport",
+    "type": "disease"
+  },
+  "517": {
+    "name": "dissecting cellulitis of the scalp",
+    "type": "disease"
+  },
+  "518": {
+    "name": "disseminated chorioretinitis",
+    "type": "disease"
+  },
+  "519": {
+    "name": "disseminated intravascular coagulation",
+    "type": "disease"
+  },
+  "520": {
+    "name": "dissociative disorder",
+    "type": "disease"
+  },
+  "521": {
+    "name": "distal monosomy 17q",
+    "type": "disease"
+  },
+  "522": {
+    "name": "distal myopathy",
+    "type": "disease"
+  },
+  "523": {
+    "name": "distal trisomy 6q",
+    "type": "disease"
+  },
+  "524": {
+    "name": "dominant pericentral pigmentary retinopathy",
+    "type": "disease"
+  },
+  "525": {
+    "name": "double nail for fifth toe",
+    "type": "disease"
+  },
+  "526": {
+    "name": "double outlet right ventricle with subaortic or doubly committed ventricular septal defect with pulmonary stenosis",
+    "type": "disease"
+  },
+  "527": {
+    "name": "double outlet right ventricle with subpulmonary ventricular septal defect",
+    "type": "disease"
+  },
+  "528": {
+    "name": "dracunculiasis",
+    "type": "disease"
+  },
+  "529": {
+    "name": "drug induced central sleep apnea",
+    "type": "disease"
+  },
+  "530": {
+    "name": "duodenitis",
+    "type": "disease"
+  },
+  "531": {
+    "name": "duplication of leg mirror foot",
+    "type": "disease"
+  },
+  "532": {
+    "name": "dwarfism with stiff joints and ocular abnormalities",
+    "type": "disease"
+  },
+  "533": {
+    "name": "dwarfism, low-birth-weight type, with unresponsiveness to growth hormone",
+    "type": "disease"
+  },
+  "534": {
+    "name": "dyscalculia (disease)",
+    "type": "disease"
+  },
+  "535": {
+    "name": "dyspepsia",
+    "type": "disease"
+  },
+  "536": {
+    "name": "dyssegmental dysplasia-glaucoma syndrome",
+    "type": "disease"
+  },
+  "537": {
+    "name": "early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome",
+    "type": "disease"
+  },
+  "538": {
+    "name": "ectodermal dysplasia with facial dysmorphism and acral, ocular, and brain anomalies",
+    "type": "disease"
+  },
+  "539": {
+    "name": "ectopia lentis et pupillae",
+    "type": "disease"
+  },
+  "540": {
+    "name": "ectopic Cushing syndrome",
+    "type": "disease"
+  },
+  "541": {
+    "name": "edema disease of swine",
+    "type": "disease"
+  },
+  "542": {
+    "name": "ego-dystonic sexual orientation",
+    "type": "disease"
+  },
+  "543": {
+    "name": "embryonic cyst of fallopian tube",
+    "type": "disease"
+  },
+  "544": {
+    "name": "emphysematous cholecystitis",
+    "type": "disease"
+  },
+  "545": {
+    "name": "encephaloclastic disorder",
+    "type": "disease"
+  },
+  "546": {
+    "name": "encephalopathy due to sulfite oxidase deficiency",
+    "type": "disease"
+  },
+  "547": {
+    "name": "endemic typhus",
+    "type": "disease"
+  },
+  "548": {
+    "name": "endocardial fibroelastosis and coarctation of abdominal aorta",
+    "type": "disease"
+  },
+  "549": {
+    "name": "endocrine pancreas disease",
+    "type": "disease"
+  },
+  "550": {
+    "name": "endocrine system disease",
+    "type": "disease"
+  },
+  "551": {
+    "name": "endocrine-cerebro-osteodysplasia syndrome",
+    "type": "disease"
+  },
+  "552": {
+    "name": "endometrioid stromal sarcoma of the cervix",
+    "type": "disease"
+  },
+  "553": {
+    "name": "endometrioid tumor",
+    "type": "disease"
+  },
+  "554": {
+    "name": "endometriosis of pelvic peritoneum",
+    "type": "disease"
+  },
+  "555": {
+    "name": "endometriosis of rectovaginal septum and vagina",
+    "type": "disease"
+  },
+  "556": {
+    "name": "endometriosis of uterus",
+    "type": "disease"
+  },
+  "557": {
+    "name": "endomyometritis",
+    "type": "disease"
+  },
+  "558": {
+    "name": "enterotoxemia",
+    "type": "disease"
+  },
+  "559": {
+    "name": "eosinophilic meningitis",
+    "type": "disease"
+  },
+  "560": {
+    "name": "epidermodysplasia verruciformis, susceptibility to",
+    "type": "disease"
+  },
+  "561": {
+    "name": "epididymal adenomatoid tumor",
+    "type": "disease"
+  },
+  "562": {
+    "name": "epididymis cancer",
+    "type": "disease"
+  },
+  "563": {
+    "name": "epignathus (disease)",
+    "type": "disease"
+  },
+  "564": {
+    "name": "epilepsy of infancy with migrating focal seizures",
+    "type": "disease"
+  },
+  "565": {
+    "name": "epileptic encephalopathy, infantile or early childhood",
+    "type": "disease"
+  },
+  "566": {
+    "name": "epimetaphyseal dysplasia cataract",
+    "type": "disease"
+  },
+  "567": {
+    "name": "epiphora due to excess lacrimation",
+    "type": "disease"
+  },
+  "568": {
+    "name": "epiphora due to insufficient drainage",
+    "type": "disease"
+  },
+  "569": {
+    "name": "episodic pain syndrome, familial, 2",
+    "type": "disease"
+  },
+  "570": {
+    "name": "epithelial recurrent erosion dystrophy",
+    "type": "disease"
+  },
+  "571": {
+    "name": "epithelial tumor of the appendix",
+    "type": "disease"
+  },
+  "572": {
+    "name": "epithelioid cell uveal melanoma",
+    "type": "disease"
+  },
+  "573": {
+    "name": "epithelioid hemangioendothelioma",
+    "type": "disease"
+  },
+  "574": {
+    "name": "epithelioid trophoblastic tumor",
+    "type": "disease"
+  },
+  "575": {
+    "name": "ermine phenotype",
+    "type": "disease"
+  },
+  "576": {
+    "name": "erythema infectiosum",
+    "type": "disease"
+  },
+  "577": {
+    "name": "erythrocyte galactose epimerase deficiency",
+    "type": "disease"
+  },
+  "578": {
+    "name": "erythrokeratodermia-cardiomyopathy syndrome",
+    "type": "disease"
+  },
+  "579": {
+    "name": "erythropoietic uroporphyria associated with myeloid malignancy",
+    "type": "disease"
+  },
+  "580": {
+    "name": "esophageal atresia coloboma talipes",
+    "type": "disease"
+  },
+  "581": {
+    "name": "esophageal melanoma",
+    "type": "disease"
+  },
+  "582": {
+    "name": "esophagus carcinoma in situ",
+    "type": "disease"
+  },
+  "583": {
+    "name": "esophagus verrucous carcinoma",
+    "type": "disease"
+  },
+  "584": {
+    "name": "ethmoidal sinus neoplasm",
+    "type": "disease"
+  },
+  "585": {
+    "name": "eumycotic mycetoma",
+    "type": "disease"
+  },
+  "586": {
+    "name": "eversion of lacrimal punctum",
+    "type": "disease"
+  },
+  "587": {
+    "name": "exocrine pancreatic carcinoma",
+    "type": "disease"
+  },
+  "588": {
+    "name": "external ear squamous cell carcinoma",
+    "type": "disease"
+  },
+  "589": {
+    "name": "facial diplegia with paresthesias",
+    "type": "disease"
+  },
+  "590": {
+    "name": "factor 9 and Factor XI, combined deficiency of",
+    "type": "disease"
+  },
+  "591": {
+    "name": "fallopian tube clear cell adenocarcinoma",
+    "type": "disease"
+  },
+  "592": {
+    "name": "fallopian tube neoplasm",
+    "type": "disease"
+  },
+  "593": {
+    "name": "fallopian tube teratoma",
+    "type": "disease"
+  },
+  "594": {
+    "name": "familial chilblain lupus",
+    "type": "disease"
+  },
+  "595": {
+    "name": "familial clubfoot due to 17q23.1q23.2 microduplication",
+    "type": "disease"
+  },
+  "596": {
+    "name": "familial cutaneous melanoma",
+    "type": "disease"
+  },
+  "597": {
+    "name": "familial dilated cardiomyopathy",
+    "type": "disease"
+  },
+  "598": {
+    "name": "familial hypercholesterolemia",
+    "type": "disease"
+  },
+  "599": {
+    "name": "familial hyperlipidemia",
+    "type": "disease"
+  },
+  "600": {
+    "name": "familial parathyroid adenoma",
+    "type": "disease"
+  },
+  "601": {
+    "name": "familial partial lipodystrophy",
+    "type": "disease"
+  },
+  "602": {
+    "name": "familial primary hypomagnesemia with hypercalciuria and nephrocalcinosis",
+    "type": "disease"
+  },
+  "603": {
+    "name": "familial primary hypomagnesemia with low or normal calcium",
+    "type": "disease"
+  },
+  "604": {
+    "name": "familial primary localized cutaneous amyloidosis",
+    "type": "disease"
+  },
+  "605": {
+    "name": "familial renal glucosuria",
+    "type": "disease"
+  },
+  "606": {
+    "name": "fasciolopsiasis",
+    "type": "disease"
+  },
+  "607": {
+    "name": "fatal familial insomnia",
+    "type": "disease"
+  },
+  "608": {
+    "name": "fatal mitochondrial disease due to combined oxidative phosphorylation defect type 3",
+    "type": "disease"
+  },
+  "609": {
+    "name": "fatal post-viral neurodegenerative disorder",
+    "type": "disease"
+  },
+  "610": {
+    "name": "fatty acid oxidation and ketogenesis disorder with hypertrophic cardiomyopathy",
+    "type": "disease"
+  },
+  "611": {
+    "name": "feigenbaum Bergeron syndrome",
+    "type": "disease"
+  },
+  "612": {
+    "name": "female breast upper-inner quadrant cancer",
+    "type": "disease"
+  },
+  "613": {
+    "name": "female reproductive organ cancer",
+    "type": "disease"
+  },
+  "614": {
+    "name": "femoral vein thrombophlebitis",
+    "type": "disease"
+  },
+  "615": {
+    "name": "fetal lower urinary tract obstruction",
+    "type": "disease"
+  },
+  "616": {
+    "name": "fibrillary astrocytoma",
+    "type": "disease"
+  },
+  "617": {
+    "name": "fibula aplasia complex brachydactyly",
+    "type": "disease"
+  },
+  "618": {
+    "name": "fibular dimelia-diplopodia syndrome",
+    "type": "disease"
+  },
+  "619": {
+    "name": "finger hyperphalangy - toe anomalies - severe pectus excavatum syndrome",
+    "type": "disease"
+  },
+  "620": {
+    "name": "flat retinoschisis",
+    "type": "disease"
+  },
+  "621": {
+    "name": "floating-Harbor syndrome",
+    "type": "disease"
+  },
+  "622": {
+    "name": "foix chavany Marie syndrome",
+    "type": "disease"
+  },
+  "623": {
+    "name": "folic acid deficiency anemia",
+    "type": "disease"
+  },
+  "624": {
+    "name": "foot disease",
+    "type": "disease"
+  },
+  "625": {
+    "name": "formiminoglutamic aciduria",
+    "type": "disease"
+  },
+  "626": {
+    "name": "frontal sinusitis",
+    "type": "disease"
+  },
+  "627": {
+    "name": "frontorhiny",
+    "type": "disease"
+  },
+  "628": {
+    "name": "functional colonic disease",
+    "type": "disease"
+  },
+  "629": {
+    "name": "functioning endocrine neoplasm",
+    "type": "disease"
+  },
+  "630": {
+    "name": "fundus pulverulentus",
+    "type": "disease"
+  },
+  "631": {
+    "name": "galactosialidosis",
+    "type": "disease"
+  },
+  "632": {
+    "name": "gallbladder adenoma",
+    "type": "disease"
+  },
+  "633": {
+    "name": "gallbladder melanoma",
+    "type": "disease"
+  },
+  "634": {
+    "name": "gallbladder rhabdomyosarcoma",
+    "type": "disease"
+  },
+  "635": {
+    "name": "ganglioglioma",
+    "type": "disease"
+  },
+  "636": {
+    "name": "gastric adenocarcinoma and proximal polyposis of the stomach",
+    "type": "disease"
+  },
+  "637": {
+    "name": "gastric juice peptides",
+    "type": "disease"
+  },
+  "638": {
+    "name": "gastric mantle cell lymphoma",
+    "type": "disease"
+  },
+  "639": {
+    "name": "gastric neuroendocrine tumor, well differentiated, low or intermediate grade",
+    "type": "disease"
+  },
+  "640": {
+    "name": "gastrointestinal polyp",
+    "type": "disease"
+  },
+  "641": {
+    "name": "genetic cardiac rhythm disease",
+    "type": "disease"
+  },
+  "642": {
+    "name": "genetic intestinal polyposis",
+    "type": "disease"
+  },
+  "643": {
+    "name": "genochondromatosis",
+    "type": "disease"
+  },
+  "644": {
+    "name": "germ cell tumor of the vulva",
+    "type": "disease"
+  },
+  "645": {
+    "name": "gestational diabetes",
+    "type": "disease"
+  },
+  "646": {
+    "name": "gestational diabetes insipidus",
+    "type": "disease"
+  },
+  "647": {
+    "name": "gingival disease",
+    "type": "disease"
+  },
+  "648": {
+    "name": "gingival fibroepithelial polyp",
+    "type": "disease"
+  },
+  "649": {
+    "name": "gingival neoplasm",
+    "type": "disease"
+  },
+  "650": {
+    "name": "glaucoma 3, primary infantile, B",
+    "type": "disease"
+  },
+  "651": {
+    "name": "glaucoma, primary closed-angle",
+    "type": "disease"
+  },
+  "652": {
+    "name": "global developmental delay - lung cysts - overgrowth - Wilms tumor syndrome",
+    "type": "disease"
+  },
+  "653": {
+    "name": "globe disease",
+    "type": "disease"
+  },
+  "654": {
+    "name": "glomerulosclerosis",
+    "type": "disease"
+  },
+  "655": {
+    "name": "glottis cancer",
+    "type": "disease"
+  },
+  "656": {
+    "name": "glutamyl ribose-5-phosphate storage disease",
+    "type": "disease"
+  },
+  "657": {
+    "name": "glutathione transferase activity toward trans-stilbene oxide",
+    "type": "disease"
+  },
+  "658": {
+    "name": "glycerol metabolism disease",
+    "type": "disease"
+  },
+  "659": {
+    "name": "glycine metabolism disease",
+    "type": "disease"
+  },
+  "660": {
+    "name": "glycogen storage disease due to lactate dehydrogenase deficiency",
+    "type": "disease"
+  },
+  "661": {
+    "name": "goblet cell carcinoma",
+    "type": "disease"
+  },
+  "662": {
+    "name": "gonadal tissue neoplasm",
+    "type": "disease"
+  },
+  "663": {
+    "name": "graft versus host disease",
+    "type": "disease"
+  },
+  "664": {
+    "name": "gram-negative bacterial infections",
+    "type": "disease"
+  },
+  "665": {
+    "name": "granulomas, congenital cerebral",
+    "type": "disease"
+  },
+  "666": {
+    "name": "granulomatous dermatitis",
+    "type": "disease"
+  },
+  "667": {
+    "name": "granulomatous disease, chronic, X-linked",
+    "type": "disease"
+  },
+  "668": {
+    "name": "granulomatous hypophysitis",
+    "type": "disease"
+  },
+  "669": {
+    "name": "granulomatous mastitis",
+    "type": "disease"
+  },
+  "670": {
+    "name": "granulomatous prostatitis",
+    "type": "disease"
+  },
+  "671": {
+    "name": "green sandford davison syndrome",
+    "type": "disease"
+  },
+  "672": {
+    "name": "grouped pigmentation of the retina",
+    "type": "disease"
+  },
+  "673": {
+    "name": "growth and developintellectual disability, ocular ptosis, cardiac defect, and anal atresia",
+    "type": "disease"
+  },
+  "674": {
+    "name": "guanylate cyclase 2E",
+    "type": "disease"
+  },
+  "675": {
+    "name": "haemonchiasis",
+    "type": "disease"
+  },
+  "676": {
+    "name": "hand, foot and mouth disease",
+    "type": "disease"
+  },
+  "677": {
+    "name": "head and neck carcinoma",
+    "type": "disease"
+  },
+  "678": {
+    "name": "heart conduction disease",
+    "type": "disease"
+  },
+  "679": {
+    "name": "heart position anomaly",
+    "type": "disease"
+  },
+  "680": {
+    "name": "heartwater disease",
+    "type": "disease"
+  },
+  "681": {
+    "name": "hemangioendothelioma",
+    "type": "disease"
+  },
+  "682": {
+    "name": "hemangioma of lung",
+    "type": "disease"
+  },
+  "683": {
+    "name": "hemangiomatosis, cutaneous, with associated features",
+    "type": "disease"
+  },
+  "684": {
+    "name": "heme oxygenase 1 deficiency",
+    "type": "disease"
+  },
+  "685": {
+    "name": "hemorrhagic disorder due to a platelet anomaly",
+    "type": "disease"
+  },
+  "686": {
+    "name": "hepatic coma",
+    "type": "disease"
+  },
+  "687": {
+    "name": "hepatic tuberculosis",
+    "type": "disease"
+  },
+  "688": {
+    "name": "hereditary amyloidosis",
+    "type": "disease"
+  },
+  "689": {
+    "name": "hereditary hypotrichosis with recurrent skin vesicles",
+    "type": "disease"
+  },
+  "690": {
+    "name": "hereditary mucosal leukokeratosis",
+    "type": "disease"
+  },
+  "691": {
+    "name": "hereditary neutrophilia",
+    "type": "disease"
+  },
+  "692": {
+    "name": "hereditary sensory and autonomic neuropathy",
+    "type": "disease"
+  },
+  "693": {
+    "name": "hereditary stomatocytosis",
+    "type": "disease"
+  },
+  "694": {
+    "name": "hereditary thrombocytopenia and hematological cancer predisposition syndrome associated with RUNX1",
+    "type": "disease"
+  },
+  "695": {
+    "name": "herpes simplex encephalitis, susceptibility to",
+    "type": "disease"
+  },
+  "696": {
+    "name": "heterotopia, periventricular, associated with chromosome 5P anomalies",
+    "type": "disease"
+  },
+  "697": {
+    "name": "hidradenitis suppurativa",
+    "type": "disease"
+  },
+  "698": {
+    "name": "hidrotic ectodermal dysplasia, Halal type",
+    "type": "disease"
+  },
+  "699": {
+    "name": "hip dysplasia, canine",
+    "type": "disease"
+  },
+  "700": {
+    "name": "histiocytoma",
+    "type": "disease"
+  },
+  "701": {
+    "name": "hobnail hemangioma",
+    "type": "disease"
+  },
+  "702": {
+    "name": "holoprosencephaly-hypokinesia-congenital contractures syndrome",
+    "type": "disease"
+  },
+  "703": {
+    "name": "homocystinuria (disease)",
+    "type": "disease"
+  },
+  "704": {
+    "name": "homozygous 11P15-p14 deletion syndrome",
+    "type": "disease"
+  },
+  "705": {
+    "name": "human monocytic ehrlichiosis",
+    "type": "disease"
+  },
+  "706": {
+    "name": "humerofemoral hypoplasia with radiotibial ray deficiency",
+    "type": "disease"
+  },
+  "707": {
+    "name": "hyalohyphomycosis",
+    "type": "disease"
+  },
+  "708": {
+    "name": "hydrocephaly-tall stature-joint laxity syndrome",
+    "type": "disease"
+  },
+  "709": {
+    "name": "hymenolepiasis",
+    "type": "disease"
+  },
+  "710": {
+    "name": "hyper-ige recurrent infection syndrome 4, autosomal recessive",
+    "type": "disease"
+  },
+  "711": {
+    "name": "hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency",
+    "type": "disease"
+  },
+  "712": {
+    "name": "hyperargininemia",
+    "type": "disease"
+  },
+  "713": {
+    "name": "hyperbilirubinemia, conjugated, type 3",
+    "type": "disease"
+  },
+  "714": {
+    "name": "hyperbilirubinemia, shunt, primary",
+    "type": "disease"
+  },
+  "715": {
+    "name": "hyperbiliverdinemia",
+    "type": "disease"
+  },
+  "716": {
+    "name": "hypercalciuria, absorptive",
+    "type": "disease"
+  },
+  "717": {
+    "name": "hyperdibasic aminoaciduria type 1",
+    "type": "disease"
+  },
+  "718": {
+    "name": "hyperemesis gravidarum (disease)",
+    "type": "disease"
+  },
+  "719": {
+    "name": "hyperhidrosis palmaris ET plantaris",
+    "type": "disease"
+  },
+  "720": {
+    "name": "hyperhomocysteinemia",
+    "type": "disease"
+  },
+  "721": {
+    "name": "hyperphosphatemia (disease)",
+    "type": "disease"
+  },
+  "722": {
+    "name": "hypertensive retinopathy",
+    "type": "disease"
+  },
+  "723": {
+    "name": "hyperthyroxinemia, familial dysalbuminemic",
+    "type": "disease"
+  },
+  "724": {
+    "name": "hypogonadotropic hypogonadism",
+    "type": "disease"
+  },
+  "725": {
+    "name": "hypomyelinating leukodystrophy",
+    "type": "disease"
+  },
+  "726": {
+    "name": "hypoplasminogenemia",
+    "type": "disease"
+  },
+  "727": {
+    "name": "hypotrichosis-deafness syndrome",
+    "type": "disease"
+  },
+  "728": {
+    "name": "hypotrichosis-lymphedema-telangiectasia syndrome",
+    "type": "disease"
+  },
+  "729": {
+    "name": "iatrogenic or traumatic pituitary deficiency",
+    "type": "disease"
+  },
+  "730": {
+    "name": "ichthyosis, X-linked, without steroid sulfatase deficiency",
+    "type": "disease"
+  },
+  "731": {
+    "name": "idiopathic anaphylaxis",
+    "type": "disease"
+  },
+  "732": {
+    "name": "idiopathic phalangeal acro-osteolysis",
+    "type": "disease"
+  },
+  "733": {
+    "name": "idiopathic pulmonary artery dilatation",
+    "type": "disease"
+  },
+  "734": {
+    "name": "idiopathic recurrent and disabling cutaneous herpes",
+    "type": "disease"
+  },
+  "735": {
+    "name": "idiopathic steroid-sensitive nephrotic syndrome with minimal change",
+    "type": "disease"
+  },
+  "736": {
+    "name": "idiopathic urticaria",
+    "type": "disease"
+  },
+  "737": {
+    "name": "immature cataract",
+    "type": "disease"
+  },
+  "738": {
+    "name": "immune-mediated acquired neuromuscular junction disease",
+    "type": "disease"
+  },
+  "739": {
+    "name": "immunodeficiency due to a classical component pathway complement deficiency",
+    "type": "disease"
+  },
+  "740": {
+    "name": "immunodeficiency due to a late component of complement deficiency",
+    "type": "disease"
+  },
+  "741": {
+    "name": "immunodeficiency-related disorder",
+    "type": "disease"
+  },
+  "742": {
+    "name": "impacted teeth, multiple",
+    "type": "disease"
+  },
+  "743": {
+    "name": "impetigo herpetiformis",
+    "type": "disease"
+  },
+  "744": {
+    "name": "impulse control disorder",
+    "type": "disease"
+  },
+  "745": {
+    "name": "inborn disorder of pentose phosphate metabolism",
+    "type": "disease"
+  },
+  "746": {
+    "name": "inborn disorder of serine family metabolism",
+    "type": "disease"
+  },
+  "747": {
+    "name": "inborn disorder of tryptophan metabolism",
+    "type": "disease"
+  },
+  "748": {
+    "name": "incessant infant ventricular tachycardia",
+    "type": "disease"
+  },
+  "749": {
+    "name": "incisors, rotation of upper central",
+    "type": "disease"
+  },
+  "750": {
+    "name": "inclusion body myopathy with Paget disease of bone and frontotemporal dementia",
+    "type": "disease"
+  },
+  "751": {
+    "name": "indolent plasma cell myeloma",
+    "type": "disease"
+  },
+  "752": {
+    "name": "indolent primary cutaneous B-cell lymphoma",
+    "type": "disease"
+  },
+  "753": {
+    "name": "infant botulism",
+    "type": "disease"
+  },
+  "754": {
+    "name": "infantile cataract, skin abnormalities, glutamate excess, and impaired intellectual development",
+    "type": "disease"
+  },
+  "755": {
+    "name": "infantile osteopetrosis with neuroaxonal dysplasia",
+    "type": "disease"
+  },
+  "756": {
+    "name": "infection by Trypanosoma rhodesiense",
+    "type": "disease"
+  },
+  "757": {
+    "name": "infectious ectromelia",
+    "type": "disease"
+  },
+  "758": {
+    "name": "infectious myositis",
+    "type": "disease"
+  },
+  "759": {
+    "name": "infectious myxomatosis",
+    "type": "disease"
+  },
+  "760": {
+    "name": "infectious, fungal or parasitic myopathy",
+    "type": "disease"
+  },
+  "761": {
+    "name": "inflammatory diarrhea",
+    "type": "disease"
+  },
+  "762": {
+    "name": "inherited cardiac tumor",
+    "type": "disease"
+  },
+  "763": {
+    "name": "inherited glutathione metabolism disease",
+    "type": "disease"
+  },
+  "764": {
+    "name": "inherited prion disease",
+    "type": "disease"
+  },
+  "765": {
+    "name": "inherited skin tumor",
+    "type": "disease"
+  },
+  "766": {
+    "name": "iniencephaly",
+    "type": "disease"
+  },
+  "767": {
+    "name": "intellectual developmental disorder",
+    "type": "disease"
+  },
+  "768": {
+    "name": "intellectual developmental disorder and retinitis pigmentosa; IDDRP",
+    "type": "disease"
+  },
+  "769": {
+    "name": "intellectual developmental disorder, autosomal recessive",
+    "type": "disease"
+  },
+  "770": {
+    "name": "intellectual disability, X-linked 99, syndromic, female-restricted",
+    "type": "disease"
+  },
+  "771": {
+    "name": "intellectual disability, X-linked, with or without seizures, arx-related",
+    "type": "disease"
+  },
+  "772": {
+    "name": "intellectual disability-cataracts-kyphosis syndrome",
+    "type": "disease"
+  },
+  "773": {
+    "name": "intellectual disability-hyperkinetic movement-truncal ataxia syndrome",
+    "type": "disease"
+  },
+  "774": {
+    "name": "intellectual disability-macrocephaly-hypotonia-behavioral abnormalities syndrome",
+    "type": "disease"
+  },
+  "775": {
+    "name": "interferon antiviral depressor",
+    "type": "disease"
+  },
+  "776": {
+    "name": "intermittent squint",
+    "type": "disease"
+  },
+  "777": {
+    "name": "interstitial lung disease due to ABCA3 deficiency",
+    "type": "disease"
+  },
+  "778": {
+    "name": "intestinal cancer",
+    "type": "disease"
+  },
+  "779": {
+    "name": "intestinal disease",
+    "type": "disease"
+  },
+  "780": {
+    "name": "intestinal neuroendocrine tumor G1",
+    "type": "disease"
+  },
+  "781": {
+    "name": "intracranial abscess",
+    "type": "disease"
+  },
+  "782": {
+    "name": "intracranial arterial disease",
+    "type": "disease"
+  },
+  "783": {
+    "name": "intracranial hemorrhage",
+    "type": "disease"
+  },
+  "784": {
+    "name": "intrahepatic biliary papillomatosis",
+    "type": "disease"
+  },
+  "785": {
+    "name": "intraoperative floppy iris syndrome",
+    "type": "disease"
+  },
+  "786": {
+    "name": "intrinsic factor and r binder, combined congenital deficiency of",
+    "type": "disease"
+  },
+  "787": {
+    "name": "irritable bowel syndrome",
+    "type": "disease"
+  },
+  "788": {
+    "name": "isolated Klippel-Feil syndrome",
+    "type": "disease"
+  },
+  "789": {
+    "name": "isolated delta-storage pool disease",
+    "type": "disease"
+  },
+  "790": {
+    "name": "isolated dystonia",
+    "type": "disease"
+  },
+  "791": {
+    "name": "isolated microphthalmia",
+    "type": "disease"
+  },
+  "792": {
+    "name": "isolated optic nerve hypoplasia",
+    "type": "disease"
+  },
+  "793": {
+    "name": "isolated trigonocephaly",
+    "type": "disease"
+  },
+  "794": {
+    "name": "jaw cancer",
+    "type": "disease"
+  },
+  "795": {
+    "name": "jejunal neuroendocrine tumor G1",
+    "type": "disease"
+  },
+  "796": {
+    "name": "junctional epidermolysis bullosa",
+    "type": "disease"
+  },
+  "797": {
+    "name": "keloid",
+    "type": "disease"
+  },
+  "798": {
+    "name": "keratoconus",
+    "type": "disease"
+  },
+  "799": {
+    "name": "keratosis follicularis spinulosa decalvans, autosomal dominant",
+    "type": "disease"
+  },
+  "800": {
+    "name": "ketone compounds, ability to smell",
+    "type": "disease"
+  },
+  "801": {
+    "name": "labia minora carcinoma",
+    "type": "disease"
+  },
+  "802": {
+    "name": "labyrinthitis",
+    "type": "disease"
+  },
+  "803": {
+    "name": "language disorder",
+    "type": "disease"
+  },
+  "804": {
+    "name": "large artery stroke",
+    "type": "disease"
+  },
+  "805": {
+    "name": "larva migrans, visceral",
+    "type": "disease"
+  },
+  "806": {
+    "name": "laryngeal sarcoma",
+    "type": "disease"
+  },
+  "807": {
+    "name": "laryngeal small cell carcinoma",
+    "type": "disease"
+  },
+  "808": {
+    "name": "laryngotracheitis",
+    "type": "disease"
+  },
+  "809": {
+    "name": "late-infantile/juvenile Krabbe disease",
+    "type": "disease"
+  },
+  "810": {
+    "name": "late-onset junctional epidermolysis bullosa",
+    "type": "disease"
+  },
+  "811": {
+    "name": "late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome",
+    "type": "disease"
+  },
+  "812": {
+    "name": "laurin-Sandrow syndrome",
+    "type": "disease"
+  },
+  "813": {
+    "name": "learning disability",
+    "type": "disease"
+  },
+  "814": {
+    "name": "left superior vena cava persisting to left-sided atrium",
+    "type": "disease"
+  },
+  "815": {
+    "name": "lentivirus infection",
+    "type": "disease"
+  },
+  "816": {
+    "name": "lethal Kniest-like dysplasia",
+    "type": "disease"
+  },
+  "817": {
+    "name": "lethal arteriopathy syndrome due to fibulin-4 deficiency",
+    "type": "disease"
+  },
+  "818": {
+    "name": "lethal faciocardiomelic dysplasia",
+    "type": "disease"
+  },
+  "819": {
+    "name": "lethal left ventricular non-compaction-seizures-hypotonia-cataract-developmental delay syndrome",
+    "type": "disease"
+  },
+  "820": {
+    "name": "lethal polymalformative syndrome, Boissel type",
+    "type": "disease"
+  },
+  "821": {
+    "name": "leukemia, acute myelocytic, with polyposis coli and colon cancer",
+    "type": "disease"
+  },
+  "822": {
+    "name": "leukocyte adhesion deficiency",
+    "type": "disease"
+  },
+  "823": {
+    "name": "leukocyte disease",
+    "type": "disease"
+  },
+  "824": {
+    "name": "leukoencephalopathy with calcifications and cysts",
+    "type": "disease"
+  },
+  "825": {
+    "name": "leukoencephalopathy-palmoplantar keratoderma syndrome",
+    "type": "disease"
+  },
+  "826": {
+    "name": "leukonychia totalis",
+    "type": "disease"
+  },
+  "827": {
+    "name": "leukostasis",
+    "type": "disease"
+  },
+  "828": {
+    "name": "levocardia",
+    "type": "disease"
+  },
+  "829": {
+    "name": "limb-girdle muscular dystrophy",
+    "type": "disease"
+  },
+  "830": {
+    "name": "limbal stem cell deficiency",
+    "type": "disease"
+  },
+  "831": {
+    "name": "limbic encephalitis",
+    "type": "disease"
+  },
+  "832": {
+    "name": "lip and oral cavity carcinoma",
+    "type": "disease"
+  },
+  "833": {
+    "name": "lipoatrophy with diabetes, leukomelanodermic papules, liver steatosis, and hypertrophic cardiomyopathy",
+    "type": "disease"
+  },
+  "834": {
+    "name": "lipodystrophy (disease)",
+    "type": "disease"
+  },
+  "835": {
+    "name": "lipoma of colon",
+    "type": "disease"
+  },
+  "836": {
+    "name": "lipomatous cancer",
+    "type": "disease"
+  },
+  "837": {
+    "name": "lissencephaly",
+    "type": "disease"
+  },
+  "838": {
+    "name": "lissencephaly type 1 due to doublecortin gene mutation",
+    "type": "disease"
+  },
+  "839": {
+    "name": "liver disease",
+    "type": "disease"
+  },
+  "840": {
+    "name": "loiasis",
+    "type": "disease"
+  },
+  "841": {
+    "name": "low grade fibromyxoid sarcoma",
+    "type": "disease"
+  },
+  "842": {
+    "name": "lower respiratory tract disease",
+    "type": "disease"
+  },
+  "843": {
+    "name": "lung adenocarcinoma",
+    "type": "disease"
+  },
+  "844": {
+    "name": "lung adenocarcinoma in situ",
+    "type": "disease"
+  },
+  "845": {
+    "name": "lung leiomyosarcoma",
+    "type": "disease"
+  },
+  "846": {
+    "name": "lung meningioma",
+    "type": "disease"
+  },
+  "847": {
+    "name": "lung occult squamous cell carcinoma",
+    "type": "disease"
+  },
+  "848": {
+    "name": "lung sarcoma",
+    "type": "disease"
+  },
+  "849": {
+    "name": "luteoma of pregnancy",
+    "type": "disease"
+  },
+  "850": {
+    "name": "lymphangioma",
+    "type": "disease"
+  },
+  "851": {
+    "name": "lymphedema, hereditary",
+    "type": "disease"
+  },
+  "852": {
+    "name": "lymphoplasmacytic lymphoma",
+    "type": "disease"
+  },
+  "853": {
+    "name": "macrodactyly of fingers, bilateral",
+    "type": "disease"
+  },
+  "854": {
+    "name": "macrodactyly of toes, unilateral",
+    "type": "disease"
+  },
+  "855": {
+    "name": "macrosomia adiposa congenita",
+    "type": "disease"
+  },
+  "856": {
+    "name": "macular dystrophy with central cone involvement",
+    "type": "disease"
+  },
+  "857": {
+    "name": "male orgasm disorder",
+    "type": "disease"
+  },
+  "858": {
+    "name": "malformation of the cerebellar vermis",
+    "type": "disease"
+  },
+  "859": {
+    "name": "malformative syndrome with dentinogenesis imperfecta",
+    "type": "disease"
+  },
+  "860": {
+    "name": "malignant epithelial tumor of salivary glands",
+    "type": "disease"
+  },
+  "861": {
+    "name": "malignant germ cell tumor of corpus uteri",
+    "type": "disease"
+  },
+  "862": {
+    "name": "malignant glandular tumor of peripheral nerve sheath",
+    "type": "disease"
+  },
+  "863": {
+    "name": "malignant glioma",
+    "type": "disease"
+  },
+  "864": {
+    "name": "malignant non-dysgerminomatous germ cell tumor of ovary",
+    "type": "disease"
+  },
+  "865": {
+    "name": "malignant otitis externa",
+    "type": "disease"
+  },
+  "866": {
+    "name": "malignant pericardial mesothelioma",
+    "type": "disease"
+  },
+  "867": {
+    "name": "malignant tumor of meninges",
+    "type": "disease"
+  },
+  "868": {
+    "name": "malignant vaginal mixed epithelial and mesenchymal neoplasm",
+    "type": "disease"
+  },
+  "869": {
+    "name": "malocclusion due to protuberant upper front teeth",
+    "type": "disease"
+  },
+  "870": {
+    "name": "mannose 6-phosphate receptor recognition defect, Lebanese type",
+    "type": "disease"
+  },
+  "871": {
+    "name": "mantle cell lymphoma",
+    "type": "disease"
+  },
+  "872": {
+    "name": "marfanoid habitus with situs inversus",
+    "type": "disease"
+  },
+  "873": {
+    "name": "marfanoid habitus-inguinal hernia-advanced bone age syndrome",
+    "type": "disease"
+  },
+  "874": {
+    "name": "mast cell leukemia",
+    "type": "disease"
+  },
+  "875": {
+    "name": "maternal hyperthermia induced birth defects",
+    "type": "disease"
+  },
+  "876": {
+    "name": "maternal riboflavin deficiency",
+    "type": "disease"
+  },
+  "877": {
+    "name": "maternal uniparental disomy of chromosome 22",
+    "type": "disease"
+  },
+  "878": {
+    "name": "maternally-inherited Leigh syndrome",
+    "type": "disease"
+  },
+  "879": {
+    "name": "mature ovarian teratoma",
+    "type": "disease"
+  },
+  "880": {
+    "name": "maxillary arteriovenous malformation",
+    "type": "disease"
+  },
+  "881": {
+    "name": "median cleft lip/mandibule",
+    "type": "disease"
+  },
+  "882": {
+    "name": "mediastinal disease",
+    "type": "disease"
+  },
+  "883": {
+    "name": "mediastinal soft tissue cancer",
+    "type": "disease"
+  },
+  "884": {
+    "name": "mediastinum ganglioneuroblastoma",
+    "type": "disease"
+  },
+  "885": {
+    "name": "medium chain acyl-CoA dehydrogenase deficiency",
+    "type": "disease"
+  },
+  "886": {
+    "name": "medullary thyroid gland carcinoma",
+    "type": "disease"
+  },
+  "887": {
+    "name": "medulloepithelioma",
+    "type": "disease"
+  },
+  "888": {
+    "name": "melanotic psammomatous malignant peripheral nerve sheath tumor",
+    "type": "disease"
+  },
+  "889": {
+    "name": "mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency",
+    "type": "disease"
+  },
+  "890": {
+    "name": "menstrual cycle-dependent periodic fever",
+    "type": "disease"
+  },
+  "891": {
+    "name": "mesial temporal lobe epilepsy with hippocampal sclerosis",
+    "type": "disease"
+  },
+  "892": {
+    "name": "mesoaxial hexadactyly and cardiac malformation",
+    "type": "disease"
+  },
+  "893": {
+    "name": "mesothelioma",
+    "type": "disease"
+  },
+  "894": {
+    "name": "metabolic disease with pigmentary retinitis",
+    "type": "disease"
+  },
+  "895": {
+    "name": "metachromatic leukodystrophy",
+    "type": "disease"
+  },
+  "896": {
+    "name": "metaphyseal chondromatosis with D-2-hydroxyglutaric aciduria",
+    "type": "disease"
+  },
+  "897": {
+    "name": "metaphyseal dysplasia without hypotrichosis",
+    "type": "disease"
+  },
+  "898": {
+    "name": "methimazole embryofetopathy",
+    "type": "disease"
+  },
+  "899": {
+    "name": "methylmalonic acidemia due to methylmalonyl-CoA epimerase deficiency",
+    "type": "disease"
+  },
+  "900": {
+    "name": "microbrachycephaly-ptosis-cleft lip syndrome",
+    "type": "disease"
+  },
+  "901": {
+    "name": "microcephaly, facial dysmorphism, renal agenesis, and ambiguous genitalia syndrome",
+    "type": "disease"
+  },
+  "902": {
+    "name": "microcephaly-cardiomyopathy syndrome",
+    "type": "disease"
+  },
+  "903": {
+    "name": "microcephaly-congenital cataract-psoriasiform dermatitis syndrome",
+    "type": "disease"
+  },
+  "904": {
+    "name": "microcephaly-polymicrogyria-corpus callosum agenesis syndrome",
+    "type": "disease"
+  },
+  "905": {
+    "name": "microcephaly-short stature-intellectual disability-facial dysmorphism syndrome",
+    "type": "disease"
+  },
+  "906": {
+    "name": "microcornea-glaucoma-absent frontal sinuses syndrome",
+    "type": "disease"
+  },
+  "907": {
+    "name": "microcystic/reticular schwannoma",
+    "type": "disease"
+  },
+  "908": {
+    "name": "microscopic colitis",
+    "type": "disease"
+  },
+  "909": {
+    "name": "midface hypoplasia, obesity, developmental delay, and neonatal hypotonia",
+    "type": "disease"
+  },
+  "910": {
+    "name": "miliaria profunda",
+    "type": "disease"
+  },
+  "911": {
+    "name": "mink viral enteritis",
+    "type": "disease"
+  },
+  "912": {
+    "name": "mirror agnosia",
+    "type": "disease"
+  },
+  "913": {
+    "name": "mirror movements",
+    "type": "disease"
+  },
+  "914": {
+    "name": "mitochondrial DNA depletion syndrome 14 (cardioencephalomyopathic type)",
+    "type": "disease"
+  },
+  "915": {
+    "name": "mitochondrial complex 1 deficiency, mitochondrial type 1",
+    "type": "disease"
+  },
+  "916": {
+    "name": "mitochondrial complex 1 deficiency, nuclear",
+    "type": "disease"
+  },
+  "917": {
+    "name": "mitochondrial complex I deficiency, mitochondrial type",
+    "type": "disease"
+  },
+  "918": {
+    "name": "mitochondrial non-syndromic sensorineural deafness",
+    "type": "disease"
+  },
+  "919": {
+    "name": "mixed hepatoblastoma",
+    "type": "disease"
+  },
+  "920": {
+    "name": "moderate multiminicore disease with hand involvement",
+    "type": "disease"
+  },
+  "921": {
+    "name": "monkeypox",
+    "type": "disease"
+  },
+  "922": {
+    "name": "monocular esotropia",
+    "type": "disease"
+  },
+  "923": {
+    "name": "monofixation syndrome",
+    "type": "disease"
+  },
+  "924": {
+    "name": "monostotic fibrous dysplasia (disease)",
+    "type": "disease"
+  },
+  "925": {
+    "name": "mosaic trisomy 4",
+    "type": "disease"
+  },
+  "926": {
+    "name": "mullerian derivatives-lymphangiectasia-polydactyly syndrome",
+    "type": "disease"
+  },
+  "927": {
+    "name": "multiple carboxylase deficiency",
+    "type": "disease"
+  },
+  "928": {
+    "name": "muscle cramps, familial",
+    "type": "disease"
+  },
+  "929": {
+    "name": "muscular dystrophy",
+    "type": "disease"
+  },
+  "930": {
+    "name": "muscular dystrophy, pseudohypertrophic, with Internalized capillaries",
+    "type": "disease"
+  },
+  "931": {
+    "name": "muscular pseudohypertrophy-hypothyroidism syndrome",
+    "type": "disease"
+  },
+  "932": {
+    "name": "muscular tumor",
+    "type": "disease"
+  },
+  "933": {
+    "name": "mushroom workers' lung",
+    "type": "disease"
+  },
+  "934": {
+    "name": "myasthenia gravis",
+    "type": "disease"
+  },
+  "935": {
+    "name": "myelolymphatic insufficiency",
+    "type": "disease"
+  },
+  "936": {
+    "name": "myeloproliferative disorder, chronic, with eosinophilia",
+    "type": "disease"
+  },
+  "937": {
+    "name": "myopathy, congenital proximal, with minicore lesions",
+    "type": "disease"
+  },
+  "938": {
+    "name": "myosclerosis",
+    "type": "disease"
+  },
+  "939": {
+    "name": "myositis fibrosa",
+    "type": "disease"
+  },
+  "940": {
+    "name": "myxedema",
+    "type": "disease"
+  },
+  "941": {
+    "name": "nail anomaly",
+    "type": "disease"
+  },
+  "942": {
+    "name": "nasal cavity and paranasal sinus carcinoma",
+    "type": "disease"
+  },
+  "943": {
+    "name": "nasal cavity lymphoma",
+    "type": "disease"
+  },
+  "944": {
+    "name": "necrotizing enterocolitis",
+    "type": "disease"
+  },
+  "945": {
+    "name": "necrotizing gastritis",
+    "type": "disease"
+  },
+  "946": {
+    "name": "neonatal brainstem dysfunction",
+    "type": "disease"
+  },
+  "947": {
+    "name": "neonatal intrahepatic cholestasis due to citrin deficiency",
+    "type": "disease"
+  },
+  "948": {
+    "name": "neoplasm of parietal lobe",
+    "type": "disease"
+  },
+  "949": {
+    "name": "neoplastic polyp",
+    "type": "disease"
+  },
+  "950": {
+    "name": "nephrosis",
+    "type": "disease"
+  },
+  "951": {
+    "name": "nephrotic syndrome,",
+    "type": "disease"
+  },
+  "952": {
+    "name": "nerve sheath neoplasm",
+    "type": "disease"
+  },
+  "953": {
+    "name": "nested variant infiltrating bladder urothelial carcinoma",
+    "type": "disease"
+  },
+  "954": {
+    "name": "neuroaspergillosis",
+    "type": "disease"
+  },
+  "955": {
+    "name": "neurodevelopmental disorder and language delay with or without structural brain abnormalities",
+    "type": "disease"
+  },
+  "956": {
+    "name": "neurodevelopmental disorder with cerebellar hypoplasia and spasticity",
+    "type": "disease"
+  },
+  "957": {
+    "name": "neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities",
+    "type": "disease"
+  },
+  "958": {
+    "name": "neurodevelopmental disorder with hypotonia and cerebellar atrophy, with or without seizures",
+    "type": "disease"
+  },
+  "959": {
+    "name": "neurodevelopmental disorder with microcephaly, ataxia, and seizures",
+    "type": "disease"
+  },
+  "960": {
+    "name": "neuroendocrine tumor of the colon, well differentiated, low or intermediate grade tumor",
+    "type": "disease"
+  },
+  "961": {
+    "name": "neurofibroma",
+    "type": "disease"
+  },
+  "962": {
+    "name": "neurolymphomatosis",
+    "type": "disease"
+  },
+  "963": {
+    "name": "neuromuscular disease and ocular or auditory anomalies with or without seizures",
+    "type": "disease"
+  },
+  "964": {
+    "name": "neuronal intestinal pseudoobstruction",
+    "type": "disease"
+  },
+  "965": {
+    "name": "neutral lipid storage disease",
+    "type": "disease"
+  },
+  "966": {
+    "name": "new-onset refractory status epilepticus",
+    "type": "disease"
+  },
+  "967": {
+    "name": "nodular fasciitis",
+    "type": "disease"
+  },
+  "968": {
+    "name": "non-autoimmune hemolytic anemia",
+    "type": "disease"
+  },
+  "969": {
+    "name": "non-infectious meningitis",
+    "type": "disease"
+  },
+  "970": {
+    "name": "non-suppurative otitis media",
+    "type": "disease"
+  },
+  "971": {
+    "name": "non-syndromic amelia",
+    "type": "disease"
+  },
+  "972": {
+    "name": "non-syndromic limb reduction defect",
+    "type": "disease"
+  },
+  "973": {
+    "name": "non-syndromic synpolydactyly",
+    "type": "disease"
+  },
+  "974": {
+    "name": "nonmucinous bronchioloalveolar adenocarcinoma",
+    "type": "disease"
+  },
+  "975": {
+    "name": "nutritional disorder",
+    "type": "disease"
+  },
+  "976": {
+    "name": "obsolete contact dermatitis caused by poison oak",
+    "type": "disease"
+  },
+  "977": {
+    "name": "obsolete pathologic fracture",
+    "type": "disease"
+  },
+  "978": {
+    "name": "obsolete pityriasis",
+    "type": "disease"
+  },
+  "979": {
+    "name": "obsolete sudden infant death syndrome",
+    "type": "disease"
+  },
+  "980": {
+    "name": "occlusion precerebral artery",
+    "type": "disease"
+  },
+  "981": {
+    "name": "ocular hypertension",
+    "type": "disease"
+  },
+  "982": {
+    "name": "ocular sebaceous carcinoma",
+    "type": "disease"
+  },
+  "983": {
+    "name": "oculoauricular syndrome",
+    "type": "disease"
+  },
+  "984": {
+    "name": "oculogyric crisis",
+    "type": "disease"
+  },
+  "985": {
+    "name": "odontochondrodysplasia 2 with hearing loss and diabetes",
+    "type": "disease"
+  },
+  "986": {
+    "name": "odontoid hypoplasia",
+    "type": "disease"
+  },
+  "987": {
+    "name": "odontomicronychial dysplasia",
+    "type": "disease"
+  },
+  "988": {
+    "name": "oesophagostomiasis",
+    "type": "disease"
+  },
+  "989": {
+    "name": "omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome",
+    "type": "disease"
+  },
+  "990": {
+    "name": "onchocerciasis",
+    "type": "disease"
+  },
+  "991": {
+    "name": "ophthalmoplegia, external, with rib and vertebral anomalies",
+    "type": "disease"
+  },
+  "992": {
+    "name": "ophthalmoplegia, familial total, with iris transillumination",
+    "type": "disease"
+  },
+  "993": {
+    "name": "opioid dependence, susceptibility to, 1",
+    "type": "disease"
+  },
+  "994": {
+    "name": "optic atrophy with demyelinating disease of CNS",
+    "type": "disease"
+  },
+  "995": {
+    "name": "optic atrophy with negative Electroretinograms",
+    "type": "disease"
+  },
+  "996": {
+    "name": "optic atrophy-peripheral neuropathy-developmental delay syndrome",
+    "type": "disease"
+  },
+  "997": {
+    "name": "optic nerve glioma",
+    "type": "disease"
+  },
+  "998": {
+    "name": "orbital cancer",
+    "type": "disease"
+  },
+  "999": {
+    "name": "ornithine carbamoyltransferase deficiency",
+    "type": "disease"
+  },
+  "1000": {
+    "name": "oropharynx squamous cell carcinoma",
+    "type": "disease"
+  },
+  "1001": {
+    "name": "ossifying fibroma (disease)",
+    "type": "disease"
+  },
+  "1002": {
+    "name": "osteoarthritis",
+    "type": "disease"
+  },
+  "1003": {
+    "name": "osteoarthritis susceptibility",
+    "type": "disease"
+  },
+  "1004": {
+    "name": "osteochondrodysplasia, brachydactyly, and overlapping malformed digits",
+    "type": "disease"
+  },
+  "1005": {
+    "name": "osteochondrodysplasia, rhizomelic, with callosal agenesis, thrombocytopenia, hydrocephalus, and hypertension",
+    "type": "disease"
+  },
+  "1006": {
+    "name": "osteoma of middle ear",
+    "type": "disease"
+  },
+  "1007": {
+    "name": "osteopenia-intellectual disability-sparse hair syndrome",
+    "type": "disease"
+  },
+  "1008": {
+    "name": "otopalatodigital syndrome",
+    "type": "disease"
+  },
+  "1009": {
+    "name": "ovarian clear cell adenofibroma",
+    "type": "disease"
+  },
+  "1010": {
+    "name": "ovarian disease",
+    "type": "disease"
+  },
+  "1011": {
+    "name": "ovarian gonadoblastoma (disease)",
+    "type": "disease"
+  },
+  "1012": {
+    "name": "ovarian gynandroblastoma",
+    "type": "disease"
+  },
+  "1013": {
+    "name": "ovarian mucinous adenocarcinoma",
+    "type": "disease"
+  },
+  "1014": {
+    "name": "ovarian mucinous adenofibroma",
+    "type": "disease"
+  },
+  "1015": {
+    "name": "ovarian myxoid liposarcoma",
+    "type": "disease"
+  },
+  "1016": {
+    "name": "ovarian sarcoma",
+    "type": "disease"
+  },
+  "1017": {
+    "name": "ovarian serous cystadenocarcinoma",
+    "type": "disease"
+  },
+  "1018": {
+    "name": "ovarian squamous cell neoplasm",
+    "type": "disease"
+  },
+  "1019": {
+    "name": "overgrowth-macrocephaly-facial dysmorphism syndrome",
+    "type": "disease"
+  },
+  "1020": {
+    "name": "overgrowth/obesity syndrome",
+    "type": "disease"
+  },
+  "1021": {
+    "name": "pachygyria-intellectual disability-epilepsy syndrome",
+    "type": "disease"
+  },
+  "1022": {
+    "name": "pancreatic beta cell agenesis with neonatal diabetes mellitus",
+    "type": "disease"
+  },
+  "1023": {
+    "name": "pancreatic cholera",
+    "type": "disease"
+  },
+  "1024": {
+    "name": "pancreatic insufficiency-anemia-hyperostosis syndrome",
+    "type": "disease"
+  },
+  "1025": {
+    "name": "pancreatic mucinous cystadenoma",
+    "type": "disease"
+  },
+  "1026": {
+    "name": "pancreatic mucinous ductal ectasia",
+    "type": "disease"
+  },
+  "1027": {
+    "name": "pancreatic small cell neuroendocrine carcinoma",
+    "type": "disease"
+  },
+  "1028": {
+    "name": "pancreatic steatorrhea",
+    "type": "disease"
+  },
+  "1029": {
+    "name": "panniculitis and localized lipodystrophy",
+    "type": "disease"
+  },
+  "1030": {
+    "name": "papilledema",
+    "type": "disease"
+  },
+  "1031": {
+    "name": "paranasal sinus cancer",
+    "type": "disease"
+  },
+  "1032": {
+    "name": "paranasal sinus carcinoma",
+    "type": "disease"
+  },
+  "1033": {
+    "name": "parasitic intestinal disease",
+    "type": "disease"
+  },
+  "1034": {
+    "name": "paratesticular lipoma",
+    "type": "disease"
+  },
+  "1035": {
+    "name": "paratyphoid fever",
+    "type": "disease"
+  },
+  "1036": {
+    "name": "partial corpus callosum agenesis-cerebellar vermis hypoplasia with posterior fossa cysts syndrome",
+    "type": "disease"
+  },
+  "1037": {
+    "name": "partial deletion of chromosome 11",
+    "type": "disease"
+  },
+  "1038": {
+    "name": "partial deletion of chromosome 16",
+    "type": "disease"
+  },
+  "1039": {
+    "name": "partial deletion of the long arm of chromosome 14",
+    "type": "disease"
+  },
+  "1040": {
+    "name": "partial deletion of the long arm of chromosome 19",
+    "type": "disease"
+  },
+  "1041": {
+    "name": "partial deletion of the short arm of chromosome 18",
+    "type": "disease"
+  },
+  "1042": {
+    "name": "partial duplication of chromosome 4",
+    "type": "disease"
+  },
+  "1043": {
+    "name": "partial duplication of the short arm of chromosome 16",
+    "type": "disease"
+  },
+  "1044": {
+    "name": "partial duplication of the short arm of chromosome 2",
+    "type": "disease"
+  },
+  "1045": {
+    "name": "partial duplication of the short arm of chromosome 7",
+    "type": "disease"
+  },
+  "1046": {
+    "name": "partial monosomy of the short arm of chromosome 17",
+    "type": "disease"
+  },
+  "1047": {
+    "name": "partial motor epilepsy",
+    "type": "disease"
+  },
+  "1048": {
+    "name": "patent ductus venosus",
+    "type": "disease"
+  },
+  "1049": {
+    "name": "paternal 14q32.2 hypomethylation syndrome",
+    "type": "disease"
+  },
+  "1050": {
+    "name": "patterned macular dystrophy",
+    "type": "disease"
+  },
+  "1051": {
+    "name": "paucibacillary leprosy",
+    "type": "disease"
+  },
+  "1052": {
+    "name": "pediatric CNS choriocarcinoma",
+    "type": "disease"
+  },
+  "1053": {
+    "name": "pediatric multiple sclerosis",
+    "type": "disease"
+  },
+  "1054": {
+    "name": "penis verrucous carcinoma",
+    "type": "disease"
+  },
+  "1055": {
+    "name": "pentalogy of Cantrell",
+    "type": "disease"
+  },
+  "1056": {
+    "name": "periampullary adenocarcinoma",
+    "type": "disease"
+  },
+  "1057": {
+    "name": "perianal Crohn disease",
+    "type": "disease"
+  },
+  "1058": {
+    "name": "pericytic neoplasm",
+    "type": "disease"
+  },
+  "1059": {
+    "name": "periductal breast myoepitheliosis",
+    "type": "disease"
+  },
+  "1060": {
+    "name": "peripheral T-cell lymphoma, not otherwise specified",
+    "type": "disease"
+  },
+  "1061": {
+    "name": "persistent hyperplastic primary vitreous",
+    "type": "disease"
+  },
+  "1062": {
+    "name": "phenytoin toxicity",
+    "type": "disease"
+  },
+  "1063": {
+    "name": "phosphaturic mesenchymal tumor",
+    "type": "disease"
+  },
+  "1064": {
+    "name": "photomyoclonus, diabetes mellitus, deafness, nephropathy, and cerebral dysfunction",
+    "type": "disease"
+  },
+  "1065": {
+    "name": "pigmented spindle cell nevus",
+    "type": "disease"
+  },
+  "1066": {
+    "name": "pigmented villonodular synovitis",
+    "type": "disease"
+  },
+  "1067": {
+    "name": "pineal parenchymal tumor of intermediate differenciation",
+    "type": "disease"
+  },
+  "1068": {
+    "name": "pit and fissure surface dental caries",
+    "type": "disease"
+  },
+  "1069": {
+    "name": "pituitary hormone deficiency from tumoral origin",
+    "type": "disease"
+  },
+  "1070": {
+    "name": "pituitary hormone defiency from vascular origin",
+    "type": "disease"
+  },
+  "1071": {
+    "name": "pityriasis amiantacea",
+    "type": "disease"
+  },
+  "1072": {
+    "name": "pityriasis steatoides",
+    "type": "disease"
+  },
+  "1073": {
+    "name": "placenta disease",
+    "type": "disease"
+  },
+  "1074": {
+    "name": "placental hemangioma",
+    "type": "disease"
+  },
+  "1075": {
+    "name": "plantar nerve lesion",
+    "type": "disease"
+  },
+  "1076": {
+    "name": "plantar verrucous skin carcinoma",
+    "type": "disease"
+  },
+  "1077": {
+    "name": "plasmacytoma",
+    "type": "disease"
+  },
+  "1078": {
+    "name": "platelet signal processing defect",
+    "type": "disease"
+  },
+  "1079": {
+    "name": "platyspondylic dysplasia, Torrance type",
+    "type": "disease"
+  },
+  "1080": {
+    "name": "pleurisy",
+    "type": "disease"
+  },
+  "1081": {
+    "name": "pneumonic tularemia",
+    "type": "disease"
+  },
+  "1082": {
+    "name": "poikiloderma with neutropenia",
+    "type": "disease"
+  },
+  "1083": {
+    "name": "polycystic kidney disease 3 with or without polycystic liver disease",
+    "type": "disease"
+  },
+  "1084": {
+    "name": "polycystic kidney, cataract, and congenital blindness",
+    "type": "disease"
+  },
+  "1085": {
+    "name": "polyendocrine-polyneuropathy syndrome",
+    "type": "disease"
+  },
+  "1086": {
+    "name": "polyendocrinopathy",
+    "type": "disease"
+  },
+  "1087": {
+    "name": "polyhydramnios (disease)",
+    "type": "disease"
+  },
+  "1088": {
+    "name": "polymicrogyria with or without vascular-type ehlers-danlos syndrome",
+    "type": "disease"
+  },
+  "1089": {
+    "name": "polyostotic fibrous dysplasia",
+    "type": "disease"
+  },
+  "1090": {
+    "name": "polyradiculoneuropathy",
+    "type": "disease"
+  },
+  "1091": {
+    "name": "post-infectious neuralgia",
+    "type": "disease"
+  },
+  "1092": {
+    "name": "postaxial polydactyly",
+    "type": "disease"
+  },
+  "1093": {
+    "name": "posterior fossa malformation",
+    "type": "disease"
+  },
+  "1094": {
+    "name": "posterior uveal melanoma",
+    "type": "disease"
+  },
+  "1095": {
+    "name": "precocious puberty in female",
+    "type": "disease"
+  },
+  "1096": {
+    "name": "predisposition to invasive fungal disease due to CARD9 deficiency",
+    "type": "disease"
+  },
+  "1097": {
+    "name": "prelingual non-syndromic genetic deafness",
+    "type": "disease"
+  },
+  "1098": {
+    "name": "premature aging syndrome",
+    "type": "disease"
+  },
+  "1099": {
+    "name": "premature ovarian failure",
+    "type": "disease"
+  },
+  "1100": {
+    "name": "presbyopia",
+    "type": "disease"
+  },
+  "1101": {
+    "name": "priapism",
+    "type": "disease"
+  },
+  "1102": {
+    "name": "primary bone dysplasia with progressive ossification of skin, skeletal muscle, fascia, tendons and ligaments",
+    "type": "disease"
+  },
+  "1103": {
+    "name": "primary cutaneous follicle center lymphoma",
+    "type": "disease"
+  },
+  "1104": {
+    "name": "primary erythermalgia",
+    "type": "disease"
+  },
+  "1105": {
+    "name": "primary non-gestational choriocarcinoma of ovary",
+    "type": "disease"
+  },
+  "1106": {
+    "name": "primary optic atrophy",
+    "type": "disease"
+  },
+  "1107": {
+    "name": "primary osteolysis",
+    "type": "disease"
+  },
+  "1108": {
+    "name": "primary release disorder of platelets",
+    "type": "disease"
+  },
+  "1109": {
+    "name": "primary unilateral adrenal hyperplasia",
+    "type": "disease"
+  },
+  "1110": {
+    "name": "primitive neuroectodermal tumor",
+    "type": "disease"
+  },
+  "1111": {
+    "name": "proboscis lateralis",
+    "type": "disease"
+  },
+  "1112": {
+    "name": "proctocolitis",
+    "type": "disease"
+  },
+  "1113": {
+    "name": "progeria-associated arthropathy",
+    "type": "disease"
+  },
+  "1114": {
+    "name": "progressive cerebello-cerebral atrophy",
+    "type": "disease"
+  },
+  "1115": {
+    "name": "progressive external ophthalmoplegia",
+    "type": "disease"
+  },
+  "1116": {
+    "name": "progressive relapsing multiple sclerosis",
+    "type": "disease"
+  },
+  "1117": {
+    "name": "prostate embryonal rhabdomyosarcoma",
+    "type": "disease"
+  },
+  "1118": {
+    "name": "prostate small cell carcinoma",
+    "type": "disease"
+  },
+  "1119": {
+    "name": "protein-energy malnutrition",
+    "type": "disease"
+  },
+  "1120": {
+    "name": "prothrombin deficiency",
+    "type": "disease"
+  },
+  "1121": {
+    "name": "proximal spinal muscular atrophy",
+    "type": "disease"
+  },
+  "1122": {
+    "name": "pruritus, hereditary localized",
+    "type": "disease"
+  },
+  "1123": {
+    "name": "pseudoglandular squamous cell carcinoma",
+    "type": "disease"
+  },
+  "1124": {
+    "name": "psychiatric disorder",
+    "type": "disease"
+  },
+  "1125": {
+    "name": "pterygium colli, isolated",
+    "type": "disease"
+  },
+  "1126": {
+    "name": "ptosis (disease)",
+    "type": "disease"
+  },
+  "1127": {
+    "name": "ptosis-syndactyly-learning difficulties syndrome",
+    "type": "disease"
+  },
+  "1128": {
+    "name": "pulmonary alveolar microlithiasis",
+    "type": "disease"
+  },
+  "1129": {
+    "name": "pulmonary fibrosis-hepatic hyperplasia-bone marrow hypoplasia syndrome",
+    "type": "disease"
+  },
+  "1130": {
+    "name": "pulmonary hypertension",
+    "type": "disease"
+  },
+  "1131": {
+    "name": "pulmonary large cell neuroendocrine carcinoma",
+    "type": "disease"
+  },
+  "1132": {
+    "name": "pyelitis",
+    "type": "disease"
+  },
+  "1133": {
+    "name": "pyometritis",
+    "type": "disease"
+  },
+  "1134": {
+    "name": "pyridoxine-dependent epilepsy caused by ALDH7A1 mutant",
+    "type": "disease"
+  },
+  "1135": {
+    "name": "pyridoxine-responsive sideroblastic anemia",
+    "type": "disease"
+  },
+  "1136": {
+    "name": "pyruvate carboxylase deficiency, infantile form",
+    "type": "disease"
+  },
+  "1137": {
+    "name": "pyruvate metabolism disorder",
+    "type": "disease"
+  },
+  "1138": {
+    "name": "qualitative or quantitative defects of beta-sarcoglycan",
+    "type": "disease"
+  },
+  "1139": {
+    "name": "qualitative or quantitative defects of plectin",
+    "type": "disease"
+  },
+  "1140": {
+    "name": "qualitative platelet defect",
+    "type": "disease"
+  },
+  "1141": {
+    "name": "radiation-induced plexopathy",
+    "type": "disease"
+  },
+  "1142": {
+    "name": "recessive intellectual disability-motor dysfunction-multiple joint contractures syndrome",
+    "type": "disease"
+  },
+  "1143": {
+    "name": "rectal adenosquamous carcinoma",
+    "type": "disease"
+  },
+  "1144": {
+    "name": "rectal carcinoma",
+    "type": "disease"
+  },
+  "1145": {
+    "name": "rectal medullary carcinoma",
+    "type": "disease"
+  },
+  "1146": {
+    "name": "rectal traditional serrated adenoma",
+    "type": "disease"
+  },
+  "1147": {
+    "name": "rectal tubular adenoma",
+    "type": "disease"
+  },
+  "1148": {
+    "name": "rectum leiomyosarcoma",
+    "type": "disease"
+  },
+  "1149": {
+    "name": "red skin pigment anomaly of new guinea",
+    "type": "disease"
+  },
+  "1150": {
+    "name": "refractory hairy cell leukemia",
+    "type": "disease"
+  },
+  "1151": {
+    "name": "relapsing-remitting multiple sclerosis",
+    "type": "disease"
+  },
+  "1152": {
+    "name": "renal tubular dysgenesis of genetic origin",
+    "type": "disease"
+  },
+  "1153": {
+    "name": "renovascular hypertension (disease)",
+    "type": "disease"
+  },
+  "1154": {
+    "name": "rete ovarii cystadenofibroma",
+    "type": "disease"
+  },
+  "1155": {
+    "name": "retinal dystrophies primarily involving Bruch's membrane",
+    "type": "disease"
+  },
+  "1156": {
+    "name": "retinal hemangioblastoma",
+    "type": "disease"
+  },
+  "1157": {
+    "name": "retinal ischemic syndrome-digestive tract small vessel hyalinosis-diffuse cerebral calcifications syndrome",
+    "type": "disease"
+  },
+  "1158": {
+    "name": "retinal vasculitis",
+    "type": "disease"
+  },
+  "1159": {
+    "name": "retinopathy of prematurity",
+    "type": "disease"
+  },
+  "1160": {
+    "name": "retinopathy, pigmentary, and intellectual disability",
+    "type": "disease"
+  },
+  "1161": {
+    "name": "retinoschisis of fovea",
+    "type": "disease"
+  },
+  "1162": {
+    "name": "retrocerebellar cyst (disease)",
+    "type": "disease"
+  },
+  "1163": {
+    "name": "rhabdoid meningioma",
+    "type": "disease"
+  },
+  "1164": {
+    "name": "rheumatoid arthritis",
+    "type": "disease"
+  },
+  "1165": {
+    "name": "rhizomelic limb shortening with dysmorphic features",
+    "type": "disease"
+  },
+  "1166": {
+    "name": "rickets (disease)",
+    "type": "disease"
+  },
+  "1167": {
+    "name": "ring chromosome 6",
+    "type": "disease"
+  },
+  "1168": {
+    "name": "roseolovirus infectious disease",
+    "type": "disease"
+  },
+  "1169": {
+    "name": "sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome",
+    "type": "disease"
+  },
+  "1170": {
+    "name": "sagittal sinus thrombosis",
+    "type": "disease"
+  },
+  "1171": {
+    "name": "salivary gland acinic cell carcinoma",
+    "type": "disease"
+  },
+  "1172": {
+    "name": "sarcoidosis, susceptibility to",
+    "type": "disease"
+  },
+  "1173": {
+    "name": "sarcoma",
+    "type": "disease"
+  },
+  "1174": {
+    "name": "sarcoma of cervix uteri",
+    "type": "disease"
+  },
+  "1175": {
+    "name": "sarcomatoid renal cell carcinoma",
+    "type": "disease"
+  },
+  "1176": {
+    "name": "scalp dermatosis",
+    "type": "disease"
+  },
+  "1177": {
+    "name": "scleral staphyloma (disease)",
+    "type": "disease"
+  },
+  "1178": {
+    "name": "scleritis",
+    "type": "disease"
+  },
+  "1179": {
+    "name": "scleromyxedema",
+    "type": "disease"
+  },
+  "1180": {
+    "name": "sclerosing adenosis of breast",
+    "type": "disease"
+  },
+  "1181": {
+    "name": "sclerosing breast papilloma",
+    "type": "disease"
+  },
+  "1182": {
+    "name": "scrotum neoplasm",
+    "type": "disease"
+  },
+  "1183": {
+    "name": "selective immunoglobulin deficiency disease",
+    "type": "disease"
+  },
+  "1184": {
+    "name": "seminal vesicle tumor",
+    "type": "disease"
+  },
+  "1185": {
+    "name": "serositis",
+    "type": "disease"
+  },
+  "1186": {
+    "name": "serous neoplasm",
+    "type": "disease"
+  },
+  "1187": {
+    "name": "serpinopathy with loss of serpin function",
+    "type": "disease"
+  },
+  "1188": {
+    "name": "severe dermatitis-multiple allergies-metabolic wasting syndrome",
+    "type": "disease"
+  },
+  "1189": {
+    "name": "severe early-onset axonal neuropathy due to NEFL deficiency",
+    "type": "disease"
+  },
+  "1190": {
+    "name": "severe hypotonia-psychomotor developmental delay-strabismus-cardiac septal defect syndrome",
+    "type": "disease"
+  },
+  "1191": {
+    "name": "severe intellectual disability-corpus callosum agenesis-facial dysmorphism-cerebellar ataxia syndrome",
+    "type": "disease"
+  },
+  "1192": {
+    "name": "severe neonatal lactic acidosis due to NFS1-ISD11 complex deficiency",
+    "type": "disease"
+  },
+  "1193": {
+    "name": "severe nonproliferative diabetic retinopathy",
+    "type": "disease"
+  },
+  "1194": {
+    "name": "severe primary trimethylaminuria",
+    "type": "disease"
+  },
+  "1195": {
+    "name": "short rib-polydactyly syndrome, Majewski type",
+    "type": "disease"
+  },
+  "1196": {
+    "name": "short stature and microcephaly with genital anomalies",
+    "type": "disease"
+  },
+  "1197": {
+    "name": "short stature contractures hypotonia",
+    "type": "disease"
+  },
+  "1198": {
+    "name": "short stature due to growth hormone qualitative anomaly",
+    "type": "disease"
+  },
+  "1199": {
+    "name": "short stature, rhizomelic, with microcephaly, micrognathia, and developmental delay",
+    "type": "disease"
+  },
+  "1200": {
+    "name": "short stature-craniofacial anomalies-genital hypoplasia syndrome",
+    "type": "disease"
+  },
+  "1201": {
+    "name": "short stature-webbed neck-heart disease syndrome",
+    "type": "disease"
+  },
+  "1202": {
+    "name": "shoulder and thorax deformity-congenital heart disease syndrome",
+    "type": "disease"
+  },
+  "1203": {
+    "name": "sigmoid neoplasm",
+    "type": "disease"
+  },
+  "1204": {
+    "name": "silent pituitary adenoma",
+    "type": "disease"
+  },
+  "1205": {
+    "name": "silver-Russell syndrome due to maternal uniparental disomy of chromosome 7",
+    "type": "disease"
+  },
+  "1206": {
+    "name": "simultanagnosia",
+    "type": "disease"
+  },
+  "1207": {
+    "name": "skeletal dysplasia-T-cell immunodeficiency-developmental delay syndrome",
+    "type": "disease"
+  },
+  "1208": {
+    "name": "skeletal fluorosis",
+    "type": "disease"
+  },
+  "1209": {
+    "name": "skeletal system disease",
+    "type": "disease"
+  },
+  "1210": {
+    "name": "skin adenoid basal cell carcinoma",
+    "type": "disease"
+  },
+  "1211": {
+    "name": "skull cancer",
+    "type": "disease"
+  },
+  "1212": {
+    "name": "small cell variant anaplastic large cell lymphoma",
+    "type": "disease"
+  },
+  "1213": {
+    "name": "small intestinal mucosa-associated lymphoid tissue lymphoma",
+    "type": "disease"
+  },
+  "1214": {
+    "name": "small intestinal tubular adenoma",
+    "type": "disease"
+  },
+  "1215": {
+    "name": "smooth muscle cancer",
+    "type": "disease"
+  },
+  "1216": {
+    "name": "solid papillary breast carcinoma",
+    "type": "disease"
+  },
+  "1217": {
+    "name": "spastic ataxia-dysarthria due to glutaminase deficiency",
+    "type": "disease"
+  },
+  "1218": {
+    "name": "spastic diplegia",
+    "type": "disease"
+  },
+  "1219": {
+    "name": "spastic entropion",
+    "type": "disease"
+  },
+  "1220": {
+    "name": "spastic paraplegia-neuropathy-poikiloderma syndrome",
+    "type": "disease"
+  },
+  "1221": {
+    "name": "specific language disorder",
+    "type": "disease"
+  },
+  "1222": {
+    "name": "sphenocavernous meningioma",
+    "type": "disease"
+  },
+  "1223": {
+    "name": "spina bifida",
+    "type": "disease"
+  },
+  "1224": {
+    "name": "spindle cell nevus",
+    "type": "disease"
+  },
+  "1225": {
+    "name": "splenic disease",
+    "type": "disease"
+  },
+  "1226": {
+    "name": "splenic infarction",
+    "type": "disease"
+  },
+  "1227": {
+    "name": "splenic tuberculosis",
+    "type": "disease"
+  },
+  "1228": {
+    "name": "spondylo-megaepiphyseal-metaphyseal dysplasia",
+    "type": "disease"
+  },
+  "1229": {
+    "name": "spondyloepiphyseal dysplasia tarda with characteristic facies",
+    "type": "disease"
+  },
+  "1230": {
+    "name": "spondyloepiphyseal dysplasia, Reardon type",
+    "type": "disease"
+  },
+  "1231": {
+    "name": "sporadic idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis",
+    "type": "disease"
+  },
+  "1232": {
+    "name": "squamous cell carcinoma of buccal mucosa",
+    "type": "disease"
+  },
+  "1233": {
+    "name": "squamous cell carcinoma of rectum",
+    "type": "disease"
+  },
+  "1234": {
+    "name": "squamous cell carcinoma of the oral tongue",
+    "type": "disease"
+  },
+  "1235": {
+    "name": "squamous cell neoplasm",
+    "type": "disease"
+  },
+  "1236": {
+    "name": "staphylococcal scalded skin syndrome",
+    "type": "disease"
+  },
+  "1237": {
+    "name": "steatitis",
+    "type": "disease"
+  },
+  "1238": {
+    "name": "streptococcal pneumonia",
+    "type": "disease"
+  },
+  "1239": {
+    "name": "striatal degeneration, autosomal dominant",
+    "type": "disease"
+  },
+  "1240": {
+    "name": "striated muscle rhabdoid tumor",
+    "type": "disease"
+  },
+  "1241": {
+    "name": "subpulmonary stenosis",
+    "type": "disease"
+  },
+  "1242": {
+    "name": "substance withdrawal syndrome",
+    "type": "disease"
+  },
+  "1243": {
+    "name": "sulfation-related bone disorder",
+    "type": "disease"
+  },
+  "1244": {
+    "name": "superficial mycosis",
+    "type": "disease"
+  },
+  "1245": {
+    "name": "supraglottis verrucous carcinoma",
+    "type": "disease"
+  },
+  "1246": {
+    "name": "supratentorial primitive neuroectodermal tumor",
+    "type": "disease"
+  },
+  "1247": {
+    "name": "susceptibility to HIV infection",
+    "type": "disease"
+  },
+  "1248": {
+    "name": "symbrachydactyly of hands and feet",
+    "type": "disease"
+  },
+  "1249": {
+    "name": "symptomatic form of hemophilia in female carriers",
+    "type": "disease"
+  },
+  "1250": {
+    "name": "syndrome with 46,XY disorder of sex development",
+    "type": "disease"
+  },
+  "1251": {
+    "name": "syndrome with limb reduction defects",
+    "type": "disease"
+  },
+  "1252": {
+    "name": "syndrome with microcephaly as major feature",
+    "type": "disease"
+  },
+  "1253": {
+    "name": "syndromic craniosynostosis",
+    "type": "disease"
+  },
+  "1254": {
+    "name": "syndromic epicanthus",
+    "type": "disease"
+  },
+  "1255": {
+    "name": "syndromic lymphedema",
+    "type": "disease"
+  },
+  "1256": {
+    "name": "syndromic microphthalmia",
+    "type": "disease"
+  },
+  "1257": {
+    "name": "syndromic neurometabolic disease with non-X-linked intellectual disability",
+    "type": "disease"
+  },
+  "1258": {
+    "name": "syndromic orbital border hypoplasia",
+    "type": "disease"
+  },
+  "1259": {
+    "name": "syndromic visceral malformation",
+    "type": "disease"
+  },
+  "1260": {
+    "name": "systemic disease with skin involvement",
+    "type": "disease"
+  },
+  "1261": {
+    "name": "systemic mycosis",
+    "type": "disease"
+  },
+  "1262": {
+    "name": "tarsal tunnel syndrome",
+    "type": "disease"
+  },
+  "1263": {
+    "name": "teeth, odd shapes of",
+    "type": "disease"
+  },
+  "1264": {
+    "name": "tenosynovial giant cell tumor, localized type",
+    "type": "disease"
+  },
+  "1265": {
+    "name": "terminal transverse defects of arm",
+    "type": "disease"
+  },
+  "1266": {
+    "name": "testicular germ cell tumor",
+    "type": "disease"
+  },
+  "1267": {
+    "name": "testicular lymphoma",
+    "type": "disease"
+  },
+  "1268": {
+    "name": "tetralogy of fallot and glaucoma",
+    "type": "disease"
+  },
+  "1269": {
+    "name": "thanatophoric dysplasia",
+    "type": "disease"
+  },
+  "1270": {
+    "name": "therapy related acute myeloid leukemia and myelodysplastic syndrome",
+    "type": "disease"
+  },
+  "1271": {
+    "name": "thiamine-responsive dysfunction syndrome",
+    "type": "disease"
+  },
+  "1272": {
+    "name": "thiopurine immunosuppressant-induced pancreatitis",
+    "type": "disease"
+  },
+  "1273": {
+    "name": "thoracic disease",
+    "type": "disease"
+  },
+  "1274": {
+    "name": "thrombocythemia",
+    "type": "disease"
+  },
+  "1275": {
+    "name": "thrombomodulin-related bleeding disorder",
+    "type": "disease"
+  },
+  "1276": {
+    "name": "thrombophlebitis migrans",
+    "type": "disease"
+  },
+  "1277": {
+    "name": "thymus gland disease",
+    "type": "disease"
+  },
+  "1278": {
+    "name": "thymus small cell carcinoma",
+    "type": "disease"
+  },
+  "1279": {
+    "name": "thyroid gland disease",
+    "type": "disease"
+  },
+  "1280": {
+    "name": "thyroid gland mucoepidermoid carcinoma",
+    "type": "disease"
+  },
+  "1281": {
+    "name": "thyroid gland undifferentiated (anaplastic) carcinoma",
+    "type": "disease"
+  },
+  "1282": {
+    "name": "thyroid lymphoma",
+    "type": "disease"
+  },
+  "1283": {
+    "name": "tibial muscular dystrophy",
+    "type": "disease"
+  },
+  "1284": {
+    "name": "tick paralysis",
+    "type": "disease"
+  },
+  "1285": {
+    "name": "tick-borne infectious disease",
+    "type": "disease"
+  },
+  "1286": {
+    "name": "tongue cancer",
+    "type": "disease"
+  },
+  "1287": {
+    "name": "tonsil neoplasm",
+    "type": "disease"
+  },
+  "1288": {
+    "name": "toxic shock syndrome",
+    "type": "disease"
+  },
+  "1289": {
+    "name": "tracheal agenesis",
+    "type": "disease"
+  },
+  "1290": {
+    "name": "tracheal lymphoma",
+    "type": "disease"
+  },
+  "1291": {
+    "name": "transaldolase deficiency",
+    "type": "disease"
+  },
+  "1292": {
+    "name": "transient arthritis",
+    "type": "disease"
+  },
+  "1293": {
+    "name": "transitional cell carcinoma of the corpus uteri",
+    "type": "disease"
+  },
+  "1294": {
+    "name": "transverse vaginal septum",
+    "type": "disease"
+  },
+  "1295": {
+    "name": "trench fever",
+    "type": "disease"
+  },
+  "1296": {
+    "name": "triatrial heart",
+    "type": "disease"
+  },
+  "1297": {
+    "name": "trichilemmal cyst",
+    "type": "disease"
+  },
+  "1298": {
+    "name": "tricho-oculo-dermo-vertebral syndrome",
+    "type": "disease"
+  },
+  "1299": {
+    "name": "trichodermodysplasia-dental alterations syndrome",
+    "type": "disease"
+  },
+  "1300": {
+    "name": "trichohepatoenteric syndrome",
+    "type": "disease"
+  },
+  "1301": {
+    "name": "trichomegaly",
+    "type": "disease"
+  },
+  "1302": {
+    "name": "trigonocephaly-short stature-developmental delay syndrome",
+    "type": "disease"
+  },
+  "1303": {
+    "name": "true hermaphroditism",
+    "type": "disease"
+  },
+  "1304": {
+    "name": "tuberculin skin test reactivity, absence of",
+    "type": "disease"
+  },
+  "1305": {
+    "name": "tubular duplication of the esophagus",
+    "type": "disease"
+  },
+  "1306": {
+    "name": "tularemia",
+    "type": "disease"
+  },
+  "1307": {
+    "name": "tympanitis",
+    "type": "disease"
+  },
+  "1308": {
+    "name": "type 2 diabetes nephropathy",
+    "type": "disease"
+  },
+  "1309": {
+    "name": "type I complement component 8 deficiency",
+    "type": "disease"
+  },
+  "1310": {
+    "name": "typhus",
+    "type": "disease"
+  },
+  "1311": {
+    "name": "ulceroglandular tularemia",
+    "type": "disease"
+  },
+  "1312": {
+    "name": "ulerythema ophryogenesis",
+    "type": "disease"
+  },
+  "1313": {
+    "name": "ulnar hemimelia, bilateral",
+    "type": "disease"
+  },
+  "1314": {
+    "name": "ulnar ray dysgenesis with postaxial polydactyly and renal cystic dysplasia",
+    "type": "disease"
+  },
+  "1315": {
+    "name": "uniparental disomy of maternal origin",
+    "type": "disease"
+  },
+  "1316": {
+    "name": "urinary bladder disease",
+    "type": "disease"
+  },
+  "1317": {
+    "name": "urothelial carcinoma",
+    "type": "disease"
+  },
+  "1318": {
+    "name": "urticaria",
+    "type": "disease"
+  },
+  "1319": {
+    "name": "uterine carcinosarcoma",
+    "type": "disease"
+  },
+  "1320": {
+    "name": "uterine cervix leukoplakia",
+    "type": "disease"
+  },
+  "1321": {
+    "name": "uterine corpus adenocarcinofibroma",
+    "type": "disease"
+  },
+  "1322": {
+    "name": "uterine corpus diffuse leiomyomatosis",
+    "type": "disease"
+  },
+  "1323": {
+    "name": "uterine corpus serous adenocarcinoma",
+    "type": "disease"
+  },
+  "1324": {
+    "name": "uterine ligament papillary cystadenoma associated with von Hippel-Lindau disease",
+    "type": "disease"
+  },
+  "1325": {
+    "name": "vaginal leiomyoma",
+    "type": "disease"
+  },
+  "1326": {
+    "name": "vaginal melanoma",
+    "type": "disease"
+  },
+  "1327": {
+    "name": "vaginismus",
+    "type": "disease"
+  },
+  "1328": {
+    "name": "vasomotor rhinitis",
+    "type": "disease"
+  },
+  "1329": {
+    "name": "venular insufficiency, systemic",
+    "type": "disease"
+  },
+  "1330": {
+    "name": "vertebral artery insufficiency",
+    "type": "disease"
+  },
+  "1331": {
+    "name": "vestibular schwannoma (disease)",
+    "type": "disease"
+  },
+  "1332": {
+    "name": "vestibulocochlear dysfunction, progressive",
+    "type": "disease"
+  },
+  "1333": {
+    "name": "viral gastritis",
+    "type": "disease"
+  },
+  "1334": {
+    "name": "viral infection of central nervous system",
+    "type": "disease"
+  },
+  "1335": {
+    "name": "visual agnosia (disease)",
+    "type": "disease"
+  },
+  "1336": {
+    "name": "visual impairment and progressive phthisis bulbi",
+    "type": "disease"
+  },
+  "1337": {
+    "name": "vitamin A deficiency (disease)",
+    "type": "disease"
+  },
+  "1338": {
+    "name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+    "type": "disease"
+  },
+  "1339": {
+    "name": "vitreous detachment",
+    "type": "disease"
+  },
+  "1340": {
+    "name": "well-differentiated fetal adenocarcinoma of the lung",
+    "type": "disease"
+  },
+  "1341": {
+    "name": "wormian bone-multiple fractures-dentinogenesis imperfecta-skeletal dysplasia",
+    "type": "disease"
+  },
+  "1342": {
+    "name": "writing disorder",
+    "type": "disease"
+  },
+  "1343": {
+    "name": "xanthoma disseminatum",
+    "type": "disease"
+  },
+  "1344": {
+    "name": "zoonosis",
+    "type": "disease"
+  }
+}

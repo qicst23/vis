@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DrugExplorer API Test</title>
+</head>
+
+<body>
+    <h1>DrugExplorer Backend API Test</h1>
+
+    <button onclick="testDrugsAPI()">Test /api/drugs</button>
+    <button onclick="testPredictionsAPI()">Test /api/disease_predictions</button>
+    <button onclick="testAttentionAPI()">Test /api/attention</button>
+
+    <div id="results" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
+        <h3>Results:</h3>
+        <pre id="output">Click a button to test...</pre>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8002';
+
+        async function testDrugsAPI() {
+            document.getElementById('output').textContent = 'Loading...';
+            try {
+                const response = await fetch(`${API_URL}/api/drugs`);
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'ERROR: ' + error.message;
+            }
+        }
+
+        async function testPredictionsAPI() {
+            document.getElementById('output').textContent = 'Loading...';
+            try {
+                const response = await fetch(`${API_URL}/api/disease_predictions?drug=DB12530`);
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data.slice(0, 3), null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'ERROR: ' + error.message;
+            }
+        }
+
+        async function testAttentionAPI() {
+            document.getElementById('output').textContent = 'Loading...';
+            try {
+                const response = await fetch(`${API_URL}/api/attention`);
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data.slice(0, 3), null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'ERROR: ' + error.message;
+            }
+        }
+    </script>
+</body>
+
+</html>

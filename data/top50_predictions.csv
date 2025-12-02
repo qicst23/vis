@@ -1,0 +1,201 @@
+drug_id,disease_id,disease_node_id,disease,score,known_indication,rank,z_score,percentile,score_source
+DB12530,15783,19836,congenital anomaly of hepatic vein,0.5903479,False,1,4.093962,100.0,emb_cosine_scaled
+DB12530,7381,1524,globe disease,0.5820913,False,2,3.720109,99.99414519906324,emb_cosine_scaled
+DB12530,15896,20442,left superior vena cava persisting to left-sided atrium,0.5805298,False,3,3.6494071,99.98829039812648,emb_cosine_scaled
+DB12530,11847,19563,CREST syndrome,0.58023787,False,4,3.6361883,99.9824355971897,emb_cosine_scaled
+DB12530,3434,12456,congenital primary aphakia,0.5773789,False,5,3.5067377,99.97658079625292,emb_cosine_scaled
+DB12530,11741,19736,dense deposit disease,0.57731104,False,6,3.5036635,99.97072599531616,emb_cosine_scaled
+DB12530,5266,17372,congenital varicella syndrome,0.575032,False,7,3.4004703,99.96487119437938,emb_cosine_scaled
+DB12530,2115,8143_7704_11923_12893_12894_12568,osteoarthritis susceptibility,0.5746245,False,8,3.3820183,99.95901639344262,emb_cosine_scaled
+DB12530,1089,14121_8453_8026_18190,proximal spinal muscular atrophy,0.57360864,False,9,3.3360217,99.95316159250584,emb_cosine_scaled
+DB12530,10951,5348,keloid,0.5734045,False,10,3.3267782,99.94730679156908,emb_cosine_scaled
+DB12530,14744,10439,"cardiomyopathy, fatal fetal, due to myocardial calcification",0.57199526,False,11,3.262969,99.94145199063232,emb_cosine_scaled
+DB12530,15109,16024,shoulder and thorax deformity-congenital heart disease syndrome,0.57180464,False,12,3.2543383,99.93559718969554,emb_cosine_scaled
+DB12530,11509,6375,placental hemangioma,0.571777,False,13,3.2530859,99.92974238875878,emb_cosine_scaled
+DB12530,13880,4509,intrahepatic biliary papillomatosis,0.57152426,False,14,3.2416427,99.923887587822,emb_cosine_scaled
+DB12530,3723,7392,coxoauricular syndrome,0.5710635,False,15,3.2207806,99.91803278688523,emb_cosine_scaled
+DB12530,7524,5323,bacterial sexually transmitted disease,0.5705922,False,16,3.1994407,99.91217798594847,emb_cosine_scaled
+DB12530,2278,9240,formiminoglutamic aciduria,0.5698799,False,17,3.1671867,99.90632318501171,emb_cosine_scaled
+DB12530,13541,3968,asynchronous multifocal osteogenic sarcoma,0.56835324,False,18,3.098061,99.90046838407494,emb_cosine_scaled
+DB12530,3881,7417,Darier disease,0.56826377,False,19,3.09401,99.89461358313817,emb_cosine_scaled
+DB12530,9620,15748,hereditary mucosal leukokeratosis,0.567511,False,20,3.0599263,99.8887587822014,emb_cosine_scaled
+DB12530,6774,19239,inborn disorder of serine family metabolism,0.5673822,False,21,3.054094,99.88290398126465,emb_cosine_scaled
+DB12530,5417,15562,distal monosomy 17q,0.56737536,False,22,3.0537837,99.87704918032787,emb_cosine_scaled
+DB12530,9685,15126,polyendocrinopathy,0.5664587,False,23,3.012278,99.8711943793911,emb_cosine_scaled
+DB12530,11,8905,predisposition to invasive fungal disease due to CARD9 deficiency,0.56642693,False,24,3.0108395,99.86533957845434,emb_cosine_scaled
+DB12530,20,32884,"ectodermal dysplasia with facial dysmorphism and acral, ocular, and brain anomalies",0.5657258,False,25,2.9790928,99.85948477751757,emb_cosine_scaled
+DB12530,10926,21677,post-infectious neuralgia,0.5656623,False,26,2.9762187,99.8536299765808,emb_cosine_scaled
+DB12530,16163,22208,crystal arthropathy,0.5655544,False,27,2.9713311,99.84777517564405,emb_cosine_scaled
+DB12530,15432,17819,atypical dentin dysplasia due to SMOC2 deficiency,0.5654535,False,28,2.9667645,99.84192037470726,emb_cosine_scaled
+DB12530,11098,6875,ocular hypertension,0.56532574,False,29,2.9609783,99.8360655737705,emb_cosine_scaled
+DB12530,3889,32783_24523_13902_3803,aortic valve disease,0.565307,False,30,2.9601307,99.83021077283372,emb_cosine_scaled
+DB12530,6649,4805,leukocyte disease,0.5650728,False,31,2.9495242,99.82435597189696,emb_cosine_scaled
+DB12530,4958,10968,"glaucoma 3, primary infantile, B",0.5650146,False,32,2.94689,99.8185011709602,emb_cosine_scaled
+DB12530,11994,13941,metaphyseal chondromatosis with D-2-hydroxyglutaric aciduria,0.5645064,False,33,2.9238799,99.81264637002342,emb_cosine_scaled
+DB12530,4553,9472,"acetylation, slow",0.5642998,False,34,2.9145255,99.80679156908666,emb_cosine_scaled
+DB12530,7842,100342,malignant glioma,0.5642092,False,35,2.9104233,99.80093676814988,emb_cosine_scaled
+DB12530,998,8655,"vestibulocochlear dysfunction, progressive",0.56350356,False,36,2.8784716,99.79508196721312,emb_cosine_scaled
+DB12530,7525,2532,squamous cell neoplasm,0.56327724,False,37,2.868224,99.78922716627636,emb_cosine_scaled
+DB12530,15457,17903,autosomal dominant mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency,0.5631197,False,38,2.861091,99.78337236533956,emb_cosine_scaled
+DB12530,5719,6952,retinopathy of prematurity,0.5630238,False,39,2.8567486,99.7775175644028,emb_cosine_scaled
+DB12530,97,14992_30031_13527_15148_15146,lissencephaly,0.5627719,False,40,2.845343,99.77166276346604,emb_cosine_scaled
+DB12530,16110,21879,small cell variant anaplastic large cell lymphoma,0.56273603,False,41,2.8437185,99.76580796252928,emb_cosine_scaled
+DB12530,13524,3941,classic variant of chromophobe renal cell carcinoma,0.562671,False,42,2.840774,99.7599531615925,emb_cosine_scaled
+DB12530,15136,16259,carcinosarcoma of the corpus uteri,0.5626563,False,43,2.8401074,99.75409836065576,emb_cosine_scaled
+DB12530,10063,19231,inborn disorder of pentose phosphate metabolism,0.5626235,False,44,2.838623,99.74824355971896,emb_cosine_scaled
+DB12530,14058,4951,susceptibility to HIV infection,0.5623639,False,45,2.8268695,99.7423887587822,emb_cosine_scaled
+DB12530,8163,1092,colon leiomyoma,0.5614213,False,46,2.784187,99.73653395784542,emb_cosine_scaled
+DB12530,14104,5352,conduct disorder,0.56140506,False,47,2.783453,99.73067915690866,emb_cosine_scaled
+DB12530,732,12582,interstitial lung disease due to ABCA3 deficiency,0.5612427,False,48,2.7761014,99.72482435597188,emb_cosine_scaled
+DB12530,9430,16629,hemorrhagic disorder due to a platelet anomaly,0.5612349,False,49,2.7757478,99.71896955503512,emb_cosine_scaled
+DB12530,12035,27068,"mitochondrial complex 1 deficiency, mitochondrial type 1",0.56083906,False,50,2.7578247,99.71311475409836,emb_cosine_scaled
+DB00112,6884,2025,psychiatric disorder,0.5876948,False,1,3.9711618,100.0,emb_cosine_scaled
+DB00112,5979,16017,methimazole embryofetopathy,0.5798523,False,2,3.6154542,99.99414519906324,emb_cosine_scaled
+DB00112,16408,22983,Dieterich disease,0.57816136,False,3,3.5387602,99.98829039812648,emb_cosine_scaled
+DB00112,15008,15390,proboscis lateralis,0.5767565,False,4,3.4750402,99.9824355971897,emb_cosine_scaled
+DB00112,469,12915,chromosome 1q21.1 duplication syndrome,0.57652014,False,5,3.4643211,99.97658079625292,emb_cosine_scaled
+DB00112,12562,1381,bladder lymphoma,0.5761239,False,6,3.4463487,99.97072599531616,emb_cosine_scaled
+DB00112,1776,9204,lethal faciocardiomelic dysplasia,0.57497406,False,7,3.3941967,99.96487119437938,emb_cosine_scaled
+DB00112,9478,18188,genetic intestinal polyposis,0.57327324,False,8,3.317054,99.95901639344262,emb_cosine_scaled
+DB00112,3534,7085,alopecia-epilepsy-pyorrhea-intellectual disability syndrome,0.5731549,False,9,3.3116877,99.95316159250584,emb_cosine_scaled
+DB00112,6236,15672,diprosopus,0.57275057,False,10,3.2933476,99.94730679156908,emb_cosine_scaled
+DB00112,15433,17825,silent pituitary adenoma,0.5722567,False,11,3.270947,99.94145199063232,emb_cosine_scaled
+DB00112,12200,18017,goblet cell carcinoma,0.57153845,False,12,3.2383704,99.93559718969554,emb_cosine_scaled
+DB00112,7195,1160,dissociative disorder,0.5714676,False,13,3.235156,99.92974238875878,emb_cosine_scaled
+DB00112,903,10502,"intellectual disability, X-linked 99, syndromic, female-restricted",0.57068026,False,14,3.1994464,99.923887587822,emb_cosine_scaled
+DB00112,2918,7719,"diaphragmatic hernia, congenital 1",0.5706727,False,15,3.199103,99.91803278688523,emb_cosine_scaled
+DB00112,481,19309,late-onset junctional epidermolysis bullosa,0.56993896,False,16,3.1658237,99.91217798594847,emb_cosine_scaled
+DB00112,13075,2856,gallbladder rhabdomyosarcoma,0.5686529,False,17,3.1074944,99.90632318501171,emb_cosine_scaled
+DB00112,13831,4443,chest wall parachordoma,0.5686104,False,18,3.1055667,99.90046838407494,emb_cosine_scaled
+DB00112,13652,4172,uterine corpus adenocarcinofibroma,0.56840104,False,19,3.0960696,99.89461358313817,emb_cosine_scaled
+DB00112,1196,11678,homozygous 11P15-p14 deletion syndrome,0.5673272,False,20,3.0473645,99.8887587822014,emb_cosine_scaled
+DB00112,12271,483,oculogyric crisis,0.5673111,False,21,3.0466344,99.88290398126465,emb_cosine_scaled
+DB00112,8535,4187,nodular fasciitis,0.56712127,False,22,3.038024,99.87704918032787,emb_cosine_scaled
+DB00112,11601,2399,"tenosynovial giant cell tumor, localized type",0.5667958,False,23,3.0232632,99.8711943793911,emb_cosine_scaled
+DB00112,12905,2204,transient arthritis,0.5667763,False,24,3.0223765,99.86533957845434,emb_cosine_scaled
+DB00112,5443,5724,cryptococcosis,0.5660989,False,25,2.9916546,99.85948477751757,emb_cosine_scaled
+DB00112,5237,1881,toxic shock syndrome,0.5658151,False,26,2.978781,99.8536299765808,emb_cosine_scaled
+DB00112,9000,17137,onchocerciasis,0.5654989,False,27,2.9644392,99.84777517564405,emb_cosine_scaled
+DB00112,6468,5520,rickets (disease),0.56536144,False,28,2.958205,99.84192037470726,emb_cosine_scaled
+DB00112,11983,6831,leukostasis,0.56523764,False,29,2.95259,99.8360655737705,emb_cosine_scaled
+DB00112,3415,12948,chromosome 6pter-p24 deletion syndrome,0.5652256,False,30,2.9520438,99.83021077283372,emb_cosine_scaled
+DB00112,14286,6046,ovarian serous cystadenocarcinoma,0.5651583,False,31,2.9489918,99.82435597189696,emb_cosine_scaled
+DB00112,2158,7633,"Friedreich ataxia, so-called, with optic atrophy and sensorineural deafness",0.56509537,False,32,2.946137,99.8185011709602,emb_cosine_scaled
+DB00112,2388,8135,optic atrophy with negative Electroretinograms,0.56501997,False,33,2.942717,99.81264637002342,emb_cosine_scaled
+DB00112,5886,19555,panniculitis and localized lipodystrophy,0.5649837,False,34,2.9410734,99.80679156908666,emb_cosine_scaled
+DB00112,7876,21123,Ewing sarcoma/peripheral primitive neuroectodermal tumor of bone,0.5649166,False,35,2.9380293,99.80093676814988,emb_cosine_scaled
+DB00112,6196,16290,Hernández-Aguirre Negrete syndrome,0.5646031,False,36,2.923809,99.79508196721312,emb_cosine_scaled
+DB00112,4147,8721,medium chain acyl-CoA dehydrogenase deficiency,0.5644511,False,37,2.9169154,99.78922716627636,emb_cosine_scaled
+DB00112,17005,60690,phenytoin toxicity,0.56440085,False,38,2.9146364,99.78337236533956,emb_cosine_scaled
+DB00112,13283,3404,adult yolk sac tumor,0.56352353,False,39,2.8748446,99.7775175644028,emb_cosine_scaled
+DB00112,7079,976,paratesticular lipoma,0.5633645,False,40,2.8676317,99.77166276346604,emb_cosine_scaled
+DB00112,2965,9382,"hyperbilirubinemia, shunt, primary",0.5629664,False,41,2.8495755,99.76580796252928,emb_cosine_scaled
+DB00112,14216,5809,infectious ectromelia,0.5627796,False,42,2.8411028,99.7599531615925,emb_cosine_scaled
+DB00112,2,8099_12497_12498,congenital stationary night blindness autosomal dominant,0.56253207,False,43,2.8298755,99.75409836065576,emb_cosine_scaled
+DB00112,16589,24350,pityriasis steatoides,0.56233793,False,44,2.8210704,99.74824355971896,emb_cosine_scaled
+DB00112,13649,4168,cribriform variant testicular seminoma,0.56230235,False,45,2.8194563,99.7423887587822,emb_cosine_scaled
+DB00112,8365,2270,viral gastritis,0.56201434,False,46,2.8063934,99.73653395784542,emb_cosine_scaled
+DB00112,6409,4577,corneal ulcer,0.56189877,False,47,2.8011515,99.73067915690866,emb_cosine_scaled
+DB00112,10097,100108,TPM3-related myopathy,0.5613668,False,48,2.7770233,99.72482435597188,emb_cosine_scaled
+DB00112,8187,3379,rectum leiomyosarcoma,0.5612455,False,49,2.7715218,99.71896955503512,emb_cosine_scaled
+DB00112,2186,33558,"autoinflammation, immune dysregulation, and eosinophilia",0.56103283,False,50,2.7618759,99.71311475409836,emb_cosine_scaled
+DB00051,4794,14787,severe intellectual disability-corpus callosum agenesis-facial dysmorphism-cerebellar ataxia syndrome,0.58980614,False,1,4.05619,100.0,emb_cosine_scaled
+DB00051,14171,5676,borna disease,0.5842072,False,2,3.802792,99.99414519906324,emb_cosine_scaled
+DB00051,637,9915,"46,XX disorder of sex development-skeletal anomalies syndrome",0.5823874,False,3,3.720432,99.98829039812648,emb_cosine_scaled
+DB00051,16766,37738,cauda equina cancer,0.5805676,False,4,3.638072,99.9824355971897,emb_cosine_scaled
+DB00051,3883,13595,hyperbiliverdinemia,0.5790179,False,5,3.5679348,99.97658079625292,emb_cosine_scaled
+DB00051,3549,11019,alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome,0.57833225,False,6,3.5369043,99.97072599531616,emb_cosine_scaled
+DB00051,6481,43494,arteritis,0.578174,False,7,3.5297422,99.96487119437938,emb_cosine_scaled
+DB00051,1402,8937,"cerebellar ataxia, benign, with thermoanalgesia",0.57712156,False,8,3.482111,99.95901639344262,emb_cosine_scaled
+DB00051,6848,44704,oropharynx squamous cell carcinoma,0.5771054,False,9,3.48138,99.95316159250584,emb_cosine_scaled
+DB00051,15008,15390,proboscis lateralis,0.5767602,False,10,3.4657555,99.94730679156908,emb_cosine_scaled
+DB00051,1470,7636,frontorhiny,0.57610244,False,11,3.4359877,99.94145199063232,emb_cosine_scaled
+DB00051,2800,10239,lissencephaly type 1 due to doublecortin gene mutation,0.5759016,False,12,3.4268994,99.93559718969554,emb_cosine_scaled
+DB00051,7523,44989,foot disease,0.57575303,False,13,3.4201744,99.92974238875878,emb_cosine_scaled
+DB00051,11499,1943,Plasmodium malariae malaria,0.57222396,False,14,3.2604556,99.923887587822,emb_cosine_scaled
+DB00051,4932,9114,congenital sucrase-isomaltase deficiency,0.57042855,False,15,3.179199,99.91803278688523,emb_cosine_scaled
+DB00051,15507,18141,"pyruvate carboxylase deficiency, infantile form",0.5698912,False,16,3.15488,99.91217798594847,emb_cosine_scaled
+DB00051,9727,20130,malformation of the cerebellar vermis,0.5694238,False,17,3.1337256,99.90632318501171,emb_cosine_scaled
+DB00051,6874,5151,endocrine system disease,0.56931597,False,18,3.1288457,99.90046838407494,emb_cosine_scaled
+DB00051,14147,5589,thiopurine immunosuppressant-induced pancreatitis,0.56923777,False,19,3.1253066,99.89461358313817,emb_cosine_scaled
+DB00051,660,16755,neurofibroma,0.56917286,False,20,3.1223688,99.8887587822014,emb_cosine_scaled
+DB00051,7967,21322,malignant tumor of meninges,0.56906796,False,21,3.1176212,99.88290398126465,emb_cosine_scaled
+DB00051,8842,16123,muscular tumor,0.569045,False,22,3.1165824,99.87704918032787,emb_cosine_scaled
+DB00051,15629,18708,squamous cell carcinoma of the oral tongue,0.56892663,False,23,3.1112251,99.8711943793911,emb_cosine_scaled
+DB00051,6459,859_8449,spina bifida,0.5688159,False,24,3.1062129,99.86533957845434,emb_cosine_scaled
+DB00051,11413,16688,fibrillary astrocytoma,0.5680066,False,25,3.069585,99.85948477751757,emb_cosine_scaled
+DB00051,2012,7624,Flynn-Aird syndrome,0.56746477,False,26,3.045064,99.8536299765808,emb_cosine_scaled
+DB00051,16990,45037,hyalohyphomycosis,0.56743664,False,27,3.0437908,99.84777517564405,emb_cosine_scaled
+DB00051,12192,20327,"classic Hodgkin lymphoma, nodular sclerosis type",0.5668833,False,28,3.018749,99.84192037470726,emb_cosine_scaled
+DB00051,15786,19862,levocardia,0.56662226,False,29,3.0069337,99.8360655737705,emb_cosine_scaled
+DB00051,3492,32882,Heyn-Sproul-Jackson syndrome,0.56654775,False,30,3.0035617,99.83021077283372,emb_cosine_scaled
+DB00051,7355,6971,sigmoid neoplasm,0.5664352,False,31,2.9984686,99.82435597189696,emb_cosine_scaled
+DB00051,12142,4591,impetigo herpetiformis,0.56586474,False,32,2.97265,99.8185011709602,emb_cosine_scaled
+DB00051,10549,17761,disorder of mineral absorption and transport,0.56571007,False,33,2.9656498,99.81264637002342,emb_cosine_scaled
+DB00051,1593,8178_507,inclusion body myopathy with Paget disease of bone and frontotemporal dementia,0.56551224,False,34,2.9566965,99.80679156908666,emb_cosine_scaled
+DB00051,11923,3144,medulloepithelioma,0.5654627,False,35,2.9544547,99.80093676814988,emb_cosine_scaled
+DB00051,5987,16090,late-infantile/juvenile Krabbe disease,0.56542623,False,36,2.9528039,99.79508196721312,emb_cosine_scaled
+DB00051,15068,15664,idiopathic pulmonary artery dilatation,0.5653284,False,37,2.9483771,99.78922716627636,emb_cosine_scaled
+DB00051,9089,6272,low grade fibromyxoid sarcoma,0.5649228,False,38,2.93002,99.78337236533956,emb_cosine_scaled
+DB00051,7724,20676,disease of central nervous system or retinal vasculature,0.56480765,False,39,2.9248083,99.7775175644028,emb_cosine_scaled
+DB00051,697,8034,"muscular dystrophy, pseudohypertrophic, with Internalized capillaries",0.56439835,False,40,2.9062839,99.77166276346604,emb_cosine_scaled
+DB00051,15420,17793,marfanoid habitus-inguinal hernia-advanced bone age syndrome,0.5643112,False,41,2.9023402,99.76580796252928,emb_cosine_scaled
+DB00051,3133,12374,"brachyphalangy, polydactyly, and tibial aplasia/hypoplasia",0.56412953,False,42,2.8941178,99.7599531615925,emb_cosine_scaled
+DB00051,14416,6368,phosphaturic mesenchymal tumor,0.56334054,False,43,2.85841,99.75409836065576,emb_cosine_scaled
+DB00051,15119,16062,median cleft lip/mandibule,0.5633104,False,44,2.857045,99.74824355971896,emb_cosine_scaled
+DB00051,1881,7825,"incisors, rotation of upper central",0.56318665,False,45,2.8514447,99.7423887587822,emb_cosine_scaled
+DB00051,13800,4405,Barrett adenocarcinoma,0.56313896,False,46,2.8492866,99.73653395784542,emb_cosine_scaled
+DB00051,11325,41775,intraoperative floppy iris syndrome,0.56295073,False,47,2.8407676,99.73067915690866,emb_cosine_scaled
+DB00051,7295,3739,selective immunoglobulin deficiency disease,0.5629244,False,48,2.8395753,99.72482435597188,emb_cosine_scaled
+DB00051,10877,2290,clitoris cancer,0.56281126,False,49,2.8344553,99.71896955503512,emb_cosine_scaled
+DB00051,9319,20042,"syndrome with 46,XY disorder of sex development",0.56244797,False,50,2.8180134,99.71311475409836,emb_cosine_scaled
+DB05676,7221,5642,atopic conjunctivitis,0.5918279,False,1,4.1740127,100.0,emb_cosine_scaled
+DB05676,5126,15804,infant botulism,0.5805714,False,2,3.6622672,99.99414519906324,emb_cosine_scaled
+DB05676,11920,1957,critical illness polyneuropathy,0.5774188,False,3,3.5189428,99.98829039812648,emb_cosine_scaled
+DB05676,6247,17579,Baraitser-Winter cerebrofrontofacial syndrome,0.57624745,False,4,3.4656906,99.9824355971897,emb_cosine_scaled
+DB05676,1659,12328,trichilemmal cyst,0.57521415,False,5,3.4187143,99.97658079625292,emb_cosine_scaled
+DB05676,9520,16895,partial monosomy of the short arm of chromosome 17,0.5751459,False,6,3.4156117,99.97072599531616,emb_cosine_scaled
+DB05676,9731,19688,sulfation-related bone disorder,0.57479143,False,7,3.3994968,99.96487119437938,emb_cosine_scaled
+DB05676,1001,8493_14737_17910_20102,hereditary stomatocytosis,0.5739198,False,8,3.3598692,99.95901639344262,emb_cosine_scaled
+DB05676,9239,18559,fetal lower urinary tract obstruction,0.57262975,False,9,3.301222,99.95316159250584,emb_cosine_scaled
+DB05676,2993,12590,XFE progeroid syndrome,0.572563,False,10,3.2981873,99.94730679156908,emb_cosine_scaled
+DB05676,14607,6950,retinal vasculitis,0.57239604,False,11,3.2905972,99.94145199063232,emb_cosine_scaled
+DB05676,14080,5142,Pseudomonas aeruginosa CF5 infection,0.57219774,False,12,3.2815819,99.93559718969554,emb_cosine_scaled
+DB05676,13010,2653,Paget disease of the penis,0.5718845,False,13,3.267342,99.92974238875878,emb_cosine_scaled
+DB05676,6132,8003_16810_5181,progressive external ophthalmoplegia,0.5717979,False,14,3.2634048,99.923887587822,emb_cosine_scaled
+DB05676,14724,9553,Plasmodium falciparum blood infection level,0.57100475,False,15,3.227346,99.91803278688523,emb_cosine_scaled
+DB05676,11073,1548,hepatic coma,0.57064563,False,16,3.2110198,99.91217798594847,emb_cosine_scaled
+DB05676,10438,18791,Moyomoya angiopathy,0.56970304,False,17,3.1681676,99.90632318501171,emb_cosine_scaled
+DB05676,11162,4745,priapism,0.56915396,False,18,3.1432054,99.90046838407494,emb_cosine_scaled
+DB05676,5309,15745,microcephaly-polymicrogyria-corpus callosum agenesis syndrome,0.568962,False,19,3.1344774,99.89461358313817,emb_cosine_scaled
+DB05676,2109,8530,"teeth, odd shapes of",0.56892455,False,20,3.1327755,99.8887587822014,emb_cosine_scaled
+DB05676,5335,19395,Hinman syndrome,0.5685408,False,21,3.1153302,99.88290398126465,emb_cosine_scaled
+DB05676,14429,6393,rectal traditional serrated adenoma,0.5682046,False,22,3.1000445,99.87704918032787,emb_cosine_scaled
+DB05676,10284,16733,ganglioglioma,0.56784725,False,23,3.0837994,99.8711943793911,emb_cosine_scaled
+DB05676,15787,19865,mosaic trisomy 4,0.5672619,False,24,3.0571868,99.86533957845434,emb_cosine_scaled
+DB05676,8886,2331,nephrosis,0.5666481,False,25,3.0292845,99.85948477751757,emb_cosine_scaled
+DB05676,3249,8258,platelet signal processing defect,0.5665922,False,26,3.026743,99.8536299765808,emb_cosine_scaled
+DB05676,4703,10840,pachygyria-intellectual disability-epilepsy syndrome,0.56653476,False,27,3.0241306,99.84777517564405,emb_cosine_scaled
+DB05676,11599,41656,ST-elevation myocardial infarction,0.56632,False,28,3.0143673,99.84192037470726,emb_cosine_scaled
+DB05676,3691,12596,PSAT deficiency,0.56596756,False,29,2.9983447,99.8360655737705,emb_cosine_scaled
+DB05676,14671,7832,interferon antiviral depressor,0.56592655,False,30,2.9964802,99.83021077283372,emb_cosine_scaled
+DB05676,14323,6144,cervical Wilms tumor,0.56591535,False,31,2.995971,99.82435597189696,emb_cosine_scaled
+DB05676,3052,9714,myosclerosis,0.5657838,False,32,2.9899905,99.8185011709602,emb_cosine_scaled
+DB05676,784,8002_32641_13790_14478,mirror movements,0.56576514,False,33,2.9891422,99.81264637002342,emb_cosine_scaled
+DB05676,12486,1192,esophageal melanoma,0.5652894,False,34,2.967513,99.80679156908666,emb_cosine_scaled
+DB05676,10153,16917,partial deletion of the long arm of chromosome 19,0.5648917,False,35,2.9494336,99.80093676814988,emb_cosine_scaled
+DB05676,10303,15588,limbic encephalitis,0.5647752,False,36,2.9441385,99.79508196721312,emb_cosine_scaled
+DB05676,6426,728,ptosis (disease),0.5646616,False,37,2.938974,99.78922716627636,emb_cosine_scaled
+DB05676,14767,11126,acute insulin response,0.56457186,False,38,2.934893,99.78337236533956,emb_cosine_scaled
+DB05676,4579,7571,primary erythermalgia,0.5644846,False,39,2.9309258,99.7775175644028,emb_cosine_scaled
+DB05676,14879,11967,"heterotopia, periventricular, associated with chromosome 5P anomalies",0.56408054,False,40,2.9125564,99.77166276346604,emb_cosine_scaled
+DB05676,9922,19586,X-linked nonsyndromic deafness,0.56363374,False,41,2.892244,99.76580796252928,emb_cosine_scaled
+DB05676,10296,21121,hemangioendothelioma,0.5634536,False,42,2.8840551,99.7599531615925,emb_cosine_scaled
+DB05676,13729,4292,supraglottis verrucous carcinoma,0.56257164,False,43,2.843959,99.75409836065576,emb_cosine_scaled
+DB05676,13826,4436,ovarian myxoid liposarcoma,0.56213915,False,44,2.824297,99.74824355971896,emb_cosine_scaled
+DB05676,1089,14121_8453_8026_18190,proximal spinal muscular atrophy,0.5618998,False,45,2.8134146,99.7423887587822,emb_cosine_scaled
+DB05676,4455,8789,"anemia, nonspherocytic hemolytic, associated with abnormality of red cell membrane",0.5618691,False,46,2.812019,99.73653395784542,emb_cosine_scaled
+DB05676,1299,9381,"hyperbilirubinemia, conjugated, type 3",0.5618537,False,47,2.81132,99.73067915690866,emb_cosine_scaled
+DB05676,5073,19945_6599,urticaria,0.561838,False,48,2.8106046,99.72482435597188,emb_cosine_scaled
+DB05676,7322,56804,benign neoplasm of peripheral nervous system,0.5617097,False,49,2.804773,99.71896955503512,emb_cosine_scaled
+DB05676,10937,497,pyometritis,0.56157494,False,50,2.7986465,99.71311475409836,emb_cosine_scaled

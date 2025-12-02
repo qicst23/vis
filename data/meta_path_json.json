@@ -1,0 +1,60 @@
+{
+  "drug": {
+    "node_type": "drug",
+    "layer1_score": {
+      "drug_disease": 0.5681199208647013
+    },
+    "layer0_score": {
+      "drug_protein": {
+        "drug_protein": 0.5173292849212885
+      },
+      "pathway_protein": {
+        "pathway_protein": 0.5018891706766392
+      },
+      "protein_disease": {
+        "protein_disease": 0.5086097349184474
+      },
+      "biological_process_protein": {
+        "biological_process_protein": 0.5055426527449692
+      },
+      "molecular_function_protein": {
+        "molecular_function_protein": 0.5052937939404868
+      },
+      "cellular_component_protein": {
+        "cellular_component_protein": 0.5021182063501328
+      },
+      "anatomy_protein": {
+        "anatomy_protein": 0.4951552003622055
+      }
+    }
+  },
+  "disease": {
+    "node_type": "disease",
+    "layer1_score": {
+      "drug_disease": 0.5681199208647013
+    },
+    "layer0_score": {
+      "drug_protein": {
+        "drug_protein": 0.5173292849212885
+      },
+      "pathway_protein": {
+        "pathway_protein": 0.5018891706766392
+      },
+      "protein_disease": {
+        "protein_disease": 0.5086097349184474
+      },
+      "biological_process_protein": {
+        "biological_process_protein": 0.5055426527449692
+      },
+      "molecular_function_protein": {
+        "molecular_function_protein": 0.5052937939404868
+      },
+      "cellular_component_protein": {
+        "cellular_component_protein": 0.5021182063501328
+      },
+      "anatomy_protein": {
+        "anatomy_protein": 0.4951552003622055
+      }
+    }
+  }
+}

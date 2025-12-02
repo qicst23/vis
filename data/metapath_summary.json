@@ -1,0 +1,66 @@
+{
+  "drug_disease": {
+    "count": 50,
+    "mean_layer1": 0.0,
+    "mean_layer2": 0.5681199208647013,
+    "max_layer1": 0.0,
+    "max_layer2": 0.590347908437252,
+    "max_score": 0.590347908437252
+  },
+  "drug_protein": {
+    "count": 3,
+    "mean_layer1": 0.5173292849212885,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.559037983417511,
+    "max_layer2": 0.0,
+    "max_score": 0.559037983417511
+  },
+  "pathway_protein": {
+    "count": 22,
+    "mean_layer1": 0.5018891706766392,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5370649993419647,
+    "max_layer2": 0.0,
+    "max_score": 0.5370649993419647
+  },
+  "protein_disease": {
+    "count": 51,
+    "mean_layer1": 0.5086097349184474,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5549307242035866,
+    "max_layer2": 0.0,
+    "max_score": 0.5549307242035866
+  },
+  "biological_process_protein": {
+    "count": 22,
+    "mean_layer1": 0.5055426527449692,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5220882408320904,
+    "max_layer2": 0.0,
+    "max_score": 0.5220882408320904
+  },
+  "molecular_function_protein": {
+    "count": 26,
+    "mean_layer1": 0.5052937939404868,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5447955206036568,
+    "max_layer2": 0.0,
+    "max_score": 0.5447955206036568
+  },
+  "cellular_component_protein": {
+    "count": 12,
+    "mean_layer1": 0.5021182063501328,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5448689833283424,
+    "max_layer2": 0.0,
+    "max_score": 0.5448689833283424
+  },
+  "anatomy_protein": {
+    "count": 2,
+    "mean_layer1": 0.4951552003622055,
+    "mean_layer2": 0.0,
+    "max_layer1": 0.5099004991352558,
+    "max_layer2": 0.0,
+    "max_score": 0.5099004991352558
+  }
+}
