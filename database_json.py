@@ -23,6 +23,15 @@ class JsonDatabase:
         self.current_disease = None
         self.drugs = None
         
+        # Query cache for frequently accessed data
+        self._cache = {
+            'attention': {},      # Cache attention queries by node_id
+            'predictions': {},    # Cache predictions by drug_id
+            'subgraphs': {},      # Cache subgraphs by key
+            'attention_pair': {}, # Cache attention pairs
+        }
+        self._cache_max_size = 100  # Max items per cache
+        
         # Load all JSON data files
         self._load_data()
         
@@ -228,7 +237,7 @@ class JsonDatabase:
             return []
 
     def query_predicted_diseases(self, drug_id, top_n):
-        """Get predicted disease candidates for a drug.
+        """Get predicted disease candidates for a drug (with caching).
         
         Args:
             drug_id: Drug ID
@@ -240,6 +249,12 @@ class JsonDatabase:
         try:
             # Store current drug for metapath summary
             self.current_drug = drug_id
+            
+            # Check cache first
+            cache_key = f"{drug_id}_{top_n}"
+            if cache_key in self._cache['predictions']:
+                self.diseases = self._cache['predictions'][cache_key]
+                return self._cache['predictions'][cache_key]
             
             if not hasattr(self, 'predictions_df') or self.predictions_df.empty:
                 self.diseases = []
@@ -293,6 +308,10 @@ class JsonDatabase:
             
             # Store diseases for metapath summary
             self.diseases = predictions
+            
+            # Cache the results
+            if len(self._cache['predictions']) < self._cache_max_size:
+                self._cache['predictions'][cache_key] = predictions
                 
             return predictions
         except Exception as e:
@@ -929,14 +948,44 @@ class JsonDatabase:
             return []
 
 
+# Global singleton instance - loads data ONCE at startup
+_db_instance = None
+_db_initialized = False
+
 def get_db():
-    """Get or create database instance for the current request context."""
-    if 'db' not in g:
-        # Use JSON database instead of Neo4j
-        db = JsonDatabase(
-            server=current_app.config.get('GNN', 'attention'),
-            data_folder=current_app.config.get('DATA_FOLDER', './data')
-        )
-        db.create_session()
-        g.db = db
-    return g.db
+    """Get or create database singleton instance (cached across all requests)."""
+    global _db_instance, _db_initialized
+    
+    # Check if we already have an instance
+    if _db_instance is not None and _db_initialized:
+        return _db_instance
+    
+    # Get config from Flask app context
+    try:
+        server = current_app.config.get('GNN', 'attention')
+        data_folder = current_app.config.get('DATA_FOLDER', './data')
+    except RuntimeError:
+        # Fallback if no app context
+        server = 'attention'
+        data_folder = './data'
+    
+    # Initialize only once
+    if _db_instance is None:
+        print("=" * 60)
+        print("Initializing database singleton (this only happens ONCE)...")
+        print("=" * 60)
+        _db_instance = JsonDatabase(server=server, data_folder=data_folder)
+        _db_instance.create_session()
+        _db_initialized = True
+        print("=" * 60)
+        print("Database initialized and cached for all future requests!")
+        print("=" * 60)
+    
+    return _db_instance
+
+
+def reset_db():
+    """Reset the database singleton (useful for testing or data reload)."""
+    global _db_instance, _db_initialized
+    _db_instance = None
+    _db_initialized = False
