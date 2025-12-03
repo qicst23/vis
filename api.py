@@ -1,5 +1,6 @@
 import json
 import numpy as np
+from functools import lru_cache
 
 import flask
 from flask import request, jsonify, Blueprint, current_app, g
@@ -15,6 +16,27 @@ try:
 except AttributeError:
     # For newer Flask versions, the encoder is set differently
     pass
+
+######################
+# API-LEVEL CACHE FOR RESPONSE OPTIMIZATION
+######################
+# Cache frequently accessed responses to avoid re-computation
+
+_response_cache = {}
+_cache_max_size = 500
+
+def get_cached_response(key):
+    """Get cached response if available."""
+    return _response_cache.get(key)
+
+def set_cached_response(key, value):
+    """Cache a response. Implements simple LRU by clearing oldest if full."""
+    if len(_response_cache) >= _cache_max_size:
+        # Clear half the cache when full
+        keys_to_remove = list(_response_cache.keys())[:_cache_max_size // 2]
+        for k in keys_to_remove:
+            del _response_cache[k]
+    _response_cache[key] = value
 
 ######################
 # API Starts here
@@ -93,9 +115,18 @@ def get_attention_pair():
     '''
     disease_id = request.args.get('disease', None, type=str)
     drug_id = request.args.get('drug', None, type=str)
+    
+    # Check cache first
+    cache_key = f"attention_pair:{drug_id}:{disease_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
 
     db = get_db()
     res = db.query_attention_pair(disease_id, drug_id)
+    
+    # Cache the response
+    set_cached_response(cache_key, res)
 
     return jsonify(res)
 
@@ -193,6 +224,12 @@ def get_disease_embeddings():
     import os
     drug_id = request.args.get('drug_id', None, type=str)
     
+    # Check cache first
+    cache_key = f"disease_embeddings:{drug_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+    
     db = get_db()
     embeddings = {}
     
@@ -259,6 +296,8 @@ def get_disease_embeddings():
                     'predicted': False
                 }
     
+    # Cache the result
+    set_cached_response(cache_key, embeddings)
     return jsonify(embeddings)
 
 
@@ -300,7 +339,6 @@ def get_subgraph():
         }
     '''
     import os
-    import json
     
     drug_id = request.args.get('drug_id', None, type=str)
     disease_id = request.args.get('disease_id', None, type=str)
@@ -308,9 +346,15 @@ def get_subgraph():
     if not drug_id or not disease_id:
         return jsonify({'error': 'drug_id and disease_id are required'}), 400
     
+    # Check cache first
+    cache_key = f"subgraph:{drug_id}:{disease_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+    
     db = get_db()
     
-    # Load subgraphs from file if not already loaded
+    # Load subgraphs from file if not already loaded (should already be loaded by database_json)
     if not hasattr(db, 'subgraphs') or db.subgraphs is None:
         subgraphs_file = os.path.join(db.data_folder, 'subgraphs.json')
         if os.path.exists(subgraphs_file):
@@ -329,10 +373,14 @@ def get_subgraph():
     
     if not subgraph:
         # Return empty subgraph if not found
-        return jsonify({
+        result = {
             'nodes': [],
             'edges': [],
             'message': f'No subgraph found for key {subgraph_key}'
-        })
+        }
+        set_cached_response(cache_key, result)
+        return jsonify(result)
     
+    # Cache the result
+    set_cached_response(cache_key, subgraph)
     return jsonify(subgraph)

@@ -2,6 +2,13 @@
 
 This is a standalone demo package for the TxGNN Drug Repurposing Visualization.
 
+## ⚡ New: Optimized for Fast Response
+
+This version includes **aggressive caching** for instant interactions:
+- When you select a drug, data for all disease candidates is **preloaded in the background**
+- The "⚡ Data Cached - Instant Response" indicator shows caching progress
+- Switching between tabs (Meta-Path, Node Attention, Sub-Graph, etc.) is **instant** after caching
+
 ## Requirements
 
 - Python 3.8 or higher
@@ -39,7 +46,15 @@ This visualization includes:
 1. **Meta-Path View** - Shows paths connecting drugs to predicted diseases
 2. **Node Attention** - Multi-level attention tree for drug and disease nodes
 3. **Sub-Graph** - Interactive force-directed network visualization
-4. **Disease Embeddings** - Scatter plot of disease embeddings
+4. **Node_Attention** - Tabular view of attention scores by relation type
+5. **Sub_Graph** - Force-directed knowledge graph visualization
+6. **Disease Embeddings** - Scatter plot of disease embeddings with category coloring
+
+### Performance Features
+- **Smart Caching** - Data is cached both on the frontend and backend
+- **Background Preloading** - Data for top 30 diseases is preloaded when a drug is selected
+- **Progress Indicator** - Shows caching status in the sidebar
+- **Instant Tab Switching** - Once cached, all views load instantly
 
 ## Available Drugs (28)
 
