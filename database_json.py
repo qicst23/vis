@@ -32,6 +32,9 @@ class JsonDatabase:
         }
         self._cache_max_size = 100  # Max items per cache
         
+        # Best paths (most-weighted path per drug-disease)
+        self.best_paths = None
+        
         # Load all JSON data files
         self._load_data()
         
@@ -96,6 +99,19 @@ class JsonDatabase:
                     # Update node_name_dict with names from disease_node_ids.json
                     self.node_name_dict['disease'].update(disease_id_to_name)
                     print(f"Updated node_name_dict with {len(disease_id_to_name)} diseases from disease_node_ids.json")
+
+            # Load best paths (most weighted paths) if available
+            best_paths_file = os.path.join(self.data_folder, 'best_paths.json')
+            if os.path.exists(best_paths_file):
+                try:
+                    with open(best_paths_file, 'r') as f:
+                        self.best_paths = json.load(f)
+                        print(f"Loaded best_paths.json with {len(self.best_paths)} entries")
+                except Exception as e:
+                    print(f"Error loading best_paths.json: {e}")
+                    self.best_paths = {}
+            else:
+                self.best_paths = {}
 
                 
             # Load drug-to-disease predictions

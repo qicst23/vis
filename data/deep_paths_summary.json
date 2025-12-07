@@ -1,0 +1,232 @@
+{
+  "generated_at": "2025-12-07 11:23:09",
+  "total_drugs": 28,
+  "total_paths": 43869,
+  "total_time_seconds": 175.0,
+  "drugs": [
+    {
+      "drug_id": "DB00847",
+      "drug_name": "Cysteamine",
+      "total_paths": 1617,
+      "unique_diseases": 520,
+      "output_file": "./drugExplorer/data/cysteamine_scored_paths.json",
+      "elapsed": 0.5112543106079102
+    },
+    {
+      "drug_id": "DB00019",
+      "drug_name": "Pegfilgrastim",
+      "total_paths": 1600,
+      "unique_diseases": 388,
+      "output_file": "./drugExplorer/data/pegfilgrastim_scored_paths.json",
+      "elapsed": 0.5154197216033936
+    },
+    {
+      "drug_id": "DB08909",
+      "drug_name": "Glycerol phenylbutyrate",
+      "total_paths": 1610,
+      "unique_diseases": 432,
+      "output_file": "./drugExplorer/data/glycerol_phenylbutyrate_scored_paths.json",
+      "elapsed": 0.49866437911987305
+    },
+    {
+      "drug_id": "DB01012",
+      "drug_name": "Cinacalcet",
+      "total_paths": 1608,
+      "unique_diseases": 449,
+      "output_file": "./drugExplorer/data/cinacalcet_scored_paths.json",
+      "elapsed": 0.6672775745391846
+    },
+    {
+      "drug_id": "DB00033",
+      "drug_name": "Interferon gamma-1b",
+      "total_paths": 1600,
+      "unique_diseases": 425,
+      "output_file": "./drugExplorer/data/interferon_gamma-1b_scored_paths.json",
+      "elapsed": 0.5100288391113281
+    },
+    {
+      "drug_id": "DB05676",
+      "drug_name": "Apremilast",
+      "total_paths": 1601,
+      "unique_diseases": 466,
+      "output_file": "./drugExplorer/data/apremilast_scored_paths.json",
+      "elapsed": 0.5009326934814453
+    },
+    {
+      "drug_id": "DB09303",
+      "drug_name": "Evolocumab",
+      "total_paths": 1602,
+      "unique_diseases": 434,
+      "output_file": "./drugExplorer/data/evolocumab_scored_paths.json",
+      "elapsed": 0.49958109855651855
+    },
+    {
+      "drug_id": "DB00073",
+      "drug_name": "Rituximab",
+      "total_paths": 1610,
+      "unique_diseases": 416,
+      "output_file": "./drugExplorer/data/rituximab_scored_paths.json",
+      "elapsed": 0.5010530948638916
+    },
+    {
+      "drug_id": "DB00112",
+      "drug_name": "Bevacizumab",
+      "total_paths": 1620,
+      "unique_diseases": 563,
+      "output_file": "./drugExplorer/data/bevacizumab_scored_paths.json",
+      "elapsed": 0.6744797229766846
+    },
+    {
+      "drug_id": "DB00099",
+      "drug_name": "Filgrastim",
+      "total_paths": 1608,
+      "unique_diseases": 402,
+      "output_file": "./drugExplorer/data/filgrastim_scored_paths.json",
+      "elapsed": 0.5113751888275146
+    },
+    {
+      "drug_id": "DB12865",
+      "drug_name": "Etelcalcetide",
+      "total_paths": 934,
+      "unique_diseases": 240,
+      "output_file": "./drugExplorer/data/etelcalcetide_scored_paths.json",
+      "elapsed": 0.4683380126953125
+    },
+    {
+      "drug_id": "DB00072",
+      "drug_name": "Trastuzumab",
+      "total_paths": 1601,
+      "unique_diseases": 479,
+      "output_file": "./drugExplorer/data/trastuzumab_scored_paths.json",
+      "elapsed": 0.5108864307403564
+    },
+    {
+      "drug_id": "DB00012",
+      "drug_name": "Darbepoetin alfa",
+      "total_paths": 1602,
+      "unique_diseases": 458,
+      "output_file": "./drugExplorer/data/darbepoetin_alfa_scored_paths.json",
+      "elapsed": 0.5109865665435791
+    },
+    {
+      "drug_id": "DB00005",
+      "drug_name": "Etanercept",
+      "total_paths": 1607,
+      "unique_diseases": 552,
+      "output_file": "./drugExplorer/data/etanercept_scored_paths.json",
+      "elapsed": 0.6682586669921875
+    },
+    {
+      "drug_id": "DB00051",
+      "drug_name": "Adalimumab",
+      "total_paths": 1615,
+      "unique_diseases": 493,
+      "output_file": "./drugExplorer/data/adalimumab_scored_paths.json",
+      "elapsed": 0.5049397945404053
+    },
+    {
+      "drug_id": "DB00065",
+      "drug_name": "Infliximab",
+      "total_paths": 1608,
+      "unique_diseases": 496,
+      "output_file": "./drugExplorer/data/infliximab_scored_paths.json",
+      "elapsed": 0.5035381317138672
+    },
+    {
+      "drug_id": "DB01269",
+      "drug_name": "Panitumumab",
+      "total_paths": 1601,
+      "unique_diseases": 471,
+      "output_file": "./drugExplorer/data/panitumumab_scored_paths.json",
+      "elapsed": 0.5043447017669678
+    },
+    {
+      "drug_id": "DB06343",
+      "drug_name": "Teprotumumab",
+      "total_paths": 1601,
+      "unique_diseases": 443,
+      "output_file": "./drugExplorer/data/teprotumumab_scored_paths.json",
+      "elapsed": 0.4978761672973633
+    },
+    {
+      "drug_id": "DB08889",
+      "drug_name": "Carfilzomib",
+      "total_paths": 1601,
+      "unique_diseases": 507,
+      "output_file": "./drugExplorer/data/carfilzomib_scored_paths.json",
+      "elapsed": 0.502598762512207
+    },
+    {
+      "drug_id": "DB05332",
+      "drug_name": "Romiplostim",
+      "total_paths": 1606,
+      "unique_diseases": 361,
+      "output_file": "./drugExplorer/data/romiplostim_scored_paths.json",
+      "elapsed": 0.6301257610321045
+    },
+    {
+      "drug_id": "DB09052",
+      "drug_name": "Blinatumomab",
+      "total_paths": 1600,
+      "unique_diseases": 424,
+      "output_file": "./drugExplorer/data/blinatumomab_scored_paths.json",
+      "elapsed": 0.5139870643615723
+    },
+    {
+      "drug_id": "DB12530",
+      "drug_name": "Inebilizumab",
+      "total_paths": 1600,
+      "unique_diseases": 420,
+      "output_file": "./drugExplorer/data/inebilizumab_scored_paths.json",
+      "elapsed": 0.5092904567718506
+    },
+    {
+      "drug_id": "DB06643",
+      "drug_name": "Denosumab",
+      "total_paths": 1603,
+      "unique_diseases": 370,
+      "output_file": "./drugExplorer/data/denosumab_scored_paths.json",
+      "elapsed": 0.5156159400939941
+    },
+    {
+      "drug_id": "DB14039",
+      "drug_name": "Erenumab",
+      "total_paths": 1602,
+      "unique_diseases": 411,
+      "output_file": "./drugExplorer/data/erenumab_scored_paths.json",
+      "elapsed": 0.5112199783325195
+    },
+    {
+      "drug_id": "DB11866",
+      "drug_name": "Romosozumab",
+      "total_paths": 1605,
+      "unique_diseases": 395,
+      "output_file": "./drugExplorer/data/romosozumab_scored_paths.json",
+      "elapsed": 0.5092101097106934
+    },
+    {
+      "drug_id": "DB13896",
+      "drug_name": "Talimogene laherparepvec",
+      "total_paths": 1206,
+      "unique_diseases": 307,
+      "output_file": "./drugExplorer/data/talimogene_laherparepvec_scored_paths.json",
+      "elapsed": 0.42603516578674316
+    },
+    {
+      "drug_id": "DB09208",
+      "drug_name": "Pegloticase",
+      "total_paths": 1601,
+      "unique_diseases": 364,
+      "output_file": "./drugExplorer/data/pegloticase_scored_paths.json",
+      "elapsed": 0.6409666538238525
+    },
+    {
+      "drug_id": "DB15090",
+      "drug_name": "Tezepelumab",
+      "total_paths": 1600,
+      "unique_diseases": 362,
+      "output_file": "./drugExplorer/data/tezepelumab_scored_paths.json",
+      "elapsed": 0.4961209297180176
+    }
+  ]
+}

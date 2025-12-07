@@ -384,3 +384,178 @@ def get_subgraph():
     # Cache the result
     set_cached_response(cache_key, subgraph)
     return jsonify(subgraph)
+
+
+@api.route('/best_path', methods=['GET'])
+def get_best_path():
+    """
+    Get the most weighted path for a drug-disease pair.
+    E.g.: /api/best_path?drug_id=DB12530&disease_id=15783
+
+    Returns:
+        {
+            drug_id,
+            disease_id,
+            disease_node_id,
+            disease_name,
+            path: {nodes, edges, path_score}
+        }
+    """
+    import os
+
+    drug_id = request.args.get('drug_id', None, type=str)
+    disease_id = request.args.get('disease_id', None, type=str)
+
+    if not drug_id or not disease_id:
+        return jsonify({'error': 'drug_id and disease_id are required'}), 400
+
+    cache_key = f"best_path:{drug_id}:{disease_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+
+    db = get_db()
+
+    # Lazy-load best_paths.json if not already loaded
+    if not hasattr(db, 'best_paths') or db.best_paths is None:
+        best_paths_file = os.path.join(db.data_folder, 'best_paths.json')
+        if os.path.exists(best_paths_file):
+            try:
+                with open(best_paths_file, 'r') as f:
+                    db.best_paths = json.load(f)
+            except Exception as e:
+                print(f"Error loading best_paths.json: {e}")
+                db.best_paths = {}
+        else:
+            db.best_paths = {}
+
+    key = f"{drug_id}_{disease_id}"
+    result = db.best_paths.get(key)
+
+    if not result:
+        result = {
+            'drug_id': drug_id,
+            'disease_id': disease_id,
+            'path': None,
+            'message': f'No best path found for key {key}'
+        }
+
+    set_cached_response(cache_key, result)
+    return jsonify(result)
+
+
+@api.route('/all_paths', methods=['GET'])
+def get_all_paths():
+    """
+    Get all deep paths for a drug with filtering options.
+    E.g.: /api/all_paths?drug_id=DB12530&min_hops=2&max_hops=5&top_n=50
+    
+    Returns comprehensive path data with attention scores.
+    """
+    import os
+    
+    drug_id = request.args.get('drug_id', None, type=str)
+    min_hops = request.args.get('min_hops', 2, type=int)
+    max_hops = request.args.get('max_hops', 5, type=int)
+    top_n = request.args.get('top_n', 50, type=int)
+    disease_filter = request.args.get('disease', None, type=str)
+    
+    if not drug_id:
+        return jsonify({'error': 'drug_id is required'}), 400
+    
+    cache_key = f"all_paths:{drug_id}:{min_hops}:{max_hops}:{top_n}:{disease_filter or 'all'}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+    
+    db = get_db()
+    
+    # Find the scored paths file for this drug
+    import glob
+    
+    possible_files = glob.glob(os.path.join(db.data_folder, '*_scored_paths.json'))
+    scored_paths_file = None
+    matched_data = None
+    
+    # Try to find by checking drug info inside each file
+    for f in possible_files:
+        try:
+            with open(f, 'r') as fp:
+                data = json.load(fp)
+                file_drug_id = data.get('drug', {}).get('id', '')
+                if file_drug_id == drug_id:
+                    scored_paths_file = f
+                    matched_data = data  # Keep the data we already loaded
+                    break
+        except Exception as e:
+            print(f"Error reading {f}: {e}")
+            continue
+    
+    # Fallback: try filename matching
+    if not scored_paths_file:
+        for f in possible_files:
+            if drug_id.lower() in f.lower():
+                scored_paths_file = f
+                break
+    
+    if not scored_paths_file or not os.path.exists(scored_paths_file):
+        result = {
+            'drug_id': drug_id,
+            'paths': [],
+            'total_paths': 0,
+            'message': f'No comprehensive path data available for {drug_id}'
+        }
+        set_cached_response(cache_key, result)
+        return jsonify(result)
+    
+    # Use already loaded data or load from file
+    if matched_data is not None:
+        all_paths_data = matched_data
+    else:
+        try:
+            with open(scored_paths_file, 'r') as f:
+                all_paths_data = json.load(f)
+        except Exception as e:
+            return jsonify({'error': f'Failed to load paths: {str(e)}'}), 500
+    
+    # Filter paths
+    paths = all_paths_data.get('global_top_100', [])
+    
+    # Apply filters
+    filtered_paths = []
+    for path in paths:
+        hops = path.get('hops', 0)
+        if hops < min_hops or hops > max_hops:
+            continue
+        
+        if disease_filter:
+            disease_name = path.get('nodes', [{}])[-1].get('name', '')
+            if disease_filter.lower() not in disease_name.lower():
+                continue
+        
+        filtered_paths.append(path)
+        
+        if len(filtered_paths) >= top_n:
+            break
+    
+    # Group by hop count for statistics
+    by_hops = {}
+    for path in filtered_paths:
+        h = path.get('hops', 0)
+        if h not in by_hops:
+            by_hops[h] = []
+        by_hops[h].append(path)
+    
+    result = {
+        'drug_id': drug_id,
+        'drug_info': all_paths_data.get('drug', {}),
+        'total_available': all_paths_data.get('total_paths', 0),
+        'unique_diseases': all_paths_data.get('unique_diseases', 0),
+        'statistics': all_paths_data.get('statistics', {}),
+        'paths': filtered_paths,
+        'paths_by_hops': {str(k): len(v) for k, v in by_hops.items()},
+        'score_explanation': all_paths_data.get('score_explanation', {})
+    }
+    
+    set_cached_response(cache_key, result)
+    return jsonify(result)
