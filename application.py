@@ -72,8 +72,11 @@ application = create_app(vars(_args))
 
 
 if __name__ == '__main__':
+    # Disable reloader to prevent double initialization of database
+    # This significantly improves startup time
     application.run(
         debug=_args.debug,
         host=_args.host,
-        port=int(_args.port)
+        port=int(_args.port),
+        use_reloader=False  # Prevents double loading of data files
     )
