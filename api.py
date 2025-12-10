@@ -559,3 +559,73 @@ def get_all_paths():
     
     set_cached_response(cache_key, result)
     return jsonify(result)
+
+
+@api.route('/all_paths_10hop', methods=['GET'])
+def get_all_paths_10hop():
+    """
+    Get 10-hop deep paths for Inebilizumab.
+    E.g.: /api/all_paths_10hop?drug_id=DB12530
+    
+    Returns comprehensive 10-hop path data with attention scores.
+    """
+    import os
+    
+    drug_id = request.args.get('drug_id', None, type=str)
+    
+    if not drug_id:
+        return jsonify({'error': 'drug_id is required'}), 400
+    
+    cache_key = f"all_paths_10hop:{drug_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+    
+    db = get_db()
+    
+    # Look for the 10-hop file specifically
+    ten_hop_file = os.path.join(db.data_folder, 'inebilizumab_10hop_paths.json')
+    
+    if not os.path.exists(ten_hop_file):
+        # Try lowercase drug name pattern
+        import glob
+        possible_files = glob.glob(os.path.join(db.data_folder, '*_10hop_paths.json'))
+        
+        for f in possible_files:
+            try:
+                with open(f, 'r') as fp:
+                    data = json.load(fp)
+                    file_drug_id = data.get('drug', {}).get('id', '')
+                    if file_drug_id == drug_id:
+                        ten_hop_file = f
+                        break
+            except Exception as e:
+                current_app.logger.debug(f"Error reading {f}: {e}")
+                continue
+    
+    if not os.path.exists(ten_hop_file):
+        result = {
+            'drug': {'id': drug_id, 'name': drug_id, 'type': 'drug'},
+            'max_hops': 10,
+            'statistics': {
+                'total_paths': 0,
+                'unique_diseases': 0,
+                'paths_by_hop': {}
+            },
+            'global_top_paths': [],
+            'paths_by_hops': {},
+            'top_paths_per_disease': {},
+            'message': f'No 10-hop path data available for {drug_id}. Run: python generate_deep_paths_10hop.py'
+        }
+        set_cached_response(cache_key, result)
+        return jsonify(result)
+    
+    try:
+        with open(ten_hop_file, 'r') as f:
+            all_paths_data = json.load(f)
+    except Exception as e:
+        return jsonify({'error': f'Failed to load 10-hop paths: {str(e)}'}), 500
+    
+    # Return the full 10-hop data
+    set_cached_response(cache_key, all_paths_data)
+    return jsonify(all_paths_data)
