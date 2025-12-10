@@ -1,6 +1,0 @@
-drug_id,disease_id,disease_node_id,disease,score,known_indication,rank,z_score,percentile,score_source,score_normalized
-DB12530,15783,19836,congenital anomaly of hepatic vein,0.01504589,False,1,4.10317,100.0,emb_dot,1.0
-DB12530,7381,1524,globe disease,0.013851651,False,2,3.777728,99.99414519906324,emb_dot,0.9999414519906324
-DB12530,15896,20442,left superior vena cava persisting to left-sided atrium,0.013396539,False,3,3.6537054,99.98829039812648,emb_dot,0.9998829039812648
-DB12530,11847,19563,CREST syndrome,0.012955933,False,4,3.5336359,99.9824355971897,emb_dot,0.9998243559718972
-DB12530,3434,12456,congenital primary aphakia,0.0129436245,False,5,3.5302815,99.97658079625292,emb_dot,0.9997658079625292
