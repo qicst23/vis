@@ -561,7 +561,6 @@ def get_all_paths():
     return jsonify(result)
 
 
-<<<<<<< HEAD
 @api.route('/bcell_focused_paths', methods=['GET'])
 def get_bcell_focused_paths():
     """
@@ -607,8 +606,6 @@ def get_bcell_focused_paths():
     return jsonify(data)
 
 
-=======
->>>>>>> 6377db4836d60d8731e5bdd079bb5187fa9ae7e9
 @api.route('/all_paths_10hop', methods=['GET'])
 def get_all_paths_10hop():
     """
