@@ -1,0 +1,6690 @@
+{
+  "drug": {
+    "id": "DB12530",
+    "name": "Inebilizumab",
+    "type": "drug",
+    "primary_target": "CD19",
+    "moa": "B-cell depletion via anti-CD19 antibody"
+  },
+  "focus": "B-cell/CD19 mechanism",
+  "statistics": {
+    "total_paths": 59,
+    "unique_diseases": 46,
+    "avg_attention": 0.6196192707013869,
+    "avg_combined_score": 0.36217404515809476,
+    "paths_by_type": {
+      "B_cell_protein_network": 44,
+      "B_cell_disease": 11,
+      "CD19_direct_target": 4
+    },
+    "paths_by_relevance": {
+      "HIGH": 48,
+      "MEDIUM-HIGH": 11
+    }
+  },
+  "path_types": {
+    "CD19_direct_target": "Disease directly linked to CD19 gene",
+    "B_cell_pathway": "Disease linked via B-cell signaling pathway",
+    "B_cell_protein_network": "Disease linked via B-cell protein interactions",
+    "CD19_drug_similarity": "Disease treated by other CD19-targeting drugs",
+    "B_cell_disease": "B-cell related disease"
+  },
+  "global_top_paths": [
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 83796,
+          "name": "lymphosarcoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5310772471129894
+      ],
+      "avg_attention": 0.6404416138927141,
+      "combined_score": 0.3697591381811969,
+      "disease_name": "lymphosarcoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 2250,
+          "name": "SYK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 33653,
+          "name": "melanoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9093517065048218,
+        0.5235593002289534
+      ],
+      "avg_attention": 0.6397107473264138,
+      "combined_score": 0.3693371721724017,
+      "disease_name": "melanoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 2250,
+          "name": "SYK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 36621,
+          "name": "mesothelioma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9093517065048218,
+        0.5211631953716278
+      ],
+      "avg_attention": 0.6389120457073053,
+      "combined_score": 0.3688760415776072,
+      "disease_name": "mesothelioma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35970,
+          "name": "lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5189841408282518
+      ],
+      "avg_attention": 0.6364105784644684,
+      "combined_score": 0.36743181879158626,
+      "disease_name": "lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84157,
+          "name": "diffuse large B-cell lymphoma of the central nervous system",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5182838086038828
+      ],
+      "avg_attention": 0.6361771343896786,
+      "combined_score": 0.3672970397921657,
+      "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in diffuse large B-cell lymphoma of the central nervous system",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84157,
+          "name": "diffuse large B-cell lymphoma of the central nervous system",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5182838086038828
+      ],
+      "avg_attention": 0.6361771343896786,
+      "combined_score": 0.3672970397921657,
+      "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84161,
+          "name": "intravascular large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5165599845349789
+      ],
+      "avg_attention": 0.6356025263667107,
+      "combined_score": 0.36696528969542663,
+      "disease_name": "intravascular large B-cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in intravascular large B-cell lymphoma",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84161,
+          "name": "intravascular large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5165599845349789
+      ],
+      "avg_attention": 0.6356025263667107,
+      "combined_score": 0.36696528969542663,
+      "disease_name": "intravascular large B-cell lymphoma",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 2250,
+          "name": "SYK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30725,
+          "name": "malignant mesothelioma (disease)",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9093517065048218,
+        0.5104788243770599
+      ],
+      "avg_attention": 0.635350588709116,
+      "combined_score": 0.36681983342099533,
+      "disease_name": "malignant mesothelioma (disease)",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84160,
+          "name": "primary mediastinal large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5150868613272905
+      ],
+      "avg_attention": 0.6351114852974812,
+      "combined_score": 0.36668178700192383,
+      "disease_name": "primary mediastinal large B-cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in primary mediastinal large B-cell lymphoma",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84160,
+          "name": "primary mediastinal large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5150868613272905
+      ],
+      "avg_attention": 0.6351114852974812,
+      "combined_score": 0.36668178700192383,
+      "disease_name": "primary mediastinal large B-cell lymphoma",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30447,
+          "name": "lymphoma, non-Hodgkin, familial",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5128718856722116
+      ],
+      "avg_attention": 0.6343731600791216,
+      "combined_score": 0.36625551473835444,
+      "disease_name": "lymphoma, non-Hodgkin, familial",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84154,
+          "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5118004577234387
+      ],
+      "avg_attention": 0.6340160174295306,
+      "combined_score": 0.366049318333474,
+      "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in primary cutaneous diffuse large B-cell lymphoma, Leg type",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84154,
+          "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5118004577234387
+      ],
+      "avg_attention": 0.6340160174295306,
+      "combined_score": 0.366049318333474,
+      "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35737,
+          "name": "breast adenocarcinoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5199172832071781
+      ],
+      "avg_attention": 0.6340126742919286,
+      "combined_score": 0.36604738817207955,
+      "disease_name": "breast adenocarcinoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 83766,
+          "name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5192446783185005
+      ],
+      "avg_attention": 0.6337884726623694,
+      "combined_score": 0.36591794530090077,
+      "disease_name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 36458,
+          "name": "Langerhans cell histiocytosis",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5108242435380816
+      ],
+      "avg_attention": 0.6336906127010783,
+      "combined_score": 0.36586144582590646,
+      "disease_name": "Langerhans cell histiocytosis",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35650,
+          "name": "non-Hodgkin lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5103628877550364
+      ],
+      "avg_attention": 0.6335368274400631,
+      "combined_score": 0.36577265786406193,
+      "disease_name": "non-Hodgkin lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84158,
+          "name": "T-cell/histiocyte rich large B cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5102125545963645
+      ],
+      "avg_attention": 0.6334867163871726,
+      "combined_score": 0.3657437262341862,
+      "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in T-cell/histiocyte rich large B cell lymphoma",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84158,
+          "name": "T-cell/histiocyte rich large B cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5102125545963645
+      ],
+      "avg_attention": 0.6334867163871726,
+      "combined_score": 0.3657437262341862,
+      "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84244,
+          "name": "undifferentiated carcinoma of the corpus uteri",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5148844700306654
+      ],
+      "avg_attention": 0.6323350698997577,
+      "combined_score": 0.36507882282466597,
+      "disease_name": "undifferentiated carcinoma of the corpus uteri",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 32617,
+          "name": "hereditary breast ovarian cancer syndrome",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5145896878093481
+      ],
+      "avg_attention": 0.6322368091593186,
+      "combined_score": 0.3650220919597226,
+      "disease_name": "hereditary breast ovarian cancer syndrome",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 32531,
+          "name": "mantle cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5063098734244704
+      ],
+      "avg_attention": 0.6321858226632079,
+      "combined_score": 0.3649926548924681,
+      "disease_name": "mantle cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35884,
+          "name": "diffuse large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5060533420182765
+      ],
+      "avg_attention": 0.6321003121944765,
+      "combined_score": 0.3649432854003275,
+      "disease_name": "diffuse large B-cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 37338,
+          "name": "lung large cell carcinoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5140565754845738
+      ],
+      "avg_attention": 0.6320591050510606,
+      "combined_score": 0.3649194944449838,
+      "disease_name": "lung large cell carcinoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30828,
+          "name": "Bruton-type agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5127518251538277
+      ],
+      "avg_attention": 0.6316241882741451,
+      "combined_score": 0.3646683951267566,
+      "disease_name": "Bruton-type agammaglobulinemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with BTK, implicated in Bruton-type agammaglobulinemia",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30828,
+          "name": "Bruton-type agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5127518251538277
+      ],
+      "avg_attention": 0.6316241882741451,
+      "combined_score": 0.3646683951267566,
+      "disease_name": "Bruton-type agammaglobulinemia",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84155,
+          "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5042648506350815
+      ],
+      "avg_attention": 0.6315041484000782,
+      "combined_score": 0.36459909007315056,
+      "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84155,
+          "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5042648506350815
+      ],
+      "avg_attention": 0.6315041484000782,
+      "combined_score": 0.36459909007315056,
+      "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84156,
+          "name": "plasmablastic lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5038788339588791
+      ],
+      "avg_attention": 0.6313754761746774,
+      "combined_score": 0.3645248011291782,
+      "disease_name": "plasmablastic lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in plasmablastic lymphoma",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84156,
+          "name": "plasmablastic lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5038788339588791
+      ],
+      "avg_attention": 0.6313754761746774,
+      "combined_score": 0.3645248011291782,
+      "disease_name": "plasmablastic lymphoma",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 38989,
+          "name": "congenital agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5116697289049625
+      ],
+      "avg_attention": 0.6312634895245234,
+      "combined_score": 0.3644601456065661,
+      "disease_name": "congenital agammaglobulinemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with BTK, implicated in congenital agammaglobulinemia",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 38989,
+          "name": "congenital agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5116697289049625
+      ],
+      "avg_attention": 0.6312634895245234,
+      "combined_score": 0.3644601456065661,
+      "disease_name": "congenital agammaglobulinemia",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84159,
+          "name": "ALK-positive large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.502692878479138
+      ],
+      "avg_attention": 0.6309801576814303,
+      "combined_score": 0.3642965638906863,
+      "disease_name": "ALK-positive large B-cell lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with CD79A, implicated in ALK-positive large B-cell lymphoma",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84159,
+          "name": "ALK-positive large B-cell lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.502692878479138
+      ],
+      "avg_attention": 0.6309801576814303,
+      "combined_score": 0.3642965638906863,
+      "disease_name": "ALK-positive large B-cell lymphoma",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 2250,
+          "name": "SYK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 36386,
+          "name": "benign mesothelioma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9093517065048218,
+        0.4966164925135672
+      ],
+      "avg_attention": 0.630729811421285,
+      "combined_score": 0.36415202641000083,
+      "disease_name": "benign mesothelioma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 94678,
+          "name": "benign breast phyllodes tumor",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5095976619049907
+      ],
+      "avg_attention": 0.6305728005245328,
+      "combined_score": 0.3640613761264952,
+      "disease_name": "benign breast phyllodes tumor",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35771,
+          "name": "breast neoplasm",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5089422715827823
+      ],
+      "avg_attention": 0.6303543370837966,
+      "combined_score": 0.3639352462001781,
+      "disease_name": "breast neoplasm",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30654,
+          "name": "acute lymphoblastic/lymphocytic leukemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5087962886318564
+      ],
+      "avg_attention": 0.6303056761001548,
+      "combined_score": 0.36390715176817345,
+      "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 36425,
+          "name": "primary central nervous system lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5002249873214168
+      ],
+      "avg_attention": 0.6301575272955233,
+      "combined_score": 0.3638216180159394,
+      "disease_name": "primary central nervous system lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 37267,
+          "name": "syndromic agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.5
+      ],
+      "avg_attention": 0.6300825315217177,
+      "combined_score": 0.3637783191857446,
+      "disease_name": "syndromic agammaglobulinemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 28347,
+          "name": "hereditary breast carcinoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5068918326869607
+      ],
+      "avg_attention": 0.6296708574518561,
+      "combined_score": 0.3635406390506916,
+      "disease_name": "hereditary breast carcinoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35651,
+          "name": "B-cell neoplasm",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.4982375878607854
+      ],
+      "avg_attention": 0.6294950608086461,
+      "combined_score": 0.3634391428114117,
+      "disease_name": "B-cell neoplasm",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 440,
+          "name": "CD79A",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 27170,
+          "name": "agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.9040263593196869,
+        0.496008959133178
+      ],
+      "avg_attention": 0.6287521845661104,
+      "combined_score": 0.3630102430128091,
+      "disease_name": "agammaglobulinemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 2,
+      "path_type": "CD19_direct_target",
+      "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 32587,
+          "name": "common variable immunodeficiency",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.5391860827803612
+      ],
+      "avg_attention": 0.5127036590129137,
+      "combined_score": 0.3625362340271866,
+      "disease_name": "common variable immunodeficiency",
+      "clinical_relevance": "HIGH - Direct target-disease connection"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 36691,
+          "name": "breast cancer",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5005330126732588
+      ],
+      "avg_attention": 0.6275512507806221,
+      "combined_score": 0.3623168835684786,
+      "disease_name": "breast cancer",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 27249,
+          "name": "isolated growth hormone deficiency",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.5
+      ],
+      "avg_attention": 0.6273735798895359,
+      "combined_score": 0.36221430523168274,
+      "disease_name": "isolated growth hormone deficiency",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 2,
+      "path_type": "CD19_direct_target",
+      "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 27188,
+          "name": "immunodeficiency, common variable",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.5368110537528992
+      ],
+      "avg_attention": 0.5115161444991827,
+      "combined_score": 0.36169653446176997,
+      "disease_name": "immunodeficiency, common variable",
+      "clinical_relevance": "HIGH - Direct target-disease connection"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 37334,
+          "name": "breast carcinoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.4969235663302243
+      ],
+      "avg_attention": 0.6263481019996107,
+      "combined_score": 0.36162224529588644,
+      "disease_name": "breast carcinoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 84243,
+          "name": "squamous cell carcinoma of the corpus uteri",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.4932358143851161
+      ],
+      "avg_attention": 0.6251188513512412,
+      "combined_score": 0.3609125371031488,
+      "disease_name": "squamous cell carcinoma of the corpus uteri",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 337,
+          "name": "BTK",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 83868,
+          "name": "Richter syndrome",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.8958995044231415,
+        0.49041944183409214
+      ],
+      "avg_attention": 0.6241800605008999,
+      "combined_score": 0.36037052595299146,
+      "disease_name": "Richter syndrome",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 2,
+      "path_type": "CD19_direct_target",
+      "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 27170,
+          "name": "agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.5138264540582895
+      ],
+      "avg_attention": 0.5000238446518779,
+      "combined_score": 0.3535702513083116,
+      "disease_name": "agammaglobulinemia",
+      "clinical_relevance": "HIGH - Direct target-disease connection"
+    },
+    {
+      "hops": 2,
+      "path_type": "CD19_direct_target",
+      "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 37267,
+          "name": "syndromic agammaglobulinemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.5
+      ],
+      "avg_attention": 0.4931106176227331,
+      "combined_score": 0.34868186159612125,
+      "disease_name": "syndromic agammaglobulinemia",
+      "clinical_relevance": "HIGH - Direct target-disease connection"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 33621,
+          "name": "acute lymphoblastic leukemia (disease)",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.5117503674700856
+      ],
+      "avg_attention": 0.596575988146166,
+      "combined_score": 0.34443330734825595,
+      "disease_name": "acute lymphoblastic leukemia (disease)",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35866,
+          "name": "precursor lymphoblastic lymphoma/leukemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.5098392004147172
+      ],
+      "avg_attention": 0.5959389324610432,
+      "combined_score": 0.34406550307696154,
+      "disease_name": "precursor lymphoblastic lymphoma/leukemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 28830,
+          "name": "leukemia, lymphocytic, susceptibility to",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.5012555319117382
+      ],
+      "avg_attention": 0.5930777096267169,
+      "combined_score": 0.34241357530335176,
+      "disease_name": "leukemia, lymphocytic, susceptibility to",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_disease",
+      "mechanism": "CD19 protein protein with PAX5, implicated in leukemia, lymphocytic, susceptibility to",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 28830,
+          "name": "leukemia, lymphocytic, susceptibility to",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.5012555319117382
+      ],
+      "avg_attention": 0.5930777096267169,
+      "combined_score": 0.34241357530335176,
+      "disease_name": "leukemia, lymphocytic, susceptibility to",
+      "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 30075,
+          "name": "Burkitt lymphoma",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.4991455393610522
+      ],
+      "avg_attention": 0.5923743787764882,
+      "combined_score": 0.3420075070476428,
+      "disease_name": "Burkitt lymphoma",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    },
+    {
+      "hops": 3,
+      "path_type": "B_cell_protein_network",
+      "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+      "nodes": [
+        {
+          "idx": 19645,
+          "name": "Inebilizumab",
+          "type": "drug"
+        },
+        {
+          "idx": 6067,
+          "name": "CD19",
+          "type": "gene/protein",
+          "role": "PRIMARY_TARGET"
+        },
+        {
+          "idx": 309,
+          "name": "PAX5",
+          "type": "gene/protein",
+          "role": "B_CELL_MARKER"
+        },
+        {
+          "idx": 35852,
+          "name": "acute lymphoblastic leukemia",
+          "type": "disease"
+        }
+      ],
+      "attention_scores": [
+        0.48622123524546623,
+        0.7917563617229462,
+        0.4770771097391844
+      ],
+      "avg_attention": 0.585018235569199,
+      "combined_score": 0.33776043578671694,
+      "disease_name": "acute lymphoblastic leukemia",
+      "clinical_relevance": "HIGH - Through B-cell protein network"
+    }
+  ],
+  "paths_by_type": {
+    "B_cell_protein_network": [
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83796,
+            "name": "lymphosarcoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5310772471129894
+        ],
+        "avg_attention": 0.6404416138927141,
+        "combined_score": 0.3697591381811969,
+        "disease_name": "lymphosarcoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 33653,
+            "name": "melanoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5235593002289534
+        ],
+        "avg_attention": 0.6397107473264138,
+        "combined_score": 0.3693371721724017,
+        "disease_name": "melanoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36621,
+            "name": "mesothelioma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5211631953716278
+        ],
+        "avg_attention": 0.6389120457073053,
+        "combined_score": 0.3688760415776072,
+        "disease_name": "mesothelioma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35970,
+            "name": "lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5189841408282518
+        ],
+        "avg_attention": 0.6364105784644684,
+        "combined_score": 0.36743181879158626,
+        "disease_name": "lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84157,
+            "name": "diffuse large B-cell lymphoma of the central nervous system",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5182838086038828
+        ],
+        "avg_attention": 0.6361771343896786,
+        "combined_score": 0.3672970397921657,
+        "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84161,
+            "name": "intravascular large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5165599845349789
+        ],
+        "avg_attention": 0.6356025263667107,
+        "combined_score": 0.36696528969542663,
+        "disease_name": "intravascular large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30725,
+            "name": "malignant mesothelioma (disease)",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5104788243770599
+        ],
+        "avg_attention": 0.635350588709116,
+        "combined_score": 0.36681983342099533,
+        "disease_name": "malignant mesothelioma (disease)",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84160,
+            "name": "primary mediastinal large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5150868613272905
+        ],
+        "avg_attention": 0.6351114852974812,
+        "combined_score": 0.36668178700192383,
+        "disease_name": "primary mediastinal large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30447,
+            "name": "lymphoma, non-Hodgkin, familial",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5128718856722116
+        ],
+        "avg_attention": 0.6343731600791216,
+        "combined_score": 0.36625551473835444,
+        "disease_name": "lymphoma, non-Hodgkin, familial",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84154,
+            "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5118004577234387
+        ],
+        "avg_attention": 0.6340160174295306,
+        "combined_score": 0.366049318333474,
+        "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35737,
+            "name": "breast adenocarcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5199172832071781
+        ],
+        "avg_attention": 0.6340126742919286,
+        "combined_score": 0.36604738817207955,
+        "disease_name": "breast adenocarcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83766,
+            "name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5192446783185005
+        ],
+        "avg_attention": 0.6337884726623694,
+        "combined_score": 0.36591794530090077,
+        "disease_name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36458,
+            "name": "Langerhans cell histiocytosis",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5108242435380816
+        ],
+        "avg_attention": 0.6336906127010783,
+        "combined_score": 0.36586144582590646,
+        "disease_name": "Langerhans cell histiocytosis",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35650,
+            "name": "non-Hodgkin lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5103628877550364
+        ],
+        "avg_attention": 0.6335368274400631,
+        "combined_score": 0.36577265786406193,
+        "disease_name": "non-Hodgkin lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84158,
+            "name": "T-cell/histiocyte rich large B cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5102125545963645
+        ],
+        "avg_attention": 0.6334867163871726,
+        "combined_score": 0.3657437262341862,
+        "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84244,
+            "name": "undifferentiated carcinoma of the corpus uteri",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5148844700306654
+        ],
+        "avg_attention": 0.6323350698997577,
+        "combined_score": 0.36507882282466597,
+        "disease_name": "undifferentiated carcinoma of the corpus uteri",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 32617,
+            "name": "hereditary breast ovarian cancer syndrome",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5145896878093481
+        ],
+        "avg_attention": 0.6322368091593186,
+        "combined_score": 0.3650220919597226,
+        "disease_name": "hereditary breast ovarian cancer syndrome",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 32531,
+            "name": "mantle cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5063098734244704
+        ],
+        "avg_attention": 0.6321858226632079,
+        "combined_score": 0.3649926548924681,
+        "disease_name": "mantle cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35884,
+            "name": "diffuse large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5060533420182765
+        ],
+        "avg_attention": 0.6321003121944765,
+        "combined_score": 0.3649432854003275,
+        "disease_name": "diffuse large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37338,
+            "name": "lung large cell carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5140565754845738
+        ],
+        "avg_attention": 0.6320591050510606,
+        "combined_score": 0.3649194944449838,
+        "disease_name": "lung large cell carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30828,
+            "name": "Bruton-type agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5127518251538277
+        ],
+        "avg_attention": 0.6316241882741451,
+        "combined_score": 0.3646683951267566,
+        "disease_name": "Bruton-type agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84155,
+            "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5042648506350815
+        ],
+        "avg_attention": 0.6315041484000782,
+        "combined_score": 0.36459909007315056,
+        "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84156,
+            "name": "plasmablastic lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5038788339588791
+        ],
+        "avg_attention": 0.6313754761746774,
+        "combined_score": 0.3645248011291782,
+        "disease_name": "plasmablastic lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 38989,
+            "name": "congenital agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5116697289049625
+        ],
+        "avg_attention": 0.6312634895245234,
+        "combined_score": 0.3644601456065661,
+        "disease_name": "congenital agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84159,
+            "name": "ALK-positive large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.502692878479138
+        ],
+        "avg_attention": 0.6309801576814303,
+        "combined_score": 0.3642965638906863,
+        "disease_name": "ALK-positive large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36386,
+            "name": "benign mesothelioma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.4966164925135672
+        ],
+        "avg_attention": 0.630729811421285,
+        "combined_score": 0.36415202641000083,
+        "disease_name": "benign mesothelioma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 94678,
+            "name": "benign breast phyllodes tumor",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5095976619049907
+        ],
+        "avg_attention": 0.6305728005245328,
+        "combined_score": 0.3640613761264952,
+        "disease_name": "benign breast phyllodes tumor",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35771,
+            "name": "breast neoplasm",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5089422715827823
+        ],
+        "avg_attention": 0.6303543370837966,
+        "combined_score": 0.3639352462001781,
+        "disease_name": "breast neoplasm",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30654,
+            "name": "acute lymphoblastic/lymphocytic leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5087962886318564
+        ],
+        "avg_attention": 0.6303056761001548,
+        "combined_score": 0.36390715176817345,
+        "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36425,
+            "name": "primary central nervous system lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5002249873214168
+        ],
+        "avg_attention": 0.6301575272955233,
+        "combined_score": 0.3638216180159394,
+        "disease_name": "primary central nervous system lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37267,
+            "name": "syndromic agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5
+        ],
+        "avg_attention": 0.6300825315217177,
+        "combined_score": 0.3637783191857446,
+        "disease_name": "syndromic agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28347,
+            "name": "hereditary breast carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5068918326869607
+        ],
+        "avg_attention": 0.6296708574518561,
+        "combined_score": 0.3635406390506916,
+        "disease_name": "hereditary breast carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35651,
+            "name": "B-cell neoplasm",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.4982375878607854
+        ],
+        "avg_attention": 0.6294950608086461,
+        "combined_score": 0.3634391428114117,
+        "disease_name": "B-cell neoplasm",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 27170,
+            "name": "agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.496008959133178
+        ],
+        "avg_attention": 0.6287521845661104,
+        "combined_score": 0.3630102430128091,
+        "disease_name": "agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36691,
+            "name": "breast cancer",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5005330126732588
+        ],
+        "avg_attention": 0.6275512507806221,
+        "combined_score": 0.3623168835684786,
+        "disease_name": "breast cancer",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 27249,
+            "name": "isolated growth hormone deficiency",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5
+        ],
+        "avg_attention": 0.6273735798895359,
+        "combined_score": 0.36221430523168274,
+        "disease_name": "isolated growth hormone deficiency",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37334,
+            "name": "breast carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.4969235663302243
+        ],
+        "avg_attention": 0.6263481019996107,
+        "combined_score": 0.36162224529588644,
+        "disease_name": "breast carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84243,
+            "name": "squamous cell carcinoma of the corpus uteri",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.4932358143851161
+        ],
+        "avg_attention": 0.6251188513512412,
+        "combined_score": 0.3609125371031488,
+        "disease_name": "squamous cell carcinoma of the corpus uteri",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83868,
+            "name": "Richter syndrome",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.49041944183409214
+        ],
+        "avg_attention": 0.6241800605008999,
+        "combined_score": 0.36037052595299146,
+        "disease_name": "Richter syndrome",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 33621,
+            "name": "acute lymphoblastic leukemia (disease)",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5117503674700856
+        ],
+        "avg_attention": 0.596575988146166,
+        "combined_score": 0.34443330734825595,
+        "disease_name": "acute lymphoblastic leukemia (disease)",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35866,
+            "name": "precursor lymphoblastic lymphoma/leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5098392004147172
+        ],
+        "avg_attention": 0.5959389324610432,
+        "combined_score": 0.34406550307696154,
+        "disease_name": "precursor lymphoblastic lymphoma/leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28830,
+            "name": "leukemia, lymphocytic, susceptibility to",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5012555319117382
+        ],
+        "avg_attention": 0.5930777096267169,
+        "combined_score": 0.34241357530335176,
+        "disease_name": "leukemia, lymphocytic, susceptibility to",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30075,
+            "name": "Burkitt lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.4991455393610522
+        ],
+        "avg_attention": 0.5923743787764882,
+        "combined_score": 0.3420075070476428,
+        "disease_name": "Burkitt lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35852,
+            "name": "acute lymphoblastic leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.4770771097391844
+        ],
+        "avg_attention": 0.585018235569199,
+        "combined_score": 0.33776043578671694,
+        "disease_name": "acute lymphoblastic leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      }
+    ],
+    "B_cell_disease": [
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in diffuse large B-cell lymphoma of the central nervous system",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84157,
+            "name": "diffuse large B-cell lymphoma of the central nervous system",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5182838086038828
+        ],
+        "avg_attention": 0.6361771343896786,
+        "combined_score": 0.3672970397921657,
+        "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in intravascular large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84161,
+            "name": "intravascular large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5165599845349789
+        ],
+        "avg_attention": 0.6356025263667107,
+        "combined_score": 0.36696528969542663,
+        "disease_name": "intravascular large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in primary mediastinal large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84160,
+            "name": "primary mediastinal large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5150868613272905
+        ],
+        "avg_attention": 0.6351114852974812,
+        "combined_score": 0.36668178700192383,
+        "disease_name": "primary mediastinal large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84154,
+            "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5118004577234387
+        ],
+        "avg_attention": 0.6340160174295306,
+        "combined_score": 0.366049318333474,
+        "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in T-cell/histiocyte rich large B cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84158,
+            "name": "T-cell/histiocyte rich large B cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5102125545963645
+        ],
+        "avg_attention": 0.6334867163871726,
+        "combined_score": 0.3657437262341862,
+        "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with BTK, implicated in Bruton-type agammaglobulinemia",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30828,
+            "name": "Bruton-type agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5127518251538277
+        ],
+        "avg_attention": 0.6316241882741451,
+        "combined_score": 0.3646683951267566,
+        "disease_name": "Bruton-type agammaglobulinemia",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84155,
+            "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5042648506350815
+        ],
+        "avg_attention": 0.6315041484000782,
+        "combined_score": 0.36459909007315056,
+        "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in plasmablastic lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84156,
+            "name": "plasmablastic lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5038788339588791
+        ],
+        "avg_attention": 0.6313754761746774,
+        "combined_score": 0.3645248011291782,
+        "disease_name": "plasmablastic lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with BTK, implicated in congenital agammaglobulinemia",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 38989,
+            "name": "congenital agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5116697289049625
+        ],
+        "avg_attention": 0.6312634895245234,
+        "combined_score": 0.3644601456065661,
+        "disease_name": "congenital agammaglobulinemia",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in ALK-positive large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84159,
+            "name": "ALK-positive large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.502692878479138
+        ],
+        "avg_attention": 0.6309801576814303,
+        "combined_score": 0.3642965638906863,
+        "disease_name": "ALK-positive large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with PAX5, implicated in leukemia, lymphocytic, susceptibility to",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28830,
+            "name": "leukemia, lymphocytic, susceptibility to",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5012555319117382
+        ],
+        "avg_attention": 0.5930777096267169,
+        "combined_score": 0.34241357530335176,
+        "disease_name": "leukemia, lymphocytic, susceptibility to",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      }
+    ],
+    "CD19_direct_target": [
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 32587,
+            "name": "common variable immunodeficiency",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5391860827803612
+        ],
+        "avg_attention": 0.5127036590129137,
+        "combined_score": 0.3625362340271866,
+        "disease_name": "common variable immunodeficiency",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 27188,
+            "name": "immunodeficiency, common variable",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5368110537528992
+        ],
+        "avg_attention": 0.5115161444991827,
+        "combined_score": 0.36169653446176997,
+        "disease_name": "immunodeficiency, common variable",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 27170,
+            "name": "agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5138264540582895
+        ],
+        "avg_attention": 0.5000238446518779,
+        "combined_score": 0.3535702513083116,
+        "disease_name": "agammaglobulinemia",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 37267,
+            "name": "syndromic agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5
+        ],
+        "avg_attention": 0.4931106176227331,
+        "combined_score": 0.34868186159612125,
+        "disease_name": "syndromic agammaglobulinemia",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      }
+    ]
+  },
+  "paths_by_relevance": {
+    "HIGH": [
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83796,
+            "name": "lymphosarcoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5310772471129894
+        ],
+        "avg_attention": 0.6404416138927141,
+        "combined_score": 0.3697591381811969,
+        "disease_name": "lymphosarcoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 33653,
+            "name": "melanoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5235593002289534
+        ],
+        "avg_attention": 0.6397107473264138,
+        "combined_score": 0.3693371721724017,
+        "disease_name": "melanoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36621,
+            "name": "mesothelioma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5211631953716278
+        ],
+        "avg_attention": 0.6389120457073053,
+        "combined_score": 0.3688760415776072,
+        "disease_name": "mesothelioma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35970,
+            "name": "lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5189841408282518
+        ],
+        "avg_attention": 0.6364105784644684,
+        "combined_score": 0.36743181879158626,
+        "disease_name": "lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84157,
+            "name": "diffuse large B-cell lymphoma of the central nervous system",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5182838086038828
+        ],
+        "avg_attention": 0.6361771343896786,
+        "combined_score": 0.3672970397921657,
+        "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84161,
+            "name": "intravascular large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5165599845349789
+        ],
+        "avg_attention": 0.6356025263667107,
+        "combined_score": 0.36696528969542663,
+        "disease_name": "intravascular large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30725,
+            "name": "malignant mesothelioma (disease)",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.5104788243770599
+        ],
+        "avg_attention": 0.635350588709116,
+        "combined_score": 0.36681983342099533,
+        "disease_name": "malignant mesothelioma (disease)",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84160,
+            "name": "primary mediastinal large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5150868613272905
+        ],
+        "avg_attention": 0.6351114852974812,
+        "combined_score": 0.36668178700192383,
+        "disease_name": "primary mediastinal large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30447,
+            "name": "lymphoma, non-Hodgkin, familial",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5128718856722116
+        ],
+        "avg_attention": 0.6343731600791216,
+        "combined_score": 0.36625551473835444,
+        "disease_name": "lymphoma, non-Hodgkin, familial",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84154,
+            "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5118004577234387
+        ],
+        "avg_attention": 0.6340160174295306,
+        "combined_score": 0.366049318333474,
+        "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35737,
+            "name": "breast adenocarcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5199172832071781
+        ],
+        "avg_attention": 0.6340126742919286,
+        "combined_score": 0.36604738817207955,
+        "disease_name": "breast adenocarcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83766,
+            "name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5192446783185005
+        ],
+        "avg_attention": 0.6337884726623694,
+        "combined_score": 0.36591794530090077,
+        "disease_name": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36458,
+            "name": "Langerhans cell histiocytosis",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5108242435380816
+        ],
+        "avg_attention": 0.6336906127010783,
+        "combined_score": 0.36586144582590646,
+        "disease_name": "Langerhans cell histiocytosis",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35650,
+            "name": "non-Hodgkin lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5103628877550364
+        ],
+        "avg_attention": 0.6335368274400631,
+        "combined_score": 0.36577265786406193,
+        "disease_name": "non-Hodgkin lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84158,
+            "name": "T-cell/histiocyte rich large B cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5102125545963645
+        ],
+        "avg_attention": 0.6334867163871726,
+        "combined_score": 0.3657437262341862,
+        "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84244,
+            "name": "undifferentiated carcinoma of the corpus uteri",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5148844700306654
+        ],
+        "avg_attention": 0.6323350698997577,
+        "combined_score": 0.36507882282466597,
+        "disease_name": "undifferentiated carcinoma of the corpus uteri",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 32617,
+            "name": "hereditary breast ovarian cancer syndrome",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5145896878093481
+        ],
+        "avg_attention": 0.6322368091593186,
+        "combined_score": 0.3650220919597226,
+        "disease_name": "hereditary breast ovarian cancer syndrome",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 32531,
+            "name": "mantle cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5063098734244704
+        ],
+        "avg_attention": 0.6321858226632079,
+        "combined_score": 0.3649926548924681,
+        "disease_name": "mantle cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35884,
+            "name": "diffuse large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5060533420182765
+        ],
+        "avg_attention": 0.6321003121944765,
+        "combined_score": 0.3649432854003275,
+        "disease_name": "diffuse large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37338,
+            "name": "lung large cell carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5140565754845738
+        ],
+        "avg_attention": 0.6320591050510606,
+        "combined_score": 0.3649194944449838,
+        "disease_name": "lung large cell carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30828,
+            "name": "Bruton-type agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5127518251538277
+        ],
+        "avg_attention": 0.6316241882741451,
+        "combined_score": 0.3646683951267566,
+        "disease_name": "Bruton-type agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84155,
+            "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5042648506350815
+        ],
+        "avg_attention": 0.6315041484000782,
+        "combined_score": 0.36459909007315056,
+        "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84156,
+            "name": "plasmablastic lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5038788339588791
+        ],
+        "avg_attention": 0.6313754761746774,
+        "combined_score": 0.3645248011291782,
+        "disease_name": "plasmablastic lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 38989,
+            "name": "congenital agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5116697289049625
+        ],
+        "avg_attention": 0.6312634895245234,
+        "combined_score": 0.3644601456065661,
+        "disease_name": "congenital agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84159,
+            "name": "ALK-positive large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.502692878479138
+        ],
+        "avg_attention": 0.6309801576814303,
+        "combined_score": 0.3642965638906863,
+        "disease_name": "ALK-positive large B-cell lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with SYK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 2250,
+            "name": "SYK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36386,
+            "name": "benign mesothelioma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9093517065048218,
+          0.4966164925135672
+        ],
+        "avg_attention": 0.630729811421285,
+        "combined_score": 0.36415202641000083,
+        "disease_name": "benign mesothelioma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 94678,
+            "name": "benign breast phyllodes tumor",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5095976619049907
+        ],
+        "avg_attention": 0.6305728005245328,
+        "combined_score": 0.3640613761264952,
+        "disease_name": "benign breast phyllodes tumor",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35771,
+            "name": "breast neoplasm",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5089422715827823
+        ],
+        "avg_attention": 0.6303543370837966,
+        "combined_score": 0.3639352462001781,
+        "disease_name": "breast neoplasm",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30654,
+            "name": "acute lymphoblastic/lymphocytic leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5087962886318564
+        ],
+        "avg_attention": 0.6303056761001548,
+        "combined_score": 0.36390715176817345,
+        "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36425,
+            "name": "primary central nervous system lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5002249873214168
+        ],
+        "avg_attention": 0.6301575272955233,
+        "combined_score": 0.3638216180159394,
+        "disease_name": "primary central nervous system lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37267,
+            "name": "syndromic agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5
+        ],
+        "avg_attention": 0.6300825315217177,
+        "combined_score": 0.3637783191857446,
+        "disease_name": "syndromic agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28347,
+            "name": "hereditary breast carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5068918326869607
+        ],
+        "avg_attention": 0.6296708574518561,
+        "combined_score": 0.3635406390506916,
+        "disease_name": "hereditary breast carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35651,
+            "name": "B-cell neoplasm",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.4982375878607854
+        ],
+        "avg_attention": 0.6294950608086461,
+        "combined_score": 0.3634391428114117,
+        "disease_name": "B-cell neoplasm",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with CD79A (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 27170,
+            "name": "agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.496008959133178
+        ],
+        "avg_attention": 0.6287521845661104,
+        "combined_score": 0.3630102430128091,
+        "disease_name": "agammaglobulinemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 32587,
+            "name": "common variable immunodeficiency",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5391860827803612
+        ],
+        "avg_attention": 0.5127036590129137,
+        "combined_score": 0.3625362340271866,
+        "disease_name": "common variable immunodeficiency",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 36691,
+            "name": "breast cancer",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5005330126732588
+        ],
+        "avg_attention": 0.6275512507806221,
+        "combined_score": 0.3623168835684786,
+        "disease_name": "breast cancer",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 27249,
+            "name": "isolated growth hormone deficiency",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5
+        ],
+        "avg_attention": 0.6273735798895359,
+        "combined_score": 0.36221430523168274,
+        "disease_name": "isolated growth hormone deficiency",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 27188,
+            "name": "immunodeficiency, common variable",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5368110537528992
+        ],
+        "avg_attention": 0.5115161444991827,
+        "combined_score": 0.36169653446176997,
+        "disease_name": "immunodeficiency, common variable",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 37334,
+            "name": "breast carcinoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.4969235663302243
+        ],
+        "avg_attention": 0.6263481019996107,
+        "combined_score": 0.36162224529588644,
+        "disease_name": "breast carcinoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84243,
+            "name": "squamous cell carcinoma of the corpus uteri",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.4932358143851161
+        ],
+        "avg_attention": 0.6251188513512412,
+        "combined_score": 0.3609125371031488,
+        "disease_name": "squamous cell carcinoma of the corpus uteri",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with BTK (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 83868,
+            "name": "Richter syndrome",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.49041944183409214
+        ],
+        "avg_attention": 0.6241800605008999,
+        "combined_score": 0.36037052595299146,
+        "disease_name": "Richter syndrome",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 27170,
+            "name": "agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5138264540582895
+        ],
+        "avg_attention": 0.5000238446518779,
+        "combined_score": 0.3535702513083116,
+        "disease_name": "agammaglobulinemia",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 2,
+        "path_type": "CD19_direct_target",
+        "mechanism": "Inebilizumab targets CD19, which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 37267,
+            "name": "syndromic agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.5
+        ],
+        "avg_attention": 0.4931106176227331,
+        "combined_score": 0.34868186159612125,
+        "disease_name": "syndromic agammaglobulinemia",
+        "clinical_relevance": "HIGH - Direct target-disease connection"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 33621,
+            "name": "acute lymphoblastic leukemia (disease)",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5117503674700856
+        ],
+        "avg_attention": 0.596575988146166,
+        "combined_score": 0.34443330734825595,
+        "disease_name": "acute lymphoblastic leukemia (disease)",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35866,
+            "name": "precursor lymphoblastic lymphoma/leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5098392004147172
+        ],
+        "avg_attention": 0.5959389324610432,
+        "combined_score": 0.34406550307696154,
+        "disease_name": "precursor lymphoblastic lymphoma/leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28830,
+            "name": "leukemia, lymphocytic, susceptibility to",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5012555319117382
+        ],
+        "avg_attention": 0.5930777096267169,
+        "combined_score": 0.34241357530335176,
+        "disease_name": "leukemia, lymphocytic, susceptibility to",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30075,
+            "name": "Burkitt lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.4991455393610522
+        ],
+        "avg_attention": 0.5923743787764882,
+        "combined_score": 0.3420075070476428,
+        "disease_name": "Burkitt lymphoma",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_protein_network",
+        "mechanism": "CD19 interacts with PAX5 (B-cell protein), which is associated with this disease",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 35852,
+            "name": "acute lymphoblastic leukemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.4770771097391844
+        ],
+        "avg_attention": 0.585018235569199,
+        "combined_score": 0.33776043578671694,
+        "disease_name": "acute lymphoblastic leukemia",
+        "clinical_relevance": "HIGH - Through B-cell protein network"
+      }
+    ],
+    "MEDIUM-HIGH": [
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in diffuse large B-cell lymphoma of the central nervous system",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84157,
+            "name": "diffuse large B-cell lymphoma of the central nervous system",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5182838086038828
+        ],
+        "avg_attention": 0.6361771343896786,
+        "combined_score": 0.3672970397921657,
+        "disease_name": "diffuse large B-cell lymphoma of the central nervous system",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in intravascular large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84161,
+            "name": "intravascular large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5165599845349789
+        ],
+        "avg_attention": 0.6356025263667107,
+        "combined_score": 0.36696528969542663,
+        "disease_name": "intravascular large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in primary mediastinal large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84160,
+            "name": "primary mediastinal large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5150868613272905
+        ],
+        "avg_attention": 0.6351114852974812,
+        "combined_score": 0.36668178700192383,
+        "disease_name": "primary mediastinal large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84154,
+            "name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5118004577234387
+        ],
+        "avg_attention": 0.6340160174295306,
+        "combined_score": 0.366049318333474,
+        "disease_name": "primary cutaneous diffuse large B-cell lymphoma, Leg type",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in T-cell/histiocyte rich large B cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84158,
+            "name": "T-cell/histiocyte rich large B cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5102125545963645
+        ],
+        "avg_attention": 0.6334867163871726,
+        "combined_score": 0.3657437262341862,
+        "disease_name": "T-cell/histiocyte rich large B cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with BTK, implicated in Bruton-type agammaglobulinemia",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 30828,
+            "name": "Bruton-type agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5127518251538277
+        ],
+        "avg_attention": 0.6316241882741451,
+        "combined_score": 0.3646683951267566,
+        "disease_name": "Bruton-type agammaglobulinemia",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84155,
+            "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5042648506350815
+        ],
+        "avg_attention": 0.6315041484000782,
+        "combined_score": 0.36459909007315056,
+        "disease_name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in plasmablastic lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84156,
+            "name": "plasmablastic lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.5038788339588791
+        ],
+        "avg_attention": 0.6313754761746774,
+        "combined_score": 0.3645248011291782,
+        "disease_name": "plasmablastic lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with BTK, implicated in congenital agammaglobulinemia",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 337,
+            "name": "BTK",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 38989,
+            "name": "congenital agammaglobulinemia",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.8958995044231415,
+          0.5116697289049625
+        ],
+        "avg_attention": 0.6312634895245234,
+        "combined_score": 0.3644601456065661,
+        "disease_name": "congenital agammaglobulinemia",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with CD79A, implicated in ALK-positive large B-cell lymphoma",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 440,
+            "name": "CD79A",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 84159,
+            "name": "ALK-positive large B-cell lymphoma",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.9040263593196869,
+          0.502692878479138
+        ],
+        "avg_attention": 0.6309801576814303,
+        "combined_score": 0.3642965638906863,
+        "disease_name": "ALK-positive large B-cell lymphoma",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      },
+      {
+        "hops": 3,
+        "path_type": "B_cell_disease",
+        "mechanism": "CD19 protein protein with PAX5, implicated in leukemia, lymphocytic, susceptibility to",
+        "nodes": [
+          {
+            "idx": 19645,
+            "name": "Inebilizumab",
+            "type": "drug"
+          },
+          {
+            "idx": 6067,
+            "name": "CD19",
+            "type": "gene/protein",
+            "role": "PRIMARY_TARGET"
+          },
+          {
+            "idx": 309,
+            "name": "PAX5",
+            "type": "gene/protein",
+            "role": "B_CELL_MARKER"
+          },
+          {
+            "idx": 28830,
+            "name": "leukemia, lymphocytic, susceptibility to",
+            "type": "disease"
+          }
+        ],
+        "attention_scores": [
+          0.48622123524546623,
+          0.7917563617229462,
+          0.5012555319117382
+        ],
+        "avg_attention": 0.5930777096267169,
+        "combined_score": 0.34241357530335176,
+        "disease_name": "leukemia, lymphocytic, susceptibility to",
+        "clinical_relevance": "MEDIUM-HIGH - B-cell related disease"
+      }
+    ]
+  }
+}

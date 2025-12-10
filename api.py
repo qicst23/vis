@@ -561,6 +561,51 @@ def get_all_paths():
     return jsonify(result)
 
 
+@api.route('/bcell_focused_paths', methods=['GET'])
+def get_bcell_focused_paths():
+    """
+    Get B-cell/CD19 focused paths for Inebilizumab.
+    E.g.: /api/bcell_focused_paths?drug_id=DB12530
+    
+    Returns paths built around CD19 mechanism of action.
+    """
+    import os
+    
+    drug_id = request.args.get('drug_id', None, type=str)
+    
+    if not drug_id:
+        return jsonify({'error': 'drug_id is required'}), 400
+    
+    cache_key = f"bcell_focused:{drug_id}"
+    cached = get_cached_response(cache_key)
+    if cached is not None:
+        return jsonify(cached)
+    
+    db = get_db()
+    
+    # Look for B-cell focused file
+    bcell_file = os.path.join(db.data_folder, 'inebilizumab_bcell_focused_paths.json')
+    
+    if not os.path.exists(bcell_file):
+        result = {
+            'drug': {'id': drug_id, 'name': drug_id},
+            'focus': 'B-cell/CD19 mechanism',
+            'global_top_paths': [],
+            'message': f'No B-cell focused path data available for {drug_id}'
+        }
+        set_cached_response(cache_key, result)
+        return jsonify(result)
+    
+    try:
+        with open(bcell_file, 'r') as f:
+            data = json.load(f)
+    except Exception as e:
+        return jsonify({'error': f'Failed to load B-cell paths: {str(e)}'}), 500
+    
+    set_cached_response(cache_key, data)
+    return jsonify(data)
+
+
 @api.route('/all_paths_10hop', methods=['GET'])
 def get_all_paths_10hop():
     """
